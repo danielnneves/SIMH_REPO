@@ -176,7 +176,7 @@ function searchIndexCode(code) {
 	var value = code.toUpperCase();
 	value = value.replace('-', '' );
 	$('#lista_diag').empty();
-	$('#lista_diag').scrollTop(0);
+	$('#diagnosticoList').scrollTop(0);
 	diagnosticoSelect = null;
    
     
