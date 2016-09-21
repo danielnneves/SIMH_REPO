@@ -16,7 +16,7 @@ function builIndexs(){
 	$.each(indexs, function(i, letter) {
 		/**gera a opcao**/
 		option += '<li>';
-		option += '<a href="#" onclick="getIndexOptions($(this).text());">'+letter.title+'</a>';
+		option += '<a href="#" onclick="getIndexOptions($(this).text());return false;">'+letter.title+'</a>';
 		option += '</li>';
 	});
 	$('#lista_index_search').empty();
