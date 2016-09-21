@@ -46,7 +46,7 @@ function getIndexOptions(search){
 function buildIndex(filter){
 	
 	$('#lista_index').empty();
-	$('#lista_index').scrollTop(0);
+	$('#diagnosticoList').scrollTop(0);
 	/**se estiver algum diagnostico seleccionado**/
 	if(indexSelect){
 		var option = '';
