@@ -4,7 +4,7 @@ title: "Introdução"
 ---
 
 
-# 1.Sobre este Manual
+# 1. Sobre este Manual
 Este manual tem como objetivo ajudar o utilizador a interagir com o sistema de uma forma eficaz, dotando-o de todo o conhecimento necessário para a sua compreensão e uso. 
 Este encontra-se organizado da seguinte forma:
 
@@ -18,7 +18,7 @@ Este encontra-se organizado da seguinte forma:
 - “Sequências de menus”
  
 
-# 2.Tabela de Acrónimos
+# 2. Tabela de Acrónimos
 
 A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
 
@@ -43,7 +43,7 @@ A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
 |  SI     |  Sistema de Informação															|           
 
 
-# 3.Introdução
+# 3. Introdução
 O Sistema de Informação para a Morbilidade Hospitalar (*SIMH*) é um projeto estruturante, para o sistema de informação de saúde, de consolidação das versões do sistema WebGDH, com vista a centralizar e melhorar os processos de codificação de episódios de internamento, de cirurgia de ambulatório e de ambulatório médico em GDH.
 
 Objetivos do Sistema:
@@ -55,7 +55,7 @@ Objetivos do Sistema:
 * Reduzir os custos de manutenção evolutiva;
 * Otimizar a gestão dos recursos disponíveis.
 
-# 4.Conceitos Básicos
+# 4. Conceitos Básicos
 
 Associada à interação com o sistema existe um conjunto de conceitos para os quais é chamada a atenção neste Capítulo.
 Todos os formulários que permitem criação ou edição de dados têm um conjunto de regras de negócio e validações para facilitar o preenchimento correto dos dados.
@@ -142,75 +142,3 @@ Após o preenchimento dos campos, o utilizador deverá finalizar a alteração c
 ![figAlteracaoSenha](img/pages/4_2_1.jpg)
 
 <p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
-
-
-## 4.3. Gestão de utilizadores
-<p id="gestaoUtilizadores"></p>
-
-O utilizador, se tiver perfil de administrador da entidade hospitalar onde exerce funções, pode criar/gerir utilizadores para essa mesma entidade.
-Para isso, deve aceder, a partir da página inicial, ao módulo de gestão de utilizadores, tal como ilustra a [](#figAcessoGestaoUtilizadores).
-
-![figAcessoGestaoUtilizadores](img/pages/4_3_1.jpg)
-
-<p class="caption" id="figAcessoGestaoUtilizadores">Módulo de Gestão de Utilizadores</p>
-
-Ao aceder a este módulo, aparecerá a seguinte página:
-
-![figGestaoUtilizadores](img/pages/4_3_2.jpg)
-
-<p class="caption" id="figGestaoUtilizadores">Página de Gestão de Utilizadores </p>
-
-
-### 4.3.1 Criação de utilizadores
-
-Nesta página é possível criar novos utilizadores para a entidade hospitalar do utilizador. Essa ação é possível ao clicar no botão **CRIAR**.
-Ao clicar neste botão aparecerá a página de **Criar Utilizador** [](#figCriarUtilizadores).
-
-![figCriarUtilizadores](img/pages/4_3_3.jpg)
-
-<p class="caption" id="figCriarUtilizadores">Página de Criação de Utilizadores </p>
-
-Para a criação de utilizador deve ser preenchido os seguintes campos obrigatórios:
-
-|    |  Campos Obrigatórios   					| 		|    
-|----|------------------------------------------|-------|
-| a) |  Nome       		                		|		|
-| b) |  Nº Mecanográfico                   		|		|
-| c) |  E-mail				              		|		|
-| d) |  Perfil                          		| 		|
-
-Os perfis disponíveis para novos utilizadores são:
-
-* **Administrador da Entidade** - Utilizadores que administram a entidade. Têm permissões para criar e editar utilizadores.
-* **Administrativo da Entidade** - Utilizadores que pertencem à entidade mas não administram a mesma. Têm permissões para consultar/codificar/simular episódios, consultar relatórios e de auditoria.
-
-No final da edição, para gravar as alterações, o utilizador deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
-
- 
-### 4.3.2 Pesquisa e edição de utilizadores 
-
-Para além da opção de criação de novos utilizadores, também é possível consultar e editar utilizadores existentes na entidade hospitalar do utilizador em contexto. 
-Para consultar por todos os utilizadores existentes na entidade hospitalar do utilizador, deve-se clicar no botão **PESQUISAR**.
-Adicionalmente, estes utilizadores podem ser filtrados por nome de utilizador, perfil ou estado.
-
-Os perfis disponíveis para pesquisa são:
-
-* **Administrador da Entidade** - Utilizadores que administram a entidade. Têm permissões para criar e editar utilizadores.
-* **Administrativo da Entidade** - Utilizadores que pertencem à entidade mas não administram a mesma. Têm permissões para consultar/codificar/simular episódios, consultar relatórios e de auditoria.
-
-Os estados disponíveis para pesquisa são:
-
-* **Ativo** - Utilizadores que pertencem à entidade e que podem aceder ao sistema.
-* **Bloqueado** - Utilizadores que pertencem à entidade e que foram bloqueados de aceder ao sistema.
-
-Após efetuar a pesquisa, e ao seleccionar um utilizador devolvido pela mesma ([](#figPesquisaSeleccaoUtilizadores)), as opções seguintes opções tornam-se disponíveis:
-
-![figPesquisaSeleccaoUtilizadores](img/pages/4_3_4.jpg)
-
-<p class="caption" id="figPesquisaSeleccaoUtilizadores">Pesquisa e seleção de um utilizador</p>
-
-* **EDITAR** - Permite a edição do utilizador seleccionado;
-* **REMOVER** - Remove o utilizador seleccionado do sistema;
-* **ATIVAR** - Ativa o acesso ao sistema do utilizador de seleccionado, caso ele esteja bloqueado. Encontra-se inativa se o utilizador seleccionado já estiver ativo.
-* **BLOQUEAR** - Bloqueia o acesso ao sistema do utilizador seleccionado, caso ele esteja ativo. Encontra-se inativa se o utilizador seleccionado já estiver bloqueado.
-

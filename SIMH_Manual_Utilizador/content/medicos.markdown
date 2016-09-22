@@ -26,7 +26,7 @@ Qualquer alteração relativamente aos mesmos terá de ser feita via plataforma 
 
 Aqui, é possível realizar duas ações distintas: **ASSOCIAR** ou **DESASSOCIAR** médicos codificadores.
 
-## 8.1 Associar médico codificador
+## 9.1 Associar médico codificador
 
 De forma a um médico codificador poder fazer login no sistema, torna-se essencial a sua associação a essa designação através desta página.
 
@@ -45,7 +45,7 @@ De seguida, o utilizador dará entrada no ecrã de associação de médico codif
 Nesta página, terá de colocar o nº da ordem dos médicos da pessoa que deseja associar como médico codificador e clicar no botão **PESQUISAR**.
 Se a pesquisa devolver resultado, deverá clicar no botão **ADICIONAR**.
 
-## 8.2 Desassociar médico codificador
+## 9.2 Desassociar médico codificador
 
 Para dessassociar um médico codificador da entidade do administrador, este deverá, a partir da página de início deste módulo (ver [](#figMedicosCodificadores)), clicar no utilizador que pretende dessassociar e depois no botão **DESASSOCIAR**, tal como ilustra a [](#figDesassociaMedicoCodificador1).
 
