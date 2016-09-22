@@ -134,7 +134,7 @@ O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar 
 <div id="alteracao-da-senha"></div>
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página (ver [4.Conceitos Básicos](#conceitos-basicos)). 
-Após clicar em **Alterar Password** é lhe apresentada uma página de alteração de senha, ver [](#figAlteracaoSenha.
+Após clicar em **Alterar Password** é apresentada uma página de alteração de senha, ver [](#figAlteracaoSenha).
 
 ![figAlteracaoSenha](img/pages/4_2_1.jpg)
 
