@@ -98,7 +98,7 @@ O acesso ao SIMH é realizado através da navegação ao endereço em [http:/END
 
 <p class="caption" id="figLogin">Página de acesso do SIMH </p>
 
-Aqui, o utilizador deve inserir as suas credenciais nos campos obrigatórios ([](#figLogin)), e clicar em **Avançar**.
+Aqui, o utilizador deve inserir as suas credenciais nos campos obrigatórios e clicar em **Avançar**.
 
 |    |  Campos Obrigatórios [](#figLogin)  	|	           
 |----|--------------------------------------------------|
@@ -106,11 +106,13 @@ Aqui, o utilizador deve inserir as suas credenciais nos campos obrigatórios ([]
 | a) | password								  			| 
 
 
-Caso o utilizador não saiba as suas credencias, deverá clicar em **Recuperar Senha**, inserir o campo obrigatório ([](#figLoginRecuperacao)), e clicar em **Enviar**.  
+Caso o utilizador não saiba as suas credencias, deverá clicar em **Recuperar Senha**.
 
 ![figLoginRecuperacao](img/pages/4_1_2.jpg)
 
 <p class="caption" id="figLoginRecuperacao"> Recuperação da Senha </p>
+
+De seguida, deverá preencher os campos obrigatórios do formulário e clicar em **Enviar**.  
 
 |    |  Campos Obrigatórios [](#figLoginRecuperacao)  	|	           
 |----|--------------------------------------------------|
@@ -138,7 +140,7 @@ Após clicar em **Alterar Password** é lhe apresentada uma página de alteraç�
 
 <p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
 
-O utilizador deverá preencher os seguintes campos obrigatórios ([](#figAlteracaoSenha)):
+O utilizador deverá preencher os seguintes campos obrigatórios:
 
 |    |  Campos Obrigatórios [](#figAlteracaoSenha)  |           
 |----|----------------------------------------------|
