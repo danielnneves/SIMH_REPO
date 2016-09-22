@@ -4,22 +4,24 @@ title: "Introdução"
 ---
 
 
+---
+
 # 1. Sobre este Manual
 <div id="sobre-este-manual"></div>
 
 Este manual tem como objetivo ajudar o utilizador a interagir com o sistema de uma forma eficaz, dotando-o de todo o conhecimento necessário para a sua compreensão e uso. 
 Este encontra-se organizado da seguinte forma:
 
- - “Sobre este Manual”, o capítulo atual que descreve o conteúdo do                                        
-   manual, qual a sua organização e como pode ser consultado; 
- - “Tabela de  Acrónimos”, que contêm todos os acrónimos usados ao longo deste manual e que permitirá familiarizar desde já o utilizador com determinadas abreviaturas apresentadas na aplicação; 
- - “Introdução”,   onde é apresentado o sistema SIMH, qual o seu contexto e propósito,  incluindo os seguintes subcapítulos:
+ - “Sobre este Manual”, o capítulo atual que descreve o conteúdo do manual, qual a sua organização e como pode ser consultado; 
+ - “Tabela de  Acrónimos”, que contém todos os acrónimos usados ao longo deste manual e que permitirá familiarizar desde já o utilizador com determinadas abreviaturas apresentadas na aplicação; 
+ - “Introdução”, onde é apresentado o sistema SIMH, qual o seu contexto e propósito,  incluindo os seguintes subcapítulos:
 	 * “Objetivos do Sistema” onde se descrevem os propósitos da utilização da aplicação informática;
 	 * “Conceitos básicos” onde se explicam os principais conceitos que suportam a aplicação, concretamente conceitos tipo “navegação" no sistema, explicando o que se entende por isso;
- 	 * “Instruções de acesso”, onde é descrito como o utilizador pode aceder ao sistema
-- “Sequências de menus”
+ 	 * “Instruções de acesso”, onde é descrito como o utilizador pode aceder ao sistema.
+- “Módulos do Sistema”, onde cada módulo principal do sistema será apresentado numa seção individual.
  
-
+---
+ 
 # 2. Tabela de Acrónimos
 <div id="tabela-de-acronimos"></div>
 
@@ -31,20 +33,12 @@ A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
 |  ACSS   |  Administração Central do Sistema de Saúde 									  	|
 |  SPMS   |  Serviços Partilhados do Ministério da Saúde									|
 |  SNS    |  Serviço Nacional de Saúde														|
-|  GDH    |  Grupos de Diagnóstico Homogéneo												|         
-|  CON    |  Consultas Externas				 												|           
-|  EFR    |  Entidade Financeira Responsável												|           
-|  GCD    |  Grande Categoria de Diagnóstico												|           
-|  HDI    |  Hospital de Dia																|   
-|  INT    |  Internamento							            							|           
-|  ICD9CM |  International Classification of Diseases 9th revision Clinical modification 	|           
-|  MDC    |  Major Diagnostic Category														|           
-|  RAD    |  Admissão Directa 																|    
-|  RTC    |  Código de Retorno																|               
-|  UCI    |  Unidade de Cuidados Intensivos													|
-|  URG    |  Urgência																		|
+|  GDH    |  Grupos de Diagnóstico Homogéneo												|                                                 
+|  ICD9CM |  International Classification of Diseases 9th revision Clinical modification 	|
+| ICD10CM |  International Classification of Diseases 10th revision Clinical modification 	|           
 |  SI     |  Sistema de Informação															|           
 
+---
 
 # 3. Introdução
 <div id="introducao"></div>
@@ -60,6 +54,7 @@ Objetivos do Sistema:
 * Reduzir os custos de manutenção evolutiva;
 * Otimizar a gestão dos recursos disponíveis.
 
+---
 
 # 4. Conceitos Básicos
 <div id="conceitos-basicos"></div>
@@ -84,25 +79,15 @@ Para auxiliar as validações existem 4 tipos de mensagens:
 
 ![logo](img/sucesso.jpg)
 
-No cabeçalho das páginas do **SIMH** existe um conjunto de dados que serve para informação/contextualização do utilizador. 
+No cabeçalho das páginas do **SIMH** existe um conjunto de dados que serve para informação/contextualização do utilizador:
 
-Aparece na 1ªlinha o nome do utilizador e o perfil de utilizador que lhe esteja associado.
+* Nome do utilizador e o perfil de utilizador que lhe esteja associado;
+* Nome da entidade hospitalar a que o utilizador pertença, caso o utilizador pertença a uma entidade;
+* Botão das opções avançadas ![logo](img/definicao.png). Ao clicar neste, o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como por exemplo: alterar password ([4.2. Alteração da senha](#alterao-da-senha));
+* Botão de acesso rápido ao manual de utilizador ![logo](img/manual.jpg);
+* Contexto de navegação atual do utilizador, presente na barra *breadcrumbs* ![logo](img/breadcrumbs.jpg), que são clicáveis se o utilizador pretender voltar a uma página já navegada.
 
-
-Na 2ª linha, caso o utilizador pertença a uma entidade, aparece o nome dessa. 
-
-Ao lado direito do nome da entidade, encontra-se o botão das opções avançadas ![logo](img/definicao.png). 
-Ao clicar neste, o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como por exemplo: alterar password ([4.2. Alteração da senha](#alterao-da-senha)).
-
-
-A qualquer momento, em qualquer página existe a ligação ao manual de utilizador através do botão no canto superior direito ![logo](img/manual.jpg).
-
-
-O acesso às páginas e a sua navegação é representada nos *breadcrumbs* ![logo](img/breadcrumbs.jpg), que são clicáveis se o utilizador pretender voltar a uma página já navegada.
-
-
-De modo a familiarizar o utilizador com a aplicação, apresentam-se, de seguida, alguns exemplos ilustrativos de ações genéricas de interação com o SIMH.
-
+De seguida, apresenta-se um exemplo de como decorre a primeira interação do utilizador com a aplicação.
 
 ## 4.1. Aceder ao SIMH
 <div id="aceder-ao-simh"></div>
