@@ -7,10 +7,10 @@ title: "Gestão de Médicos Codificadores"
 # 9. Médicos Codificadores
 <div id="medicos-codificadores"></div>
 
-Neste módulo é possível realizar a gestão dos médicos codificadores referentes a uma determinada entidade hospitalar.
+Através deste módulo é possível realizar a gestão dos médicos codificadores referentes a uma determinada entidade hospitalar.
 Esta gestão apenas está acessível a um utilizador que detenha o perfil de administrador da entidade hospitalar onde exerce funções.
 
-Para isso, deve aceder, a partir da página inicial, ao módulo de `Médicos Codificadores`, tal como ilustra a [](#figAcessoMedicosCodificadores).
+Para isso, o utilizador deve aceder, a partir da página inicial, ao módulo de “Médicos Codificadores”, tal como ilustra a [](#figAcessoMedicosCodificadores).
 
 ![figAcessoMedicosCodificadores](img/pages/9_1.jpg)
 
@@ -23,7 +23,8 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 <p class="caption" id="figMedicosCodificadores">Página de entrada do módulo Médicos Codificadores</p>
 
 Tal como a [](#figMedicosCodificadores) ilustra, os dados associados aos médicos codificadores presentes nesta página, apenas são de consulta.
-Qualquer alteração relativamente aos mesmos terá de ser feita via plataforma `Registo Nacional de Profissionais`.
+Qualquer alteração relativamente aos mesmos terá de ser feita via plataforma "Registo Nacional de Profissionais".
+
 
 Aqui, é possível realizar duas ações distintas: **ASSOCIAR** ou **DESASSOCIAR** médicos codificadores.
 

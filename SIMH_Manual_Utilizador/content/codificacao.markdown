@@ -6,13 +6,13 @@ title: "Codificação"
 # 6. Codificação de Episódios
 <div id="codificacao-de-episodios"></div>
 
-É neste módulo que é possível fazer a codificação de episódios ainda não codificados.
+Através deste módulo é possível fazer a codificação de episódios ainda não codificados de uma determinada entidade hospitalar.
 
-Para aceder ao mesmo, o utilizador deve, a partir da página inicial, aceder ao módulo `Codificação de Episódios`, tal como ilustra a [](#figAcessoPorCodificar).
+Para aceder ao mesmo, o utilizador deve, a partir da página inicial, aceder ao módulo “Codificação de Episódios”, tal como ilustra a [](#figAcessoCodificacaoEpisodios).
 
-![figAcessoPorCodificar](img/pages/6_1.jpg)
+![figAcessoCodificacaoEpisodios](img/pages/6_1.jpg)
 
-<p class="caption" id="figAcessoPorCodificar">Módulo Por Codificar</p>
+<p class="caption" id="figAcessoCodificacaoEpisodios">Módulo Codificação de Episódios</p>
 
 Ao aceder a este módulo, aparecerá a seguinte página:
 
