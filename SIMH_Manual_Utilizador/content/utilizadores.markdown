@@ -50,7 +50,7 @@ Os perfis disponíveis para novos utilizadores são:
 No final da edição, para gravar as alterações, o utilizador deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
  
-### 5.2 Pesquisa de utilizadores 
+### 5.2 Pesquisa de utilizadores
 
 Para consultar por utilizadores existentes na entidade hospitalar, deve-se clicar no botão **PESQUISAR**.
 Adicionalmente, estes utilizadores podem ser filtrados por nome de utilizador, perfil ou estado.
