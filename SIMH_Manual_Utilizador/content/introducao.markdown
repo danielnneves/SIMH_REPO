@@ -124,16 +124,15 @@ Uma vez identificado e autenticado, é apresentada ao utilizador a página de en
 
 <p class="caption" id="figPaginaEntrada"> Página de entrada no SIMH </p>
  
-Na primeira vez que o utilizador acede a aplicação, aparecerá a página de ([4.2. Alteração da senha](#alterao-da-senha)).
+Na primeira vez que o utilizador acede a aplicação, aparecerá a página para alterar a sua senha ([4.2. Alteração da senha](#alterao-da-senha)).
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
---
 
 ## 4.2. Alteração da senha
 <div id="alteracao-da-senha"></div>
 
-A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página ([4.Conceitos Básicos](#conceitos-bsicos)). 
-Após clicar em **Alterar Password** é lhe apresentada uma página de alteração de senha, [](#figAlteracaoSenha). O utilizador deverá inserir os campos obrigatórios:
+A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página (ver [4.Conceitos Básicos](#conceitos-basicos)). 
+Após clicar em **Alterar Password** é lhe apresentada uma página de alteração de senha, [](#figAlteracaoSenha). O utilizador deverá preencher os seguintes campos obrigatórios:
 
 |    |  Campos Obrigatórios [](#figAlteracaoSenha)  |           
 |----|----------------------------------------------|
