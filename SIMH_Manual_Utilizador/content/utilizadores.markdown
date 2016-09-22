@@ -31,15 +31,21 @@ Aqui, é possível realizar três ações distintas: **Criação**, **Pesquisa**
 ## 5.1 Criação de utilizadores
 <div id="criacao-de-utilizadores"></div>
 
-Para criar novos utilizadores, o utilizador deve clicar no botão **Criar**. 
+Para criar novos utilizadores, o utilizador deve clicar no botão **Criar**, tal como a [](#figAcessoCriarUtilizadores) ilustra.
+
+![figAcessoCriarUtilizadores](img/pages/5_1_1.jpg)
+
+<p class="caption" id="figCriarUtilizadores">Página de Criação de Utilizadores </p>
+ 
 Atenta-se que o administrador de uma entidade hospitalar apenas pode criar novos utilizadores para essa mesma entidade.
+
 Ao clicar neste botão aparecerá a página de **Criar Utilizador** (ver [](#figCriarUtilizadores)).
 
-![figCriarUtilizadores](img/pages/5_1_1.jpg)
+![figCriarUtilizadores](img/pages/5_1_2.jpg)
 
 <p class="caption" id="figCriarUtilizadores">Página de Criação de Utilizadores </p>
 
-Para a criação de utilizador deve ser preenchido os seguintes campos obrigatórios:
+Para a criação de um utilizador devem ser preenchidos os seguintes campos obrigatórios:
 
 |    |  Campos Obrigatórios   					| 		|    
 |----|------------------------------------------|-------|
