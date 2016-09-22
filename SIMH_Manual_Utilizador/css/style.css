@@ -337,7 +337,8 @@ width: auto;
 }
 
 
-#paginas p  img[alt=figLogin],#paginas p  img[alt=figLoginRecuperacao], #paginas p  img[alt=figAlteracaoSenha] {
+#paginas p  img[alt=figLogin],#paginas p  img[alt=figLoginRecuperacao], #paginas p  img[alt=figAlteracaoSenha],
+#paginas p  img[alt=figAcessoGestaoUtilizadores] {
 width: auto;
 }
 
