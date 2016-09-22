@@ -87,31 +87,38 @@ No cabeçalho das páginas do **SIMH** existe um conjunto de dados que serve par
 * Botão de acesso rápido ao manual de utilizador ![logo](img/manual.jpg);
 * Contexto de navegação atual do utilizador, presente na barra *breadcrumbs* ![logo](img/breadcrumbs.jpg), que são clicáveis se o utilizador pretender voltar a uma página já navegada.
 
-De seguida, apresenta-se um exemplo de como decorre a primeira interação do utilizador com a aplicação.
+De seguida, apresenta-se como decorre a primeira interação do utilizador com a aplicação.
 
 ## 4.1. Aceder ao SIMH
 <div id="aceder-ao-simh"></div>
 
-O acesso ao SIMH é realizado através da navegação até ao seu endereço em [http:]. Ao aceder irá surgir a página que aparece na [](#figLogin).
+O acesso ao SIMH é realizado através da navegação ao endereço em [http:/ENDERECO_FINAL!!!]. Ao aceder irá surgir a página que aparece na [](#figLogin).
 
 ![figLogin](img/pages/4_1_1.jpg)
 
 <p class="caption" id="figLogin">Página de acesso do SIMH </p>
 
-Caso o utilizador saiba as suas credenciais, deve inserir os campos obrigatórios, e clicar em **Avançar**.
+Aqui, o utilizador deve inserir as suas credenciais nos campos obrigatórios ([](#figLogin)), e clicar em **Avançar**.
 
-Caso contrário, deverá clicar em **Recuperar Senha**, inserir os campos obrigatórios, e clicar em **Enviar**.
+|    |  Campos Obrigatórios [](#figLogin)  	|	           
+|----|--------------------------------------------------|
+| a) | e-mail associado à conta na aplicação  			|
+| a) | password								  			| 
+
+
+Caso o utilizador não saiba as suas credencias, deverá clicar em **Recuperar Senha**, inserir o campo obrigatório ([](#figLoginRecuperacao)), e clicar em **Enviar**.
 
 |    |  Campos Obrigatórios [](#figLoginRecuperacao)  	|	           
 |----|--------------------------------------------------|
-| a) | e-mail associado á conta da aplicação  			|  
+| a) | e-mail associado à conta na aplicação  			|  
 
 ![figLoginRecuperacao](img/pages/4_1_2.jpg)
 
 <p class="caption" id="figLoginRecuperacao"> Recuperação da Senha </p>
 
-Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do SIMH, 
-[](#figPaginaEntrada), onde pode então aceder às funcionalidades que lhe estão disponíveis.
+Irá ser enviado um e-mail para o e-mail escolhido, com instruções de recuperação de acesso à conta.
+
+Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do **SIMH** ([](#figPaginaEntrada)), onde este pode aceder às funcionalidades que lhe estão disponíveis.
 
 ![figPaginaEntrada](img/pages/4_1_3.jpg)
 
@@ -120,6 +127,7 @@ Uma vez identificado e autenticado, é apresentada ao utilizador a página de en
 Na primeira vez que o utilizador acede a aplicação, aparecerá a página de ([4.2. Alteração da senha](#alterao-da-senha)).
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
+--
 
 ## 4.2. Alteração da senha
 <div id="alteracao-da-senha"></div>
