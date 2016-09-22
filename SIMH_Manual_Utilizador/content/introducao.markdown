@@ -106,15 +106,15 @@ Aqui, o utilizador deve inserir as suas credenciais nos campos obrigatórios ([]
 | a) | password								  			| 
 
 
-Caso o utilizador não saiba as suas credencias, deverá clicar em **Recuperar Senha**, inserir o campo obrigatório ([](#figLoginRecuperacao)), e clicar em **Enviar**.
-
-|    |  Campos Obrigatórios [](#figLoginRecuperacao)  	|	           
-|----|--------------------------------------------------|
-| a) | e-mail associado à conta na aplicação  			|  
+Caso o utilizador não saiba as suas credencias, deverá clicar em **Recuperar Senha**, inserir o campo obrigatório ([](#figLoginRecuperacao)), e clicar em **Enviar**.  
 
 ![figLoginRecuperacao](img/pages/4_1_2.jpg)
 
 <p class="caption" id="figLoginRecuperacao"> Recuperação da Senha </p>
+
+|    |  Campos Obrigatórios [](#figLoginRecuperacao)  	|	           
+|----|--------------------------------------------------|
+| a) | e-mail associado à conta na aplicação  			|
 
 Irá ser enviado um e-mail para o e-mail escolhido, com instruções de recuperação de acesso à conta.
 
@@ -132,17 +132,18 @@ O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar 
 <div id="alteracao-da-senha"></div>
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página (ver [4.Conceitos Básicos](#conceitos-basicos)). 
-Após clicar em **Alterar Password** é lhe apresentada uma página de alteração de senha. O utilizador deverá preencher os seguintes campos obrigatórios ([](#figAlteracaoSenha)):
+Após clicar em **Alterar Password** é lhe apresentada uma página de alteração de senha, ver [](#figAlteracaoSenha.
+
+![figAlteracaoSenha](img/pages/4_2_1.jpg)
+
+<p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
+
+O utilizador deverá preencher os seguintes campos obrigatórios ([](#figAlteracaoSenha)):
 
 |    |  Campos Obrigatórios [](#figAlteracaoSenha)  |           
 |----|----------------------------------------------|
 | a) |  senha utilizada atualmente            		| 
 | b) |  nova senha pretendida                 		|  
 | c) |  repetição da senha pretendida         		|
-
-
-![figAlteracaoSenha](img/pages/4_2_1.jpg)
-
-<p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
 
 Após o preenchimento dos campos, o utilizador deverá finalizar a alteração clicando em **Alterar**.
