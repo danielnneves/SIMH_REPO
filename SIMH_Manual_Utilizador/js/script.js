@@ -33,7 +33,7 @@ $('tr').each(function(){
 	 $('#paginas p>img:not([alt="logo"])').each(function(){
 		 var alt = $(this).attr("alt")
 		 if(alt != "figAlteracaoSenha" && alt != "figLogin" && alt !="figLoginRecuperacao"
-		   && alt != "figAcessoCodificacaoEpisodios" && alt != "figAcessoMedicosCodificadores")
+		   && alt != "figAcessoGestaoUtilizadores" && alt != "figAcessoCodificacaoEpisodios" && alt != "figAcessoMedicosCodificadores")
 		 $(this).wrap("<a class='imagem' href='"+$(this).attr( "src" ) + "' onclick='return hs.expand(this)'></a>"); 
 });
 }
