@@ -56,10 +56,10 @@ Para a criação de um utilizador devem ser preenchidos os seguintes campos obri
 
 Os perfis disponíveis para novos utilizadores são:
 
-* **Administrador da Entidade** - Utilizadores que administram a entidade. Têm permissões para criar e editar utilizadores.
 * **Administrativo da Entidade** - Utilizadores que pertencem à entidade mas não administram a mesma. Têm permissões para consultar/codificar/simular episódios, consultar relatórios e de auditoria.
+* **Médico Codificador** - Utilizadores que pertencem à entidade mas não administram a mesma. Têm permissões para consultar/codificar/simular episódios, consultar relatórios e de auditoria. Ao invés do perfil **Administrativo da Entidade**, um médico codificador é responsável pela codificação de um episódio.
 
-No final da edição, para gravar as alterações, o utilizador deve clicar no botão **Guardar**. Após clicar irá ser notificado com o resultado da operação.
+No final da edição, para gravar as alterações, o utilizador deve clicar no botão **Criar**.
 
 
 ### 5.2 Pesquisa de utilizadores
