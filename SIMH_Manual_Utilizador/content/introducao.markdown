@@ -3,8 +3,9 @@ layout: default
 title: "Introdução"
 ---
 
-
+<div id="sobre-este-manual"></div>
 # 1. Sobre este Manual
+
 Este manual tem como objetivo ajudar o utilizador a interagir com o sistema de uma forma eficaz, dotando-o de todo o conhecimento necessário para a sua compreensão e uso. 
 Este encontra-se organizado da seguinte forma:
 
@@ -17,7 +18,7 @@ Este encontra-se organizado da seguinte forma:
  	 * “Instruções de acesso”, onde é descrito como o utilizador pode aceder ao sistema
 - “Sequências de menus”
  
-
+<div id="tabela-de-acronimos"></div>
 # 2. Tabela de Acrónimos
 
 A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
@@ -42,8 +43,9 @@ A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
 |  URG    |  Urgência																		|
 |  SI     |  Sistema de Informação															|           
 
-
+<div id="introducao"></div>
 # 3. Introdução
+
 O Sistema de Informação para a Morbilidade Hospitalar (*SIMH*) é um projeto estruturante, para o sistema de informação de saúde, de consolidação das versões do sistema WebGDH, com vista a centralizar e melhorar os processos de codificação de episódios de internamento, de cirurgia de ambulatório e de ambulatório médico em GDH.
 
 Objetivos do Sistema:
@@ -55,6 +57,7 @@ Objetivos do Sistema:
 * Reduzir os custos de manutenção evolutiva;
 * Otimizar a gestão dos recursos disponíveis.
 
+<div id="conceitos-basicos"></div>
 # 4. Conceitos Básicos
 
 Associada à interação com o sistema existe um conjunto de conceitos para os quais é chamada a atenção neste Capítulo.
@@ -96,6 +99,7 @@ O acesso às páginas e a sua navegação é representada nos *breadcrumbs* ![lo
 
 De modo a familiarizar o utilizador com a aplicação, apresentam-se, de seguida, alguns exemplos ilustrativos de ações genéricas de interação com o SIMH.
 
+<div id="aceder-ao-simh"></div>
 ## 4.1. Aceder ao SIMH
 
 O acesso ao SIMH é realizado através da navegação até ao seu endereço em [http:]. Ao aceder irá surgir a página que aparece na [](#figLogin).
@@ -126,6 +130,7 @@ Uma vez identificado e autenticado, é apresentada ao utilizador a página de en
 Na primeira vez que o utilizador acede a aplicação, aparecerá a página de ([4.2. Alteração da senha](#alterao-da-senha)).
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
+<div id="alteracao-da-senha"></div>
 ## 4.2. Alteração da senha
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página ([4.Conceitos Básicos](#conceitos-bsicos)). 

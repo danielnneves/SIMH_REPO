@@ -3,7 +3,7 @@ layout: default
 title: "Codificação"
 ---
 
-
+<div id="codificacao-de-episodios"></div>
 # 6. Codificação de Episódios
 
 É neste módulo que é possível fazer a codificação de episódios ainda não codificados.
@@ -22,6 +22,7 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 
 Aqui, é possível realizar três ações distintas: **Pesquisa**, **Consulta** ou **Edição** de episódios. 
 
+<div id="codificacao-pesquisa-de-episodios"></div>
 ## 6.1. Pesquisa de episódios por codificar
 
 Na pesquisa de episódios por codificar, um utilizador deve preencher obrigatoriamente um dos seguintes campos:
@@ -43,6 +44,7 @@ A [](#figPesquisaPorCodificar) ilustra como exemplo uma pesquisa de episódios e
 
 <p class="caption" id="figPesquisaPorCodificar">Pesquisa de episódios por codificar</p>
 
+<div id="codificacao-consulta-de-episodios"></div>
 ## 6.2. Consulta de um episódio
 
 Após realizar a pesquisa de episódios por codficar ([6.1. Pesquisa de episódios por codificar](#pesquisa-de-episodios-por-codificar)), e ao seleccionar um episódio, passa a ser possível a consulta do mesmo.
@@ -76,6 +78,7 @@ Nesta página é possível visualizar a seguinte informação:
 A informação presente na área **Identificação do Episódio** encontra-se sempre visível durante as transições entre as abas **Dados do Episódio**, **Dados da Codificação** e **Dados das Sessões**.
 Durante a consulta de um episódio todos os campos se encontram bloqueados, não sendo possível realizar alterações ao episódio.
 
+<div id="codificacao-edicao-de-episodios"></div>
 ## 6.3. Edição de um episódio
 
 Após realizar a pesquisa de episódios por codficar ([6.1. Pesquisa de episódios por codificar](#pesquisa-de-episodios-por-codificar)), e ao seleccionar um episódio, passa a ser possível a edição do mesmo.

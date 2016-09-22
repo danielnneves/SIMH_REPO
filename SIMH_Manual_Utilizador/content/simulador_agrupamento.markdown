@@ -3,7 +3,7 @@ layout: default
 title: "Simulador de Agrupamento"
 ---
 
-
+<div id="simulador-de-agrupamento"></div>
 # 8. Simulador de Agrupamento
 
 Neste módulo é possível simular o agrupamento em GDH de episódios em ICD-10-CM/PCS (versão 2017). 
