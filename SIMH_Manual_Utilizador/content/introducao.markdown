@@ -132,7 +132,7 @@ O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar 
 <div id="alteracao-da-senha"></div>
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página (ver [4.Conceitos Básicos](#conceitos-basicos)). 
-Após clicar em **Alterar Password** é lhe apresentada uma página de alteração de senha, [](#figAlteracaoSenha). O utilizador deverá preencher os seguintes campos obrigatórios:
+Após clicar em **Alterar Password** é lhe apresentada uma página de alteração de senha. O utilizador deverá preencher os seguintes campos obrigatórios ([](#figAlteracaoSenha)):
 
 |    |  Campos Obrigatórios [](#figAlteracaoSenha)  |           
 |----|----------------------------------------------|
@@ -140,8 +140,9 @@ Após clicar em **Alterar Password** é lhe apresentada uma página de alteraç�
 | b) |  nova senha pretendida                 		|  
 | c) |  repetição da senha pretendida         		|
 
-Após o preenchimento dos campos, o utilizador deverá finalizar a alteração clicando em **Alterar**.
 
 ![figAlteracaoSenha](img/pages/4_2_1.jpg)
 
 <p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
+
+Após o preenchimento dos campos, o utilizador deverá finalizar a alteração clicando em **Alterar**.
