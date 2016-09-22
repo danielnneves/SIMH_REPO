@@ -3,8 +3,9 @@ layout: default
 title: "Simulador de Codificação"
 ---
 
-<div id="simulador-de-codificacao"></div>
+
 # 7. Simulador de Codificação
+<div id="simulador-de-codificacao"></div>
 
 Neste módulo é possível simular a codificação clínica de episódios em ICD-10-CM/PCS (versão 2017). 
 Este serve de suporte ao processo de codificação de um episódio (módulo ([# 6. Codificação de Episódios](#codificacao-episodios)).

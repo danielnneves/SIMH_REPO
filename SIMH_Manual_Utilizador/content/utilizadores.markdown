@@ -3,8 +3,9 @@ layout: default
 title: "Gestão de Utilizadores"
 ---
 
-<div id="gestao-de-utilizadores"></div>
+
 # 5. Gestão de utilizadores
+<div id="gestao-de-utilizadores"></div>
 
 É neste módulo que é possível a gestão de utilizadores. Esta gestão apenas está acessível a um utilizador que detenha o perfil de administrador da entidade hospitalar onde exerce funções.
 
@@ -22,8 +23,9 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 
 Aqui, é possível realizar três ações distintas: **Criação**, **Pesquisa** ou **Edição** de utilizadores. 
 
-<div id="criacao-de-utilizadores"></div>
+
 ## 5.1 Criação de utilizadores
+<div id="criacao-de-utilizadores"></div>
 
 Para criar novos utilizadores, o utilizador deve clicar no botão **CRIAR**. 
 Atenta-se que o administrador de uma entidade hospitalar apenas pode criar novos utilizadores para essa mesma entidade.
@@ -49,8 +51,9 @@ Os perfis disponíveis para novos utilizadores são:
 
 No final da edição, para gravar as alterações, o utilizador deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
-<div id="pesquisa-de-utilizadores"></div>
+
 ### 5.2 Pesquisa de utilizadores
+<div id="pesquisa-de-utilizadores"></div>
 
 Para consultar por utilizadores existentes na entidade hospitalar, deve-se clicar no botão **PESQUISAR**.
 Adicionalmente, estes utilizadores podem ser filtrados por nome de utilizador, perfil ou estado.
@@ -73,8 +76,9 @@ A [](#figPesquisaUtilizadores) ilustra como exemplo uma pesquisa de utilizadores
 
 <p class="caption" id="figPesquisaUtilizadores">Pesquisa de utilizadores</p>
 
-<div id="edicao-de-utilizadores"></div>
+
 ### 5.3 Edição de utilizadores
+<div id="edicao-de-utilizadores"></div>
 
 Após efetuar a pesquisa de utilizadores ([5.2. Pesquisa de utilizadores](#pesquisa-de-utilizadores)), e ao seleccionar um utilizador devolvido pela mesma ([](#figPesquisaSeleccaoUtilizadores)),
 

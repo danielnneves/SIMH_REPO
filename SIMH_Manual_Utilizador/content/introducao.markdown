@@ -3,8 +3,9 @@ layout: default
 title: "Introdução"
 ---
 
-<div id="sobre-este-manual"></div>
+
 # 1. Sobre este Manual
+<div id="sobre-este-manual"></div>
 
 Este manual tem como objetivo ajudar o utilizador a interagir com o sistema de uma forma eficaz, dotando-o de todo o conhecimento necessário para a sua compreensão e uso. 
 Este encontra-se organizado da seguinte forma:
@@ -18,8 +19,9 @@ Este encontra-se organizado da seguinte forma:
  	 * “Instruções de acesso”, onde é descrito como o utilizador pode aceder ao sistema
 - “Sequências de menus”
  
-<div id="tabela-de-acronimos"></div>
+
 # 2. Tabela de Acrónimos
+<div id="tabela-de-acronimos"></div>
 
 A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
 
@@ -43,8 +45,9 @@ A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
 |  URG    |  Urgência																		|
 |  SI     |  Sistema de Informação															|           
 
-<div id="introducao"></div>
+
 # 3. Introdução
+<div id="introducao"></div>
 
 O Sistema de Informação para a Morbilidade Hospitalar (*SIMH*) é um projeto estruturante, para o sistema de informação de saúde, de consolidação das versões do sistema WebGDH, com vista a centralizar e melhorar os processos de codificação de episódios de internamento, de cirurgia de ambulatório e de ambulatório médico em GDH.
 
@@ -57,8 +60,9 @@ Objetivos do Sistema:
 * Reduzir os custos de manutenção evolutiva;
 * Otimizar a gestão dos recursos disponíveis.
 
-<div id="conceitos-basicos"></div>
+
 # 4. Conceitos Básicos
+<div id="conceitos-basicos"></div>
 
 Associada à interação com o sistema existe um conjunto de conceitos para os quais é chamada a atenção neste Capítulo.
 Todos os formulários que permitem criação ou edição de dados têm um conjunto de regras de negócio e validações para facilitar o preenchimento correto dos dados.
@@ -99,8 +103,9 @@ O acesso às páginas e a sua navegação é representada nos *breadcrumbs* ![lo
 
 De modo a familiarizar o utilizador com a aplicação, apresentam-se, de seguida, alguns exemplos ilustrativos de ações genéricas de interação com o SIMH.
 
-<div id="aceder-ao-simh"></div>
+
 ## 4.1. Aceder ao SIMH
+<div id="aceder-ao-simh"></div>
 
 O acesso ao SIMH é realizado através da navegação até ao seu endereço em [http:]. Ao aceder irá surgir a página que aparece na [](#figLogin).
 
@@ -130,8 +135,9 @@ Uma vez identificado e autenticado, é apresentada ao utilizador a página de en
 Na primeira vez que o utilizador acede a aplicação, aparecerá a página de ([4.2. Alteração da senha](#alterao-da-senha)).
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
-<div id="alteracao-da-senha"></div>
+
 ## 4.2. Alteração da senha
+<div id="alteracao-da-senha"></div>
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página ([4.Conceitos Básicos](#conceitos-bsicos)). 
 Após clicar em **Alterar Password** é lhe apresentada uma página de alteração de senha, [](#figAlteracaoSenha). O utilizador deverá inserir os campos obrigatórios:
