@@ -11,7 +11,7 @@ Através deste módulo é possível realizar a gestão dos médicos codificadore
 
 Esta gestão apenas está acessível a um utilizador que detenha o perfil de administrador da entidade hospitalar onde exerce funções.
 
-Para isso, este utilizador deve, a partir da página inicial, aceder ao módulo de “Médicos Codificadores”, tal como ilustra a [](#figAcessoMedicosCodificadores).
+Para isso, o utilizador deve, a partir da página inicial, aceder ao módulo de “Médicos Codificadores”, tal como ilustra a [](#figAcessoMedicosCodificadores).
 
 ![figAcessoMedicosCodificadores](img/pages/9_1.jpg)
 
