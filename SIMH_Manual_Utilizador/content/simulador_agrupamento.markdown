@@ -4,6 +4,8 @@ title: "Simulador de Agrupamento"
 ---
 
 
+---
+
 # 8. Simulador de Agrupamento
 <div id="simulador-de-agrupamento"></div>
 
