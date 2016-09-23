@@ -51,6 +51,7 @@ Nessa zona, passa a ser possível a adição desse código ![logo](img/step3.jpg
 
 
 * **Procedimentos** - Nesta área é possível consultar os códigos de procedimentos disponíveis em ICD-10 e adicioná-los à tabela de procedimentos. 
+
 ![figSimuladorAgrupamentoProcedimentosVazio](img/pages/7_9.jpg)
 
 Tomando como exemplo a seguinte imagem,
