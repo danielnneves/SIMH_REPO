@@ -4,6 +4,8 @@ title: "Gestão de Médicos Codificadores"
 ---
 
 
+---
+
 # 9. Médicos Codificadores
 <div id="medicos-codificadores"></div>
 
