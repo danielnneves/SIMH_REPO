@@ -50,8 +50,8 @@ A [](#figPesquisaPorCodificar) ilustra como exemplo uma pesquisa de episódios p
 ## 6.2. Consulta de um episódio
 <div id="codificacao-consulta-de-episodios"></div>
 
-Após realizar a pesquisa de episódios por codficar ([6.1. Pesquisa de episódios por codificar](#pesquisa-de-episodios-por-codificar)), e ao seleccionar um episódio, passa a ser possível a consulta do mesmo.
-Para tal, deve-se clicar no botão **CONSULTAR**, tal como a [](#figConsultaEpisodioPorCodificar) ilustra.
+Após realizar a pesquisa de episódios por codficar (ver [6.1. Pesquisa de episódios por codificar](#pesquisa-de-episodios-por-codificar)), e ao seleccionar um episódio, passa a ser possível a consulta do mesmo.
+Para tal, deve-se clicar no botão **Consultar**, tal como a [](#figConsultaEpisodioPorCodificar) ilustra.
 
 ![figConsultaEpisodioPorCodificar](img/pages/6_2_1.jpg)
 
@@ -77,9 +77,8 @@ Nesta página é possível visualizar a seguinte informação:
 * **Dados das Sessões**
 ![figDetalheEpisodioPorCodificar4](img/pages/6_2_6.jpg)
 
-
 A informação presente na área **Identificação do Episódio** encontra-se sempre visível durante as transições entre as abas **Dados do Episódio**, **Dados da Codificação** e **Dados das Sessões**.
-Durante a consulta de um episódio todos os campos se encontram bloqueados, não sendo possível realizar alterações ao episódio.
+Durante a consulta de um episódio todos os campos se encontram bloqueados, não sendo possível realizar alterações ao mesmo.
 
 ## 6.3. Edição de um episódio
 <div id="codificacao-edicao-de-episodios"></div>
