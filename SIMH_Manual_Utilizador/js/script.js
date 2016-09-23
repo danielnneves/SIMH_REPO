@@ -32,7 +32,7 @@ $('tr').each(function(){
  function zommClickImagem() {
 	 $('#paginas p>img:not([alt="logo"])').each(function(){
 		 var alt = $(this).attr("alt")
-		 if(alt != "figLogin" && alt != "figLoginRecuperacao"
+		 if(alt != "figLogin" && alt != "figLoginRecuperacao" &&
 			alt != "figAcessoGestaoUtilizadores" && alt != "figAcessoCodificacaoEpisodios" && 
 			alt != "figSimuladorCodificacao" && alt != "figAcessoSimuladorAgrupamento" && alt != "figAcessoMedicosCodificadores")
 		 $(this).wrap("<a class='imagem' href='"+$(this).attr( "src" ) + "' onclick='return hs.expand(this)'></a>"); 
