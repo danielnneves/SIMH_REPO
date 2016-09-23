@@ -49,7 +49,6 @@ Seguidamente, no **Detalhe do Index** deve-se pesquisar pelo código final de di
 Nessa zona, passa a ser possível a adição desse código ![logo](img/step3.jpg) à tabela de diagnósticos.
 ![figSimuladorAgrupamentoDiagnosticosTabelaDiagnostico](img/pages/7_8.jpg)
 
-
 * **Procedimentos** - Nesta área é possível consultar os códigos de procedimentos disponíveis em ICD-10 e adicioná-los à tabela de procedimentos. 
 
 ![figSimuladorAgrupamentoProcedimentosVazio](img/pages/7_9.jpg)
