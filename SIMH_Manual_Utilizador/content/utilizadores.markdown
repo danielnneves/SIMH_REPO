@@ -13,7 +13,7 @@ Através deste módulo é possível realizar a gestão de utilizadores pertencen
 
 Esta gestão apenas está acessível a um utilizador que detenha o perfil de administrador da entidade hospitalar onde exerce funções.
 
-Para isso, o utilizador deve aceder, a partir da página inicial, ao módulo de “Gestão de Utilizadores”, tal como ilustra a [](#figAcessoGestaoUtilizadores).
+Para isso, o utilizador deve, a partir da página inicial, ao módulo de “Gestão de Utilizadores”, tal como ilustra a [](#figAcessoGestaoUtilizadores).
 
 ![figAcessoGestaoUtilizadores](img/pages/5_1.jpg)
 
