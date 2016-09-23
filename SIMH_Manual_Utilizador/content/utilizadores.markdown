@@ -5,9 +5,9 @@ title: "Gestão de Utilizadores"
 
 
 ---
-
+<div id="gestao-de-utilizadores">
 # 5. Gestão de utilizadores
-<div id="gestao-de-utilizadores"></div>
+</div>
 
 Através deste módulo é possível realizar a gestão de utilizadores pertencentes a uma entidade hospitalar. 
 
