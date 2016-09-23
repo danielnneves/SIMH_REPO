@@ -31,11 +31,11 @@ Aqui, é possível realizar três ações distintas: **Criação**, **Pesquisa**
 ## 5.1 Criação de utilizadores
 <div id="criacao-de-utilizadores"></div>
 
-Para criar novos utilizadores, o utilizador deve clicar no botão **Criar**, tal como a [](#figAcessoCriarUtilizadores) ilustra.
+Para criar novos utilizadores, o utilizador com perfil de administrador deve clicar no botão **Criar**, tal como a [](#figAcessoCriarUtilizadores) ilustra.
 
 ![figAcessoCriarUtilizadores](img/pages/5_1_1.jpg)
 
-<p class="caption" id="figCriarUtilizadores">Página de Criação de Utilizadores </p>
+<p class="caption" id="figAcessoCriarUtilizadores">Página de Criação de Utilizadores </p>
  
 Atenta-se que o administrador de uma entidade hospitalar apenas pode criar novos utilizadores para essa mesma entidade.
 
@@ -47,42 +47,47 @@ Ao clicar neste botão aparecerá a página de **Criar Utilizador** (ver [](#fig
 
 Para a criação de um utilizador devem ser preenchidos os seguintes campos obrigatórios:
 
-|    |  Campos Obrigatórios   					| 		|    
-|----|------------------------------------------|-------|
-| a) |  Nome       		                		|		|
-| b) |  Nº Mecanográfico                   		|		|
-| c) |  E-mail				              		|		|
-| d) |  Perfil                          		| 		|
+|    |  Campos Obrigatórios [](#figCriarUtilizadores)	| 		|    
+|----|--------------------------------------------------|-------|
+| a) |  Nome       		                				|		|
+| b) |  Nº Mecanográfico                   				|		|
+| c) |  E-mail				              				|		|
+| d) |  Perfil                          				| 		|
 
 Os perfis disponíveis para novos utilizadores são:
 
-* **Administrativo da Entidade** - Utilizadores que pertencem à entidade mas não administram a mesma. Têm permissões para consultar/codificar/simular episódios, consultar relatórios e de auditoria.
-* **Médico Codificador** - Utilizadores que pertencem à entidade mas não administram a mesma. Têm permissões para consultar/codificar/simular episódios, consultar relatórios e de auditoria. Ao invés do perfil **Administrativo da Entidade**, um médico codificador é responsável pela codificação de um episódio.
+* **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar.
+* **Médico Codificador** - Trabalhadores que pertencem a uma entidade hospitalar. Ao invés do perfil **Administrativo da Entidade**, um médico codificador é responsável pela codificação de um episódio.
 
-No final da edição, para gravar as alterações, o utilizador deve clicar no botão **Criar**.
+No final da edição, o administrador deve clicar no botão **Criar**, para completar a criação de um novo utilizador.
 
 
 ### 5.2 Pesquisa de utilizadores
 <div id="pesquisa-de-utilizadores"></div>
 
-Para consultar por utilizadores existentes na entidade hospitalar, deve-se clicar no botão **Pesquisar**.
-Adicionalmente, estes utilizadores podem ser filtrados por nome de utilizador, perfil ou estado.
+Para consultar por utilizadores existentes na entidade hospitalar, deve-se clicar no botão **Pesquisar**, tal como a [](#figAcessoPesquisarUtilizadores) ilustra.
+
+![figAcessoPesquisarUtilizadores](img/pages/5_2_1.jpg)
+
+<p class="caption" id="figAcessoPesquisarUtilizadores">Página de Criação de Utilizadores </p>
+
+Atenta-se que o administrador de uma entidade hospitalar apenas pode pesquisar por utilizadores que pertençam à sua entidade hospitalar.
+
+Adicionalmente, os utilizadores a pesquisar podem ser filtrados por nome de utilizador, perfil ou estado.
 
 Os perfis disponíveis para pesquisa são:
 
-* **Administrador da Entidade** - Utilizadores que administram a entidade. Têm permissões para criar e editar utilizadores.
-* **Administrativo da Entidade** - Utilizadores que pertencem à entidade mas não administram a mesma. Têm permissões para consultar/codificar/simular episódios, consultar relatórios e de auditoria.
+* **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar.
+* **Médico Codificador** - Trabalhadores que pertencem a uma entidade hospitalar. Ao invés do perfil **Administrativo da Entidade**, um médico codificador é responsável pela codificação de um episódio.
 
 Os estados disponíveis para pesquisa são:
 
 * **Ativo** - Utilizadores que pertencem à entidade e que podem aceder ao sistema.
 * **Bloqueado** - Utilizadores que pertencem à entidade e que foram bloqueados de aceder ao sistema.
 
-A pesquisa realizada apenas devolve utilizadores relativos à entidade hospitalar do utilizador que efetuou a pesquisa.
-
 A [](#figPesquisaUtilizadores) ilustra como exemplo uma pesquisa de utilizadores efetuada por um administrador do Hospital Espírito Santo, EPE - Évora.
 
-![figPesquisaUtilizadores](img/pages/5_2_1.jpg)
+![figPesquisaUtilizadores](img/pages/5_2_2.jpg)
 
 <p class="caption" id="figPesquisaUtilizadores">Pesquisa de utilizadores</p>
 
@@ -90,7 +95,7 @@ A [](#figPesquisaUtilizadores) ilustra como exemplo uma pesquisa de utilizadores
 ### 5.3 Edição de utilizadores
 <div id="edicao-de-utilizadores"></div>
 
-Após efetuar a pesquisa de utilizadores ([5.2. Pesquisa de utilizadores](#pesquisa-de-utilizadores)), e ao seleccionar um utilizador devolvido pela mesma ([](#figPesquisaSeleccaoUtilizadores)),
+Após efetuar uma pesquisa por utilizadores ([5.2. Pesquisa de utilizadores](#pesquisa-de-utilizadores)) e ao seleccionar um utilizador devolvido pela mesma ([](#figPesquisaSeleccaoUtilizadores)),
 
 ![figPesquisaSeleccaoUtilizadores](img/pages/5_3_1.jpg)
 
@@ -98,8 +103,13 @@ Após efetuar a pesquisa de utilizadores ([5.2. Pesquisa de utilizadores](#pesqu
 
 as opções seguintes opções tornam-se disponíveis:
 
-* **Editar** - Permite a edição do utilizador seleccionado;
-* **Remover** - Remove o utilizador seleccionado do sistema;
-* **Ativar** - Ativa o acesso ao sistema do utilizador de seleccionado, caso ele esteja bloqueado. Encontra-se inativa se o utilizador seleccionado já estiver ativo.
+* **Editar** - Permite a edição dos dados referentes ao utilizador seleccionado;
+* **Remover** - Permite remover o utilizador seleccionado do sistema;
+* **Ativar** - Permite ativar o acesso ao sistema do utilizador de seleccionado, caso ele esteja bloqueado. Encontra-se inativa se o utilizador seleccionado já estiver ativo.
 * **Bloquear** - Bloqueia o acesso ao sistema do utilizador seleccionado, caso ele esteja ativo. Encontra-se inativa se o utilizador seleccionado já estiver bloqueado.
 
+A [](#figEdicaoUtilizadores) ilustra como exemplo a página de edição de um utilizador, após o administrador o ter seleccionado e clicado no botão **Editar**.
+
+![figEdicaoUtilizadores](img/pages/5_3_2.jpg)
+
+<p class="caption" id="figEdicaoUtilizadores">Pesquisa de utilizadores</p>

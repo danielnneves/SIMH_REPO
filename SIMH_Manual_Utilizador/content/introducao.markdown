@@ -79,7 +79,7 @@ Para auxiliar as validações existem 4 tipos de mensagens:
 
 ![logo](img/sucesso.jpg)
 
-No cabeçalho das páginas do **SIMH** existe um conjunto de dados que serve para informação/contextualização do utilizador:
+No cabeçalho das páginas do *SIMH* existe um conjunto de dados que serve para informação/contextualização do utilizador:
 
 * Nome do utilizador e o perfil de utilizador que lhe esteja associado;
 * Nome da entidade hospitalar a que o utilizador pertença, caso o utilizador pertença a uma entidade;
@@ -120,7 +120,7 @@ De seguida, deverá preencher os campos obrigatórios do formulário e clicar em
 
 Irá ser enviado um e-mail para o e-mail escolhido, com instruções de recuperação de acesso à conta.
 
-Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do **SIMH** ([](#figPaginaEntrada)), onde este pode aceder às funcionalidades que lhe estão disponíveis.
+Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do *SIMH* ([](#figPaginaEntrada)), onde este pode aceder às funcionalidades que lhe estão disponíveis.
 
 ![figPaginaEntrada](img/pages/4_1_3.jpg)
 
