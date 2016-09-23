@@ -38,7 +38,8 @@ Tomando como exemplo a seguinte imagem,
 ![figSimuladorAgrupamentoTabelasPreenchidas](img/pages/7_5.jpg)
 verifica-se que os códigos adicionados podem ser removidos ao clicar em ![logo](img/remover.jpg) ou reposicionados, usando para isso a opção ![logo](img/subir.jpg) para mover o código para cima ou a opção ![logo](img/descer.jpg) para mover o código para baixo, na sua tabela respectiva.
 
-* **Diagnósticos** - Nesta área é possível consultar os códigos de diagnósticos disponíveis em ICD-10 e adicioná-los à tabela de diagnósticos. ![figSimuladorAgrupamentoDiagnosticosVazio](img/pages/7_6.jpg)
+* **Diagnósticos** - Nesta área é possível consultar os códigos de diagnósticos disponíveis em ICD-10 e adicioná-los à tabela de diagnósticos.
+![figSimuladorAgrupamentoDiagnosticosVazio](img/pages/7_6.jpg)
 
 Tomando como exemplo a seguinte imagem,
 ![figSimuladorAgrupamentoDiagnosticosPreenchido](img/pages/7_7.jpg)
