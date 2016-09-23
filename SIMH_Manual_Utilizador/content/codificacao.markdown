@@ -1,6 +1,9 @@
 ---
 layout: default
-title: "Codificação"
+title: "Codificação de Episódios"
+---
+
+
 ---
 
 # 6. Codificação de Episódios
@@ -8,7 +11,7 @@ title: "Codificação"
 
 Através deste módulo é possível fazer a codificação de episódios ainda não codificados de uma determinada entidade hospitalar.
 
-Para aceder ao mesmo, o utilizador deve, a partir da página inicial, aceder ao módulo “Codificação de Episódios”, tal como ilustra a [](#figAcessoCodificacaoEpisodios).
+Para isso, o utilizador deve, a partir da página inicial, aceder ao módulo "Codificação de Episódios", tal como ilustra a [](#figAcessoCodificacaoEpisodios).
 
 ![figAcessoCodificacaoEpisodios](img/pages/6_1.jpg)
 
@@ -34,11 +37,11 @@ Na pesquisa de episódios por codificar, um utilizador deve preencher obrigatori
 * **até** - Permite a pesquisa de episódios em que o doente teve data de alta até a data aqui definida;
 * **Especialidade** - Especialidade médica associada aos episódios a pesquisar.
 
-De seguida deve clicar no botão **PESQUISAR**.
+De seguida deve clicar no botão **Pesquisar**.
 
 A pesquisa realizada apenas devolve episódios relativos à entidade hospitalar do utilizador que efetuou a pesquisa.
 
-A [](#figPesquisaPorCodificar) ilustra como exemplo uma pesquisa de episódios efetuada por um utilizador.
+A [](#figPesquisaPorCodificar) ilustra como exemplo uma pesquisa de episódios por codificar efetuada por um utilizador.
 
 ![figPesquisaPorCodificar](img/pages/6_1_1.jpg)
 
