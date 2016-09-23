@@ -310,16 +310,6 @@ content:'  ' ;
 
 /**imagens*/
 
-#paginas .modulo img {
-	position: inherit;
-	text-align: center;
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50;
-	width:80%
-}
-
 #paginas p img{
 position: inherit;
 text-align: center;
