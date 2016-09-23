@@ -338,7 +338,9 @@ width: auto;
 
 
 #paginas p  img[alt=figLogin],#paginas p  img[alt=figLoginRecuperacao],
-#paginas p  img[alt=figAcessoGestaoUtilizadores], #paginas p img[alt=figAcessoCodificacaoEpisodios]{
+#paginas p  img[alt=figAcessoGestaoUtilizadores], #paginas p img[alt=figAcessoCodificacaoEpisodios],
+#paginas p img[alt=figSimuladorCodificacao], #paginas p img[alt=figAcessoSimuladorAgrupamento],
+#paginas p img[alt=figAcessoMedicosCodificadores]{
 width: auto;
 }
 
