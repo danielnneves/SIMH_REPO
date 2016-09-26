@@ -121,6 +121,12 @@ Uma vez identificado e autenticado, é apresentada ao utilizador a página de en
 
 <p class="caption" id="figPaginaEntrada"> Página de entrada no SIMH </p>
  
+Dentro de cada funcionalidade/módulo é possível aceder às restantes bastando para isso clicar no logotipo da aplicação, no canto superior esquerdo, e seleccionar o módulo para onde se deseja transitar, tal como ilustrado na [](#figMudaModulo).
+
+![figMudaModulo](img/pages/4_1_4.jpg)
+
+<p class="caption" id="figMudaModulo">Transição entre módulos</p> 
+ 
 Na primeira vez que o utilizador acede a aplicação, aparecerá a página para alterar a sua senha ([4.2. Alteração da senha](#alterao-da-senha)).
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
