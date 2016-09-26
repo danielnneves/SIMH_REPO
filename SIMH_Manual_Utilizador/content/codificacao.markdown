@@ -117,7 +117,7 @@ Nesta seção, é possível visualizar e editar a seguinte informação: **Ident
 
 <p class="caption" id="figCodificacaoCodificacaoEpisodioPorCodificar">Passo 2 da codificação: Codificação do Episódio</p>
 
-Para adicionar um novo diagnóstico à tabela de diagnósticos ou um novo procedimento à tabela de procedimentos, é necessário preencher um código na caixa de código e adicioná-lo à tabela ![logo](img/6_3_6.jpg).
+Para adicionar um novo diagnóstico à tabela de diagnósticos ou um novo procedimento à tabela de procedimentos, é necessário preencher um código na caixa de código e adicioná-lo à tabela ![logo](img/pages/6_3_6.jpg).
 Quer na tabela de diagnósticos, quer na tabela de procedimentos, os códigos adicionados podem ser removidos ao clicar em ![logo](img/remover.jpg) ou reposicionados, usando para isso a opção ![logo](img/subir.jpg) para mover o código para cima ou a opção ![logo](img/descer.jpg) para mover o código para baixo.
 
 No caso do episódio pertencer ao módulo de internamento, a área de diagnósticos terá, adicionalmente, para cada diagnóstico, informação relativa ao indicador PNA (Presente na admissão):
