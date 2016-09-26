@@ -7,7 +7,6 @@ title: "Codificação de Episódios"
 ---
 
 # 6. Codificação de Episódios
-<div id="codificacao-de-episodios"></div>
 
 Através deste módulo é possível fazer a codificação de episódios ainda não codificados de uma determinada entidade hospitalar.
 
@@ -50,7 +49,7 @@ A [](#figPesquisaPorCodificar) ilustra como exemplo uma pesquisa de episódios p
 ## 6.2. Consulta de um episódio
 <div id="codificacao-consulta-de-episodios"></div>
 
-Após realizar a pesquisa de episódios por codficar (ver [6.1. Pesquisa de episódios por codificar](#pesquisa-de-episodios-por-codificar)), e ao seleccionar um episódio, passa a ser possível a consulta do mesmo.
+Após realizar a pesquisa de episódios por codficar (ver [6.1. Pesquisa de episódios por codificar](#pesquisa-de-episdios-por-codificar)), e ao seleccionar um episódio, passa a ser possível a consulta do mesmo.
 Para tal, deve-se clicar no botão **Consultar**, tal como a [](#figConsultaEpisodioPorCodificar) ilustra.
 
 ![figConsultaEpisodioPorCodificar](img/pages/6_2_1.jpg)
@@ -83,7 +82,7 @@ Durante a consulta de um episódio todos os campos se encontram bloqueados, não
 ## 6.3. Edição de um episódio
 <div id="codificacao-edicao-de-episodios"></div>
 
-Após efetuar uma pesquisa por episódios por codficar ([6.1. Pesquisa de episódios por codificar](#pesquisa-de-episodios-por-codificar)) e ao seleccionar um episódio devolvido pela mesma passa a ser possível a edição do mesmo.
+Após efetuar uma pesquisa por episódios por codficar ([6.1. Pesquisa de episódios por codificar](#pesquisa-de-episdios-por-codificar)) e ao seleccionar um episódio devolvido pela mesma passa a ser possível a edição do mesmo.
 Para tal, deve-se clicar no botão **Editar**, tal como a [](#figEditaEpisodioPorCodificar) ilustra.
 
 ![figEditaEpisodioPorCodificar](img/pages/6_3_1.jpg)
@@ -104,7 +103,7 @@ Na seção de **Informação do Episódio** (ver [](#figCodificacaoInformacaoEpi
 
 <p class="caption" id="figCodificacaoInformacaoEpisodioPorCodificar">Passo 1 da codificação: Informação do Episódio</p>
 
-Nesta página irá estar visível o botão **Simular** para utilizadores com perfil médico codificador. Ao clicar neste botão, o utilizador será transportado para um ecrã com o nome **Simular Codificação** (ver [](#figCodificacaoSimularEpisodioPorCodificar)) onde será possível realizar a simulação da codificação do episódio ([# 7. Simulador de Codificação](#simulador-de-codificacao)).
+Nesta página irá estar visível o botão **Simular** para utilizadores com perfil médico codificador. Ao clicar neste botão, o utilizador será transportado para um ecrã com o nome **Simular Codificação** (ver [](#figCodificacaoSimularEpisodioPorCodificar)) onde será possível realizar a simulação da codificação do episódio (ver [# 7. Simulador de Codificação](#simulador-de-codificao)).
 
 ![figCodificacaoSimularEpisodioPorCodificar](img/pages/6_3_4.jpg)
 
