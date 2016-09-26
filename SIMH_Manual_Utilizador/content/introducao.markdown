@@ -7,7 +7,6 @@ title: "Introdução"
 ---
 
 # 1. Sobre este Manual
-<div id="sobre-este-manual"></div>
 
 Este manual tem como objetivo ajudar o utilizador a interagir com o sistema de uma forma eficaz, dotando-o de todo o conhecimento necessário para a sua compreensão e uso. 
 Este encontra-se organizado da seguinte forma:
@@ -23,7 +22,6 @@ Este encontra-se organizado da seguinte forma:
 ---
  
 # 2. Tabela de Acrónimos
-<div id="tabela-de-acronimos"></div>
 
 A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
 
@@ -41,7 +39,6 @@ A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
 ---
 
 # 3. Introdução
-<div id="introducao"></div>
 
 O Sistema de Informação para a Morbilidade Hospitalar (*SIMH*) é um projeto estruturante, para o sistema de informação de saúde, de consolidação das versões do sistema WebGDH, com vista a centralizar e melhorar os processos de codificação de episódios de internamento, de cirurgia de ambulatório e de ambulatório médico em GDH.
 
@@ -57,7 +54,6 @@ Objetivos do Sistema:
 ---
 
 # 4. Conceitos Básicos
-<div id="conceitos-basicos"></div>
 
 Associada à interação com o sistema existe um conjunto de conceitos para os quais é chamada a atenção neste Capítulo.
 Todos os formulários que permitem criação ou edição de dados têm um conjunto de regras de negócio e validações para facilitar o preenchimento correto dos dados.
@@ -90,7 +86,6 @@ No cabeçalho das páginas do *SIMH* existe um conjunto de dados que serve para 
 De seguida, apresenta-se como decorre a primeira interação do utilizador com a aplicação.
 
 ## 4.1. Aceder ao SIMH
-<div id="aceder-ao-simh"></div>
 
 O acesso ao SIMH é realizado através da navegação ao endereço em [http:/ENDERECO_FINAL!!!]. Ao aceder irá surgir a página que aparece na [](#figLogin).
 
@@ -131,9 +126,8 @@ O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar 
 
 
 ## 4.2. Alteração da senha
-<div id="alteracao-da-senha"></div>
 
-A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página (ver [4.Conceitos Básicos](#conceitos-basicos)). 
+A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página (ver [4.Conceitos Básicos](#conceitos-bsicos)). 
 Após clicar em **Alterar Password** é apresentada uma página de alteração de senha, ver [](#figAlteracaoSenha).
 
 ![figAlteracaoSenha](img/pages/4_2_1.jpg)
