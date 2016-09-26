@@ -42,6 +42,7 @@ var addProc = 'adicionarProc';
 var codes;
 var onlyCodes;
 $( document ).ready(function() {
+	buildLinksProcedimentos();
 	$.getJSON( "http://rawgit.com/SIMHSPMS/SIMH_REPO/master/ICD10/Simulador/icd10pcs-min.json", function( data ) {
 		  codes = data["ICD10PCS.tabular"].pcsTable;
 		  buildSectionOptions();
@@ -718,9 +719,14 @@ function validateDeviceValue(axisPcsRow, deviceValue){
 	return exist;
 }
 
-/**funcao para adicionar o codigo procedimento a tabela**/
-function addProcedureToTable(nameProc){
-	 $('#codigoProcedimento').val(nameProc);
-	 showBusysign();
-	 $('#adicionarProcedimento').click();
+/** Carrega os links* */
+function buildLinksProcedimentos() {
+	var option = '';
+	option += '<li>';
+	option += '<a href="http://www.acss.min-saude.pt/Portals/0/ICD-10-PCS%20Tables%20and%20Index_v2017.pdf" target="_blank">';
+	option += 'Procedimentos Tabelas e Índices - ICD-10-PCS Tables and Index_v2017';
+	option += '<i class="fa fa-file-pdf-o" style="margin-left: 5px;"></i>';
+	option += '</a>';
+	option += '</li>'
+	$('#linkProcedimentos').append(option);
 }
