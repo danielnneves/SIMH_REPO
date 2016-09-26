@@ -64,9 +64,6 @@ Os perfis disponíveis para novos utilizadores são:
 No final da edição, o administrador deve clicar no botão **Criar**, para completar a criação de um novo utilizador.
 
 
-
-
-
 ### 5.2 Pesquisa de utilizadores
 <div id="pesquisa-de-utilizadores"></div>
 
