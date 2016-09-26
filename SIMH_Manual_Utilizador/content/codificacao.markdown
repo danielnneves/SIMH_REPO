@@ -104,7 +104,7 @@ Na seção de **Informação do Episódio** (ver [](#figCodificacaoInformacaoEpi
 
 <p class="caption" id="figCodificacaoInformacaoEpisodioPorCodificar">Passo 1 da codificação: Informação do Episódio</p>
 
-Nesta página irá estar visível o botão **Auxiliar** para utilizadores com perfil médico codificador. Ao clicar neste botão, o utilizador será transportado para um ecrã com o nome **Auxiliar Codificação** (ver [](#figCodificacaoAuxiliarEpisodioPorCodificar)) onde será possível realizar a simulação da codificação do episódio ([# 7. Simulador de Codificação](#simular-episodio)).
+Nesta página irá estar visível o botão **Auxiliar** para utilizadores com perfil médico codificador. Ao clicar neste botão, o utilizador será transportado para um ecrã com o nome **Auxiliar Codificação** (ver [](#figCodificacaoAuxiliarEpisodioPorCodificar)) onde será possível realizar a simulação da codificação do episódio ([# 7. Simulador de Codificação](#simulador-de-codificacao)).
 
 ![figCodificacaoAuxiliarEpisodioPorCodificar](img/pages/6_3_4.jpg)
 

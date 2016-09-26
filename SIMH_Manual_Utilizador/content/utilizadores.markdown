@@ -56,8 +56,6 @@ Para a criação de um utilizador devem ser preenchidos os seguintes campos obri
 
 Os perfis disponíveis para novos utilizadores são:
 
-
-
 * **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar.
 * **Médico Codificador** - Trabalhadores que pertencem a uma entidade hospitalar. Ao invés do perfil **Administrativo da Entidade**, um médico codificador é responsável pela codificação de um episódio.
 
