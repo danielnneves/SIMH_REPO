@@ -1,3 +1,6 @@
+$( document ).ready(function() {
+    $("[id='optionFolha de codaficação Internamento']").attr("href", "http://rawgit.com/SIMHSPMS/SIMH_REPO/master/pdf/FolhaCod_ICD10_Int.pdf");
+});
 var diagnosticoSelect;
 
 var chapters;
