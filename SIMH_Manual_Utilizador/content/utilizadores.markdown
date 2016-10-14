@@ -54,8 +54,8 @@ Para a criação de um utilizador devem ser preenchidos os seguintes campos obri
 
 Os perfis disponíveis para novos utilizadores são:
 
-* **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar.
-* **Médico Codificador** - Trabalhadores que pertencem a uma entidade hospitalar. Ao invés do perfil **Administrativo da Entidade**, um médico codificador é responsável pela codificação de um episódio.
+* **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar. Podem codificar episódios mas não são os responsáveis pela codificação de um episódio.
+* **Administrador da Entidade** - Trabalhadores que pertencem e administram uma entidade hospitalar.
 
 No final da edição, o administrador deve clicar no botão **Criar**, para completar a criação de um novo utilizador.
 
@@ -74,8 +74,8 @@ Adicionalmente, os utilizadores a pesquisar podem ser filtrados por nome de util
 
 Os perfis disponíveis para pesquisa são:
 
-* **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar.
-* **Médico Codificador** - Trabalhadores que pertencem a uma entidade hospitalar. Ao invés do perfil **Administrativo da Entidade**, um médico codificador é responsável pela codificação de um episódio.
+* **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar. Podem codificar episódios mas não são os responsáveis pela codificação de um episódio.
+* **Administrador da Entidade** - Trabalhadores que pertencem e administram uma entidade hospitalar.
 
 Os estados disponíveis para pesquisa são:
 
@@ -108,4 +108,4 @@ A [](#figEdicaoUtilizadores) ilustra como exemplo a página de edição de um ut
 
 ![figEdicaoUtilizadores](img/pages/5_3_2.jpg)
 
-<p class="caption" id="figEdicaoUtilizadores">Pesquisa de utilizadores</p>
+<p class="caption" id="figEdicaoUtilizadores">Edição de um utilizador</p>
