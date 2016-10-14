@@ -36,7 +36,7 @@ $('tr').each(function(){
 			alt != "figMudaModulo" &&
 			alt != "figAcessoGestaoUtilizadores" && alt != "figAcessoCodificacaoEpisodios" && 
 			alt != "figSimuladorCodificacao" && alt != "figAcessoSimuladorAgrupamento" && 
-			alt != "figAcessoMedicosCodificadores")
+			alt != "figAcessoMedicosCodificadores" && alt != "figAcessoGestaoEspecialidades")
 		 $(this).wrap("<a class='imagem' href='"+$(this).attr( "src" ) + "' onclick='return hs.expand(this)'></a>"); 
 });
 }
