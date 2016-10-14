@@ -54,7 +54,7 @@ Para a criação de um utilizador devem ser preenchidos os seguintes campos obri
 
 Os perfis disponíveis para novos utilizadores são:
 
-* **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar. Podem codificar episódios mas não são os responsáveis pela codificação de um episódio.
+* **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar. Podem codificar episódios mas não são os responsáveis pela codificação de um episódio;
 * **Administrador da Entidade** - Trabalhadores que pertencem e administram uma entidade hospitalar.
 
 No final da edição, o administrador deve clicar no botão **Criar**, para completar a criação de um novo utilizador.
@@ -74,7 +74,7 @@ Adicionalmente, os utilizadores a pesquisar podem ser filtrados por nome de util
 
 Os perfis disponíveis para pesquisa são:
 
-* **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar. Podem codificar episódios mas não são os responsáveis pela codificação de um episódio.
+* **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar. Podem codificar episódios mas não são os responsáveis pela codificação de um episódio;
 * **Administrador da Entidade** - Trabalhadores que pertencem e administram uma entidade hospitalar.
 
 Os estados disponíveis para pesquisa são:
@@ -101,10 +101,10 @@ as opções seguintes opções tornam-se disponíveis:
 
 * **Editar** - Permite a edição dos dados referentes ao utilizador seleccionado;
 * **Remover** - Permite remover o utilizador seleccionado do sistema;
-* **Ativar** - Permite ativar o acesso ao sistema do utilizador de seleccionado, caso ele esteja bloqueado. Encontra-se inativa se o utilizador seleccionado já estiver ativo.
+* **Ativar** - Permite ativar o acesso ao sistema do utilizador de seleccionado, caso ele esteja bloqueado. Encontra-se inativa se o utilizador seleccionado já estiver ativo;
 * **Bloquear** - Bloqueia o acesso ao sistema do utilizador seleccionado, caso ele esteja ativo. Encontra-se inativa se o utilizador seleccionado já estiver bloqueado.
 
-A [](#figEdicaoUtilizadores) ilustra como exemplo a página de edição de um utilizador, após o administrador o ter seleccionado e clicado no botão **Editar**.
+A [](#figEdicaoUtilizadores) ilustra como exemplo a página de edição dos dados referentes a um utilizador, após o administrador o ter seleccionado e clicado no botão **Editar**.
 
 ![figEdicaoUtilizadores](img/pages/5_3_2.jpg)
 
