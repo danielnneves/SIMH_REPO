@@ -56,7 +56,7 @@ Objetivos do Sistema:
 # 4. Conceitos Básicos
 
 Associada à interação com o sistema existe um conjunto de conceitos para os quais é chamada a atenção neste Capítulo.
-Todos os formulários que permitem criação ou edição de dados têm um conjunto de regras de negócio e validações para facilitar o preenchimento correto dos dados.
+Todos os formulários que permitem a criação ou edição de dados têm um conjunto de regras de negócio e validações para facilitar o preenchimento correto dos dados.
 Para auxiliar as validações existem 4 tipos de mensagens:
 
 * Mensagem de Informação
@@ -79,7 +79,8 @@ No cabeçalho das páginas do *SIMH* existe um conjunto de dados que serve para 
 
 * Nome do utilizador e o perfil de utilizador que lhe esteja associado;
 * Nome da entidade hospitalar a que o utilizador pertença, caso o utilizador pertença a uma entidade;
-* Botão das opções avançadas ![logo](img/definicao.png). Ao clicar neste, o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como por exemplo: alterar password ([4.2. Alteração da senha](#alterao-da-senha));
+* Botão das opções avançadas ![logo](img/definicao.png). Ao clicar neste, o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como por exemplo alterar password ([4.2. Alteração da senha](#alterao-da-senha) ou aceder ao perfil do utilizador;
+![figDefinicaoEntradas](img/pages/4_1.jpg)
 * Botão de acesso rápido ao manual de utilizador ![logo](img/manual.jpg);
 * Contexto de navegação atual do utilizador, presente na barra *breadcrumbs* ![logo](img/breadcrumbs.jpg), que são clicáveis se o utilizador pretender voltar a uma página já navegada.
 
@@ -87,7 +88,7 @@ De seguida, apresenta-se como decorre a primeira interação do utilizador com a
 
 ## 4.1. Aceder ao SIMH
 
-O acesso ao SIMH é realizado através da navegação ao endereço em [http:/ENDERECO_FINAL!!!]. Ao aceder irá surgir a página que aparece na [](#figLogin).
+O acesso ao SIMH é realizado através da navegação ao endereço em [http://simh.min-saude.pt/SIMH/]. Ao aceder irá surgir a página que aparece na [](#figLogin).
 
 ![figLogin](img/pages/4_1_1.jpg)
 
@@ -121,7 +122,7 @@ Uma vez identificado e autenticado, é apresentada ao utilizador a página de en
 
 <p class="caption" id="figPaginaEntrada"> Página de entrada no SIMH </p>
  
-Dentro de cada funcionalidade/módulo é possível aceder às restantes bastando para isso clicar no logotipo da aplicação, no canto superior esquerdo, e seleccionar o módulo para onde se deseja transitar, tal como ilustrado na [](#figMudaModulo).
+Dentro de cada módulo é possível aceder aos restantes bastando para isso clicar no logotipo da aplicação, no canto superior esquerdo, e seleccionar o módulo para onde se deseja transitar, tal como ilustrado na [](#figMudaModulo).
 
 ![figMudaModulo](img/pages/4_1_4.jpg)
 
