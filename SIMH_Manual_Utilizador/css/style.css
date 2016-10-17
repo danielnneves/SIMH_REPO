@@ -425,6 +425,19 @@ border-top:    solid #005082 1.0pt;
     border-top: none;
 }
 
+/** Indice **/
+#indice a {
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles
@@ -434,8 +447,6 @@ border-top:    solid #005082 1.0pt;
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
-
-
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
@@ -482,12 +493,4 @@ border-top:    solid #005082 1.0pt;
   @page { margin: 0.5cm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
-}
-
-#indice {
-    /*width: 15%;
-    background: transparent none repeat scroll 0% 0%;
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 20px;*/
 }
