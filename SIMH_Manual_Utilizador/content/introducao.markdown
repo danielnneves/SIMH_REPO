@@ -15,12 +15,9 @@ Este encontra-se organizado da seguinte forma:
  
  - “Tabela de  Acrónimos”, que contém todos os acrónimos usados ao longo deste manual e que permitirá familiarizar desde já o utilizador com determinadas abreviaturas apresentadas na aplicação;
  
- - “Introdução”, onde é apresentado o sistema SIMH, qual o seu contexto e propósito,  incluindo os seguintes subcapítulos:
- 
-	 * “Objetivos do Sistema”, onde se descrevem os propósitos da utilização da aplicação informática;
-	 
-	 * “Conceitos básicos”, onde se explicam os principais conceitos que suportam a aplicação, concretamente conceitos tipo “navegação" no sistema, explicando o que se entende por isso;
-	 
+ - “Introdução”, onde é apresentado o sistema SIMH, qual o seu contexto e propósito,  incluindo os seguintes subcapítulos: 
+	 * “Objetivos do Sistema”, onde se descrevem os propósitos da utilização da aplicação informática;	 
+	 * “Conceitos básicos”, onde se explicam os principais conceitos que suportam a aplicação, concretamente conceitos tipo “navegação" no sistema, explicando o que se entende por isso;	 
  	 * “Instruções de acesso”, onde é descrito como o utilizador pode aceder ao sistema.
 	 
 - “Módulos do Sistema”, onde cada módulo principal do sistema será apresentado numa seção individual.
