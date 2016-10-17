@@ -426,7 +426,7 @@ border-top:    solid #005082 1.0pt;
 }
 
 /** Indice **/
-#indice a , #indice div {
+#indice a , #indice .caret {
 	text-align: left;
 }
 
