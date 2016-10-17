@@ -92,7 +92,7 @@ De seguida, apresenta-se como decorre a primeira interação do utilizador com a
 
 ## 4.1. Aceder ao SIMH
 
-O acesso ao SIMH é realizado através da navegação ao endereço em [http://simh.min-saude.pt/SIMH/]. Ao aceder irá surgir a página que aparece na [](#figLogin).
+O acesso ao SIMH é realizado através da navegação ao endereço em <http://simh.min-saude.pt/SIMH/>. Ao aceder irá surgir a página que aparece na [](#figLogin).
 
 ![figLogin](img/pages/4_1_1.jpg)
 
