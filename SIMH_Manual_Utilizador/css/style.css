@@ -426,12 +426,9 @@ border-top:    solid #005082 1.0pt;
 }
 
 /** Indice **/
-#indice a {
+#indice a , #indice div {
 	text-align: left;
 }
-
-
-
 
 
 
