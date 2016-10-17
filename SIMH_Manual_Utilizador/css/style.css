@@ -273,7 +273,7 @@ padding: 0cm 5.4pt 0cm 5.4pt;
    
 h1{
 margin-top: 12.0pt;
-margin-bottom: 6.0pt;
+margin-bottom: 1em;
 font-size:  18.0pt;
 font-family:"Lucida Sans Unicode","sans-serif";
 color: #3d596d;
@@ -287,8 +287,8 @@ content:'  ';
 
 
 h2{
-margin-top:12.0pt;
-margin-bottom:6.0pt;
+margin-top:2em;
+margin-bottom:1em;
 margin-left:5pt;
 font-size:17.0pt;
 font-family:"Lucida Sans Unicode","sans-serif";
