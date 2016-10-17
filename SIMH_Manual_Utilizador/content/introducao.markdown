@@ -28,16 +28,17 @@ Este encontra-se organizado da seguinte forma:
 
 A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
 
-|  Sigla  |  Designação             													  	|	           
-|---------|---------------------------------------------------------------------------------|
-|  SIMH   |  Sistema de Informação para a Morbilidade Hospitalar 						  	|
-|  ACSS   |  Administração Central do Sistema de Saúde 									  	|
-|  SPMS   |  Serviços Partilhados do Ministério da Saúde									|
-|  SNS    |  Serviço Nacional de Saúde														|
-|  GDH    |  Grupos de Diagnóstico Homogéneo												|                                                 
-|  ICD9CM |  International Classification of Diseases 9th revision Clinical modification 	|
-| ICD10CM |  International Classification of Diseases 10th revision Clinical modification 	|           
-|  SI     |  Sistema de Informação															|           
+|  Sigla   |  Designação             													  	|	           
+|----------|--------------------------------------------------------------------------------|
+|  SIMH    |  Sistema de Informação para a Morbilidade Hospitalar 						  	|
+|  ACSS    |  Administração Central do Sistema de Saúde									  	|
+|  SPMS    |  Serviços Partilhados do Ministério da Saúde									|
+|  SNS     |  Serviço Nacional de Saúde														|
+|  GDH     |  Grupos de Diagnóstico Homogéneo												|                                                 
+|  ICD9CM  |  International Classification of Diseases 9th revision Clinical modification 	|
+| ICD10CM  |  International Classification of Diseases 10th revision Clinical modification 	|
+| ICD10PCS |  ICD-10 Procedure Coding System          										|
+|  SI      |  Sistema de Informação															|           
 
 ---
 
@@ -83,7 +84,9 @@ No cabeçalho das páginas do *SIMH* existe um conjunto de dados que serve para 
 * Nome do utilizador e o perfil de utilizador que lhe esteja associado;
 * Nome da entidade hospitalar a que o utilizador pertença, caso o utilizador pertença a uma entidade;
 * Botão das opções avançadas ![logo](img/definicao.png). Ao clicar neste, o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como por exemplo alterar password ([4.2. Alteração da senha](#alterao-da-senha) ou aceder ao perfil do utilizador;
+
 ![figDefinicaoEntradas](img/pages/4_1.jpg)
+
 * Botão de acesso rápido ao manual de utilizador ![logo](img/manual.jpg);
 * Contexto de navegação atual do utilizador, presente na barra *breadcrumbs* ![logo](img/breadcrumbs.jpg), que são clicáveis se o utilizador pretender voltar a uma página já navegada.
 
@@ -102,7 +105,7 @@ Aqui, o utilizador deve inserir as suas credenciais nos campos obrigatórios e c
 |    |  Campos Obrigatórios [](#figLogin)  	|	           
 |----|--------------------------------------------------|
 | a) | e-mail associado à conta na aplicação  			|
-| a) | password								  			| 
+| b) | password								  			| 
 
 
 Caso o utilizador não saiba as suas credencias, deverá clicar em **Recuperar Senha**.
