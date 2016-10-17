@@ -322,7 +322,8 @@ text-align: center;
 display:block;
  margin-left: auto;
  margin-right: auto;
- margin-top: 50;
+ margin-top: 1em;
+ margin-bottom: 1em;
  width:80%
 }
 
