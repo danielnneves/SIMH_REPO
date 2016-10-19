@@ -126,7 +126,7 @@ Uma vez identificado e autenticado, é apresentada ao utilizador a página de en
 
 <p class="caption" id="figPaginaEntrada"> Página de entrada no SIMH </p>
  
-Dentro de cada módulo é possível aceder aos restantes bastando para isso clicar no logotipo da aplicação, no canto superior esquerdo, e seleccionar o módulo para onde se deseja transitar, tal como ilustrado na [](#figMudaModulo).
+Dentro de cada módulo é possível aceder aos restantes bastando para isso clicar no logotipo da aplicação, no canto superior esquerdo, e selecionar o módulo para onde se deseja transitar, tal como ilustrado na [](#figMudaModulo).
 
 ![figMudaModulo](img/pages/4_1_4.jpg)
 
