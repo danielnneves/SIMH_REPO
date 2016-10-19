@@ -40,4 +40,4 @@ Link do [Repositório](http://192.168.4.237:8081/nexus/ "Nexus").
 
 Link da ferramenta de [Integração Contínua](http://192.168.4.237:8080 "Jenkins").
 
-![SPMS](https://simhspms.github.io/SIMH_REPO/img/spmsLogo.jpg)
+![SPMS](https://simhspms.github.io/SIMH_REPO/img/spmsLogo.png)
