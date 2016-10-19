@@ -20,7 +20,7 @@ Este encontra-se organizado da seguinte forma:
 	* “Conceitos básicos”, onde se explicam os principais conceitos que suportam a aplicação, concretamente conceitos tipo “navegação" no sistema, explicando o que se entende por isso;	 
 	* “Instruções de acesso”, onde é descrito como o utilizador pode aceder ao sistema.
 	 
-- “Módulos do Sistema”, onde cada módulo principal do sistema será apresentado numa seção individual.
+- “Módulos do Sistema”, onde cada módulo principal do sistema será apresentado numa secção individual.
  
 ---
  

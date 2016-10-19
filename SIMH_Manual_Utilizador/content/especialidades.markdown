@@ -33,7 +33,7 @@ Após clicar numa dada especialidade para a qual se pretenda alterar informaçã
 
 ![figSelecaoEspecialidade](img/pages/10_1_1.jpg)
 
-<p class="caption" id="figSeleccaoEspecialidade">Seleção de uma especialidade</p>
+<p class="caption" id="figSelecaoEspecialidade">Seleção de uma especialidade</p>
 
 a opção de **Editar** torna-se disponível (ver [](#figSelecaoEspecialidade)).
 
