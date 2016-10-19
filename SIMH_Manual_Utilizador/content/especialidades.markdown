@@ -41,6 +41,6 @@ Ao clicar na mesma, o utilizador é transportado para uma página (ver [](#figEd
 
 ![figEdicaoEspecialidade](img/pages/10_1_2.jpg)
 
-<p class="caption" id="figSeleccaoEspecialidade">Edição de uma especialidade</p>
+<p class="caption" id="figEdicaoEspecialidade">Edição de uma especialidade</p>
 
 Após todas as alterações terem sido efetuadas, o utilizador deverá clicar no botão **Alterar**.
