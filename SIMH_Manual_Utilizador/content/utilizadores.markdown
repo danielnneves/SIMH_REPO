@@ -91,7 +91,7 @@ A [](#figPesquisaUtilizadores) ilustra como exemplo uma pesquisa de utilizadores
 
 ### 5.3 Edição de utilizadores
 
-Após efetuar uma pesquisa por utilizadores ([5.2. Pesquisa de utilizadores](#pesquisa-de-utilizadores)) e ao seleccionar um utilizador devolvido pela mesma ([](#figPesquisaSeleccaoUtilizadores)),
+Após efetuar uma pesquisa por utilizadores ([5.2. Pesquisa de utilizadores](#pesquisa-de-utilizadores)) e ao selecionar um utilizador devolvido pela mesma ([](#figPesquisaSeleccaoUtilizadores)),
 
 ![figPesquisaSeleccaoUtilizadores](img/pages/5_3_1.jpg)
 
@@ -99,12 +99,12 @@ Após efetuar uma pesquisa por utilizadores ([5.2. Pesquisa de utilizadores](#pe
 
 as opções seguintes opções tornam-se disponíveis:
 
-* **Editar** - Permite a edição dos dados referentes ao utilizador seleccionado;
-* **Remover** - Permite remover o utilizador seleccionado do sistema;
-* **Ativar** - Permite ativar o acesso ao sistema do utilizador de seleccionado, caso ele esteja bloqueado. Encontra-se inativa se o utilizador seleccionado já estiver ativo;
-* **Bloquear** - Bloqueia o acesso ao sistema do utilizador seleccionado, caso ele esteja ativo. Encontra-se inativa se o utilizador seleccionado já estiver bloqueado.
+* **Editar** - Permite a edição dos dados referentes ao utilizador selecionado;
+* **Remover** - Permite remover o utilizador selecionado do sistema;
+* **Ativar** - Permite ativar o acesso ao sistema do utilizador de selecionado, caso ele esteja bloqueado. Encontra-se inativa se o utilizador selecionado já estiver ativo;
+* **Bloquear** - Bloqueia o acesso ao sistema do utilizador selecionado, caso ele esteja ativo. Encontra-se inativa se o utilizador selecionado já estiver bloqueado.
 
-A [](#figEdicaoUtilizadores) ilustra como exemplo a página de edição dos dados referentes a um utilizador, após o administrador o ter seleccionado e clicado no botão **Editar**.
+A [](#figEdicaoUtilizadores) ilustra como exemplo a página de edição dos dados referentes a um utilizador, após o administrador o ter selecionado e clicado no botão **Editar**.
 
 ![figEdicaoUtilizadores](img/pages/5_3_2.jpg)
 

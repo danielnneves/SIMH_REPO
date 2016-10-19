@@ -52,7 +52,7 @@ Se a pesquisa devolver resultado, deverá clicar no botão **Adicionar** para fi
 
 ## 9.2 Desassociar médico codificador
 
-Para desassociar um médico codificador, o utilizador com perfil de administrador deve seleccionar o médico que pretende desassociar e clicar no botão **Desassociar**, tal como a [](#figDesassociaMedicoCodificador1) ilustra.
+Para desassociar um médico codificador, o utilizador com perfil de administrador deve selecionar o médico que pretende desassociar e clicar no botão **Desassociar**, tal como a [](#figDesassociaMedicoCodificador1) ilustra.
 
 ![figDesassociaMedicoCodificador1](img/pages/9_2_1.jpg)
 
@@ -66,5 +66,5 @@ Ao clicar neste botão aparecerá a página de **Remover Médico Codificador** (
 
 <p class="caption" id="figDesassociaMedicoCodificador2">Página de desassociação de médico codificador</p>
 
-Nesta página, pode-se visualizar os dados gerais do utilizador seleccionado.
+Nesta página, pode-se visualizar os dados gerais do utilizador selecionado.
 Para finalizar a operação de desassociação do médico codificador, o botão **Remover** deverá ser clicado.
