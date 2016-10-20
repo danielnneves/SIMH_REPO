@@ -135,7 +135,8 @@ Dentro de cada módulo é possível aceder aos restantes bastando para isso clic
 Na primeira vez que o utilizador acede a aplicação, aparecerá a página para alterar a sua senha ([4.2. Alteração da senha](#alterao-da-senha)).
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
-<div id="alteraPassword"></div>
+
+![alteraPassword]()
 
 ## 4.2. Alteração da senha
 
