@@ -132,21 +132,21 @@ Dentro de cada módulo é possível aceder aos restantes bastando para isso clic
 
 <p class="caption" id="figMudaModulo">Transição entre módulos</p> 
  
-Na primeira vez que o utilizador acede a aplicação, aparecerá a página para alterar a sua senha ([4.2. Alteração da senha](#alterao-da-senha)).
+Na primeira vez que o utilizador acede a aplicação, aparecerá a página para alterar a sua senha ([4.2. Alteração da senha](#alteraPassword)).
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
 ## 4.2. Alteração da senha
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página (ver [4.Conceitos Básicos](#conceitos-bsicos)). 
-Após clicar em **Alterar Password** é apresentada uma página de alteração de senha, ver [](#figAlteracaoSenha).
+Após clicar em **Alterar Password** é apresentada uma página de alteração de senha, ver [](#alteraPassword).
 
-![figAlteracaoSenha](img/pages/4_2_1.jpg)
+![alteraPassword](img/pages/4_2_1.jpg)
 
-<p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
+<p class="caption" id="alteraPassword"> Página de alteração de senha </p>
 
 O utilizador deverá preencher os seguintes campos obrigatórios:
 
-|    |  Campos Obrigatórios [](#figAlteracaoSenha)  |           
+|    |  Campos Obrigatórios [](#alteraPassword)  |           
 |----|----------------------------------------------|
 | a) |  senha utilizada atualmente            		| 
 | b) |  nova senha pretendida                 		|  
