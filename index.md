@@ -22,9 +22,9 @@ Link do [SIMH BackOffice](http://192.168.4.237:7001/SIMH_BKO/ "SIMH BKO").
 
 ### QLT
 
-Link do [SIMH](http://10.202.12.141:8080/SIMH/ "SIMH").
+Link do [SIMH](http://10.202.229.199:7003/SIMH/ "SIMH").
 
-Link do [SIMH BackOffice](http://10.202.12.141:8080/SIMH_BKO/ "SIMH BKO").
+Link do [SIMH BackOffice](http://10.202.229.199:7003/SIMH_BKO/ "SIMH BKO").
 
 ### PRD
 
