@@ -7,7 +7,7 @@ title: "Gestão de Utilizadores"
 ---
 
 # 5. Gestão de utilizadores
-<div id="gestaoUtilizadores"><a href="#gestaoUtilizadores"></a></div>
+<div id="gestaoUtilizadores"></div>
 
 Através deste módulo é possível realizar a gestão de utilizadores pertencentes a uma entidade hospitalar. 
 
@@ -29,7 +29,7 @@ Aqui, é possível realizar três ações distintas: **Criação**, **Pesquisa**
 
 
 ## 5.1 Criação de utilizadores
-<a href="#criarUtilizadores" id="criarUtilizadores"></a>
+<div id="criarUtilizadores"></div>
 
 Para criar novos utilizadores, o utilizador com perfil de administrador deve clicar no botão **Criar**, tal como a [](#figAcessoCriarUtilizadores) ilustra.
 
