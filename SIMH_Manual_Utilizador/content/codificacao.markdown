@@ -7,6 +7,7 @@ title: "Codificação de Episódios"
 ---
 
 # 6. Codificação de Episódios
+<div id="codificar"></div>
 
 Através deste módulo é possível fazer a codificação de episódios ainda não codificados de uma determinada entidade hospitalar.
 
