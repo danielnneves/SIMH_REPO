@@ -136,7 +136,7 @@ Na primeira vez que o utilizador acede a aplicação, aparecerá a página para 
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
 ## 4.2. Alteração da senha
-<div id="alteraPassword"></div>
+<a href="#alteraPassword" id="alteraPassword"></div>
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página (ver [4.Conceitos Básicos](#conceitos-bsicos)). 
 Após clicar em **Alterar Password** é apresentada uma página de alteração de senha, ver [](#figAlteraSenha).
