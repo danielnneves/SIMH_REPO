@@ -7,6 +7,7 @@ title: "Gestão de Médicos Codificadores"
 ---
 
 # 9. Médicos Codificadores
+<div id="gestaoMedicos"></div>
 
 Através deste módulo é possível realizar a gestão dos médicos codificadores referentes a uma determinada entidade hospitalar.
 
@@ -31,6 +32,7 @@ Aqui, é possível realizar duas ações distintas: **Associar** ou **Desassocia
 
 
 ## 9.1 Associar médico codificador
+<div id="criarMedico"></div>
 
 Para associar um novo médico codificador, o utilizador com perfil de administrador deve clicar no botão **Associar**, tal como a [](#figAssociaMedicoCodificador1) ilustra.
 
@@ -51,6 +53,7 @@ Nesta página, terá de colocar o nº da ordem dos médicos da pessoa que deseja
 Se a pesquisa devolver resultado, deverá clicar no botão **Adicionar** para finalizar a operação.
 
 ## 9.2 Desassociar médico codificador
+<div id="removerMedico"></div>
 
 Para desassociar um médico codificador, o utilizador com perfil de administrador deve selecionar o médico que pretende desassociar e clicar no botão **Desassociar**, tal como a [](#figDesassociaMedicoCodificador1) ilustra.
 

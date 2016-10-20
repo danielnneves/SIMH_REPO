@@ -48,6 +48,7 @@ A [](#figPesquisaPorCodificar) ilustra como exemplo uma pesquisa de episódios p
 <p class="caption" id="figPesquisaPorCodificar">Pesquisa de episódios por codificar</p>
 
 ## 6.2. Consulta de um episódio
+<div id="detalhe"></div>
 <div id="codificacao-consulta-de-episodios"></div>
 
 Após realizar a pesquisa de episódios por codificar (ver [6.1. Pesquisa de episódios por codificar](#pesquisa-de-episdios-por-codificar)), e ao selecionar um episódio, passa a ser possível a consulta do mesmo.
@@ -81,6 +82,7 @@ A informação presente na área **Identificação do Episódio** encontra-se se
 Durante a consulta de um episódio todos os campos se encontram bloqueados, não sendo possível realizar alterações ao mesmo.
 
 ## 6.3. Edição de um episódio
+<div id="codificacao"></div>
 <div id="codificacao-edicao-de-episodios"></div>
 
 Após efetuar uma pesquisa por episódios por codificar ([6.1. Pesquisa de episódios por codificar](#pesquisa-de-episdios-por-codificar)) e ao selecionar um episódio devolvido pela mesma passa a ser possível a edição do mesmo.
