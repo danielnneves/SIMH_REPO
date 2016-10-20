@@ -29,6 +29,7 @@ Aqui, é possível realizar três ações distintas: **Criação**, **Pesquisa**
 
 
 ## 5.1 Criação de utilizadores
+<div id="criarUtilizadores"></div>
 
 Para criar novos utilizadores, o utilizador com perfil de administrador deve clicar no botão **Criar**, tal como a [](#figAcessoCriarUtilizadores) ilustra.
 
@@ -91,6 +92,7 @@ A [](#figPesquisaUtilizadores) ilustra como exemplo uma pesquisa de utilizadores
 
 
 ### 5.3 Edição de utilizadores
+<div id="editarUtilizadores"></div>
 
 Após efetuar uma pesquisa por utilizadores ([5.2. Pesquisa de utilizadores](#pesquisa-de-utilizadores)) e ao selecionar um utilizador devolvido pela mesma ([](#figPesquisaSeleccaoUtilizadores)),
 

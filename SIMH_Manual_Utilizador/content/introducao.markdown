@@ -92,15 +92,15 @@ De seguida, apresenta-se como decorre a primeira interação do utilizador com a
 
 ## 4.1. Aceder ao SIMH
 
-O acesso ao SIMH é realizado através da navegação ao endereço em <http://simh.min-saude.pt/SIMH/>. Ao aceder irá surgir a página que aparece na [](#login).
+O acesso ao SIMH é realizado através da navegação ao endereço em <http://simh.min-saude.pt/SIMH/>. Ao aceder irá surgir a página que aparece na [](#figLogin).
 
-![login](img/pages/4_1_1.jpg)
+![figLogin](img/pages/4_1_1.jpg)
 
-<p class="caption" id="login">Página de acesso do SIMH </p>
+<p class="caption" id="figLogin">Página de acesso do SIMH </p>
 
 Aqui, o utilizador deve inserir as suas credenciais nos campos obrigatórios e clicar em **Avançar**.
 
-|    |  Campos Obrigatórios [](#login)  	|	           
+|    |  Campos Obrigatórios [](#figLogin)  	|	           
 |----|--------------------------------------------------|
 | a) | e-mail associado à conta na aplicação  			|
 | b) | password								  			| 
@@ -120,11 +120,11 @@ De seguida, deverá preencher os campos obrigatórios do formulário e clicar em
 
 Irá ser enviado um e-mail para o e-mail escolhido, com instruções de recuperação de acesso à conta.
 
-Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do *SIMH* ([](#homepage)), onde este pode aceder às funcionalidades que lhe estão disponíveis.
+Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do *SIMH* ([](#figPaginaEntrada)), onde este pode aceder às funcionalidades que lhe estão disponíveis.
 
-![homepage](img/pages/4_1_3.jpg)
+![figPaginaEntrada](img/pages/4_1_3.jpg)
 
-<p class="caption" id="homepage"> Página de entrada no SIMH </p>
+<p class="caption" id="figPaginaEntrada"> Página de entrada no SIMH </p>
  
 Dentro de cada módulo é possível aceder aos restantes bastando para isso clicar no logotipo da aplicação, no canto superior esquerdo, e selecionar o módulo para onde se deseja transitar, tal como ilustrado na [](#figMudaModulo).
 
@@ -132,21 +132,22 @@ Dentro de cada módulo é possível aceder aos restantes bastando para isso clic
 
 <p class="caption" id="figMudaModulo">Transição entre módulos</p> 
  
-Na primeira vez que o utilizador acede a aplicação, aparecerá a página para alterar a sua senha ([4.2. Alteração da senha](#alteraPassword)).
+Na primeira vez que o utilizador acede a aplicação, aparecerá a página para alterar a sua senha ([4.2. Alteração da senha](#alterao-da-senha)).
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
 ## 4.2. Alteração da senha
+<div id="alteraPassword"></div>
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página (ver [4.Conceitos Básicos](#conceitos-bsicos)). 
-Após clicar em **Alterar Password** é apresentada uma página de alteração de senha, ver [](#alteraPassword).
+Após clicar em **Alterar Password** é apresentada uma página de alteração de senha, ver [](#figAlteraSenha).
 
-![alteraPassword](img/pages/4_2_1.jpg)
+![figAlteraSenha](img/pages/4_2_1.jpg)
 
-<p class="caption" id="alteraPassword"> Página de alteração de senha </p>
+<p class="caption" id="figAlteraSenha"> Página de alteração de senha </p>
 
 O utilizador deverá preencher os seguintes campos obrigatórios:
 
-|    |  Campos Obrigatórios [](#alteraPassword)  |           
+|    |  Campos Obrigatórios [](#figAlteraSenha)  |           
 |----|----------------------------------------------|
 | a) |  senha utilizada atualmente            		| 
 | b) |  nova senha pretendida                 		|  
