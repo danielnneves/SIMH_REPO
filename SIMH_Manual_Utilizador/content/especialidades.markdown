@@ -7,7 +7,6 @@ title: "Gestão de Especialidades"
 ---
 
 # 10. Gestão de especialidades
-<div id="gestaoEspecialidades"></div>
 
 Através deste módulo é possível realizar a gestão das diversas especialidades referentes a uma determinada entidade hospitalar.
 
@@ -29,7 +28,6 @@ Aqui, é possível realizar uma ação: **Editar** a informação relativa às d
 
 
 ## 10.1 Edição de especialidades
-<div id="editarEspecialidades"></div>
 
 Após clicar numa dada especialidade para a qual se pretenda alterar informação,
 
