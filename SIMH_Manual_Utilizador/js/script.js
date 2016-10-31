@@ -32,12 +32,11 @@ $('tr').each(function(){
  function zommClickImagem() {
 	 $('#paginas p>img:not([alt="logo"])').each(function(){
 		 var alt = $(this).attr("alt")
-		 if(alt != "figLogin" && alt != "figLoginRecuperacao" &&
-			alt != "figMudaModulo" &&
-			alt != "figAcessoGestaoUtilizadores" && alt != "figAcessoCodificacaoEpisodios" && 
-			alt != "figSimuladorCodificacao" && alt != "figAcessoSimuladorAgrupamento" && 
-			alt != "figAcessoMedicosCodificadores" && alt != "figAcessoGestaoEspecialidades")
-		 $(this).wrap("<a class='imagem' href='"+$(this).attr( "src" ) + "' onclick='return hs.expand(this)'></a>"); 
+		 var exclusions = ["figLogin","figLoginRecuperacao","figMudaModulo","figAcessoGestaoUtilizadores",
+						   "figAcessoCodificacaoEpisodios","figAcessoSimuladores","figAcessoMedicosCodificadores",
+						   "figAcessoGestaoEspecialidades"];
+		 if($.inArray(alt, exclusions) == -1)
+			$(this).wrap("<a class='imagem' href='"+$(this).attr( "src" ) + "' onclick='return hs.expand(this)'></a>"); 
 });
 }
 
