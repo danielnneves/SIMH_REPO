@@ -35,9 +35,7 @@ Esta página é composta por 5 áreas principais:
 * **Tabelas de diagnósticos e de Procedimentos** - Nesta área é possível visualizar os diagnósticos e procedimentos que vão sendo adicionados ao episódio nas suas tabelas respetivas, que inicialmente começam vazias.
 ![figSimuladoresTabelasVazias](img/pages/7_5.jpg)
 
-À medida que vão sendo escolhidos e adicionados diagnósticos e procedimentos a cada tabela, passa a ser possível realizar um conjunto de operações adicional sobre cada registo adicionado.
-
-Tomando como exemplo a seguinte imagem,
+À medida que vão sendo escolhidos e adicionados diagnósticos e procedimentos a cada tabela, passa a ser possível realizar um conjunto de operações adicionais sobre cada registo adicionado. Tomando como exemplo a seguinte imagem,
 ![figSimuladoresTabelasPreenchidas](img/pages/7_6.jpg)
 verifica-se que os códigos adicionados podem ser removidos ao clicar em ![logo](img/remover.jpg) ou reposicionados, usando para isso a opção ![logo](img/subir.jpg) para mover o código para cima ou a opção ![logo](img/descer.jpg) para mover o código para baixo, na sua tabela respetiva.
 
