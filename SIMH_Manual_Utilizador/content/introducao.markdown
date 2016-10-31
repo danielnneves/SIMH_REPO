@@ -38,6 +38,9 @@ A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
 |  ICD9CM  |  International Classification of Diseases 9th revision Clinical modification 	|
 | ICD10CM  |  International Classification of Diseases 10th revision Clinical modification 	|
 | ICD10PCS |  ICD-10 Procedure Coding System          										|
+| APR-DRG  |  All Patient Refined Diagnosis Related Groups									|
+|  AP 27   |  GDH All Patient Refined Diagnosis Related Groups, versão 27					|
+|  AP 21   |  GDH All Patient Refined Diagnosis Related Groups, versão 21					|
 |  SI      |  Sistema de Informação															|           
 
 ---
