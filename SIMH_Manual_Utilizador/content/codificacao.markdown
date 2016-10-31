@@ -33,15 +33,20 @@ Na pesquisa de episódios por codificar, um utilizador deve preencher obrigatori
 * **Nº Processo** - Número de processo associado aos episódios a pesquisar;
 * **Nº Episódio** - Número que identifica de forma inequívoca o episódio na entidade hospitalar do utilizador;
 * **Nº Utente** - Número de utente de saúde do doente associado aos episódios a pesquisar;
+* **Médico Codificador** - Médico codificador associado aos episódios a pesquisar;
 * **Data de alta de** - Permite a pesquisa de episódios em que o doente teve data de alta a partir da data aqui definida;
 * **até** - Permite a pesquisa de episódios em que o doente teve data de alta até a data aqui definida;
-* **Especialidade** - Especialidade médica associada aos episódios a pesquisar.
+* **Especialidade** - Permite a pesquisa de episódios em que o utente tenha passado pela especialidade médica aqui definida;
+* **Serviço** - Permite a pesquisa de episódios em que o utente tenha passado pelo serviço aqui definido;
+* **Estado** - Estado associado ao episódio a pesquisar;
+* **Módulo** - Módulo associado ao episódio a pesquisar.
+
 
 De seguida deve clicar no botão **Pesquisar**.
 
 A pesquisa realizada apenas devolve episódios relativos à entidade hospitalar do utilizador que efetuou a pesquisa.
 
-A [](#figPesquisaPorCodificar) ilustra como exemplo uma pesquisa de episódios por codificar efetuada por um utilizador.
+A [](#figPesquisaPorCodificar) ilustra como exemplo uma pesquisa de episódios no estado ´Por Codificar efetuada´ por um utilizador.
 
 ![figPesquisaPorCodificar](img/pages/6_1_1.jpg)
 
