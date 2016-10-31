@@ -44,14 +44,13 @@ function getDiagOptions(diagKey) {
 
 /** Carrega as opcoes disponiveis* */
 function buildOptions(filter) {
-
-	diagnosticoSelect;
 	$('#lista_diag').empty();
 	/** se estiver algum diagnostico seleccionado* */
 	if (diagnosticoSelect) {
 		/**valida se tem opoes identificadores genericos para todos os codigos**/
+		var opcoesGenericas;
 		if(diagnosticoSelect.sevenChrDef){
-			sevenChrDef = diagnosticoSelect.sevenChrDef.extension;
+			opcoesGenericas = diagnosticoSelect.sevenChrDef.extension;
 		}
 		var option = '';
 
@@ -60,7 +59,7 @@ function buildOptions(filter) {
 		option += '<div class="capitulo" aria-expanded="true" data-toggle="collapse" data-target="#subList' + diagnosticoSelect.name.split('.').join("") + '">';
 		option += '<strong>' + diagnosticoSelect.name.split('.').join("") + '</strong> ' + diagnosticoSelect.desc + '</div>';
 		option += '<ul id="subList' + diagnosticoSelect.name + '" class="collapse in" style="margin-top: 5px;">';
-		option += buildSubOptions(diagnosticoSelect.diag, filter,sevenChrDef);
+		option += buildSubOptions(diagnosticoSelect.diag, filter,opcoesGenericas);
 		option += '</ul>'
 		option += '</li>'
 
@@ -69,22 +68,25 @@ function buildOptions(filter) {
 }
 
 /** Carrega as sub opcoes disponiveis* */
-function buildSubOptions(diagnostic, filter, extension) {
-
+function buildSubOptions(diagnostic, filter, opcoesGenericas) {
+	/**passa as opcoes genericas para as especificas**/
+	var opcoesEspecificas;
+	if ($.isArray(opcoesGenericas)) {
+		opcoesEspecificas = opcoesGenericas;
+	}
 	var option = '';
 	if ($.isArray(diagnostic)) {
 		$.each(diagnostic, function(i, v) {
 			/** Se tiver sub diagnosticos* */
 			if ($.isArray(v.diag)) {
-				var sevenChrDef = extension;
 				/**valida se tem opoes identificadores especificos para o sub grupo**/
 				if(diagnostic.sevenChrDef){
-					sevenChrDef = diagnostic.sevenChrDef.extension;
+					opcoesEspecificas = diagnostic.sevenChrDef.extension;
 				}
 				var childs = '';
 				/** vai a procura dos codigos finais* */
 				$.each(v.diag, function(w, q) {
-					childs += buildSubOptions(q, filter, sevenChrDef);
+					childs += buildSubOptions(q, filter, opcoesEspecificas);
 				});
 				/** Se existirem adiciona o nome do grupo tambem* */
 				if (childs.length > 0) {
@@ -94,22 +96,21 @@ function buildSubOptions(diagnostic, filter, extension) {
 			} else {
 				/** Se nao tiver sub opcoes adiciona como codigo final* */
 				if (v.name.indexOf(filter) == 0) {
-					option += buildHtmlDiagnostic(v,extension);
+					option += buildHtmlDiagnostic(v,opcoesEspecificas);
 				}
 			}
 		});
 	} else {
 		/** Se tiver sub diagnosticos* */
 		if ($.isArray(diagnostic.diag)) {
-			var sevenChrDef = extension;
 			/**valida se tem opoes identificadores especificos para o sub grupo**/
 			if(diagnostic.sevenChrDef){
-				sevenChrDef = diagnostic.sevenChrDef.extension;
+				opcoesEspecificas = diagnostic.sevenChrDef.extension;
 			}			
 			var childs = '';
 			/** Se tiver sub diagnosticos* */
 			$.each(diagnostic.diag, function(w, q) {
-				childs += buildSubOptions(q, filter,sevenChrDef);
+				childs += buildSubOptions(q, filter,opcoesEspecificas);
 			});
 			/** Se existirem adiciona o nome do grupo tambem* */
 			if (childs.length > 0) {
@@ -119,7 +120,7 @@ function buildSubOptions(diagnostic, filter, extension) {
 		} else {
 			/** Se nao tiver sub opcoes adiciona como codigo final* */
 			if (diagnostic.name.indexOf(filter) == 0) {
-				option += buildHtmlDiagnostic(diagnostic,extension);
+				option += buildHtmlDiagnostic(diagnostic,opcoesEspecificas);
 			}
 		}
 	}
@@ -141,13 +142,13 @@ function buildHtmlGroupDiagnostic(diagnostic, childs) {
 }
 
 /** Cria o HTML para um codigo de diagnostico* */
-function buildHtmlDiagnostic(diagnostic,extension) {
+function buildHtmlDiagnostic(diagnostic,opcoes) {
 	var diag = "'" + diagnostic.name.split('.').join("") + "'";
 	var option = '';
 	/**valida se tem opoes para cada codigo, iteras e define o diagnostico como grupo**/
-	if ($.isArray(extension)) {
+	if ($.isArray(opcoes)) {
 		/** vai a procura dos extension* */
-		$.each(extension, function(w, q) {
+		$.each(opcoes, function(w, q) {
 			option += '<li>';
 			option += '<span onclick="addDiagnosticToTable(' + diag + q._char +');" class="fa fa-arrow-right iconAdd" style="margin-left:10px;">';
 			option += '<span class="option" style="margin-left:7px;color:#555555"><strong>' + diagnostic.name + q._char + '</strong> ' + diagnostic.desc +' '+ q.__text +'</span></span>';
