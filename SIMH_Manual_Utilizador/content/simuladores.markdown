@@ -39,7 +39,7 @@ Esta página é composta por 5 áreas principais:
 ![figSimuladoresTabelasPreenchidas](img/pages/7_6.jpg)
 verifica-se que os códigos adicionados podem ser removidos ao clicar em ![logo](img/remover.jpg) ou reposicionados, usando para isso a opção ![logo](img/subir.jpg) para mover o código para cima ou a opção ![logo](img/descer.jpg) para mover o código para baixo, na sua tabela respetiva.
 
-* **Diagnósticos** - Nesta área é possível consultar os códigos de diagnósticos disponíveis em ICD-10 e adicioná-los à tabela de diagnósticos.
+* **Diagnósticos** - Nesta área é possível consultar os códigos de diagnósticos disponíveis segundo a versão de ICD escolhida e adicioná-los à tabela de diagnósticos.
 
 ![figSimuladoresDiagnosticosVazio](img/pages/7_7.jpg)
 
@@ -50,7 +50,7 @@ Seguidamente, no **Detalhe do Índice** deve-se pesquisar pelo código final de 
 Nessa zona, passa a ser possível a adição desse código ![logo](img/step3.jpg) à tabela de diagnósticos.
 ![figSimuladoresDiagnosticosTabelaDiagnostico](img/pages/7_9.jpg)
 
-* **Procedimentos** - Nesta área é possível consultar os códigos de procedimentos disponíveis em ICD-10 e adicioná-los à tabela de procedimentos. 
+* **Procedimentos** - Nesta área é possível consultar os códigos de procedimentos disponíveis segundo a versão de ICD escolhida e adicioná-los à tabela de procedimentos. 
 
 ![figSimuladoresProcedimentosVazio](img/pages/7_10.jpg)
 
