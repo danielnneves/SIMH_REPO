@@ -46,7 +46,7 @@ De seguida deve clicar no botão **Pesquisar**.
 
 A pesquisa realizada apenas devolve episódios relativos à entidade hospitalar do utilizador que efetuou a pesquisa.
 
-A [](#figPesquisaPorCodificar) ilustra como exemplo uma pesquisa de episódios no estado ´Por Codificar´ efetuada por um utilizador.
+A [](#figPesquisaPorCodificar) ilustra como exemplo uma pesquisa de episódios no estado ´Por Codificar´ e módulo ´Internamento´ efetuada por um utilizador.
 
 ![figPesquisaPorCodificar](img/pages/6_1_1.jpg)
 
