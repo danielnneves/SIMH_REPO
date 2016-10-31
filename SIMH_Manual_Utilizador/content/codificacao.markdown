@@ -50,7 +50,7 @@ A [](#figPesquisaPorCodificar) ilustra como exemplo uma pesquisa de episódios n
 
 ![figPesquisaPorCodificar](img/pages/6_1_1.jpg)
 
-<p class="caption" id="figPesquisaPorCodificar">Pesquisa de episódios por codificar</p>
+<p class="caption" id="figPesquisaPorCodificar">Pesquisa de episódios por codificar e do módulo internamento</p>
 
 ## 6.2. Consulta de um episódio
 <div id="detalhe"></div>
