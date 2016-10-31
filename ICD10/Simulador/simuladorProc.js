@@ -68,18 +68,18 @@ function buildSectionOptions(){
     });
 	var option = '';
 	for(var index in obj){
-	   option += '<li data-mode="checkbox" data-name="c1">';
-	   option += '<label>';
-	   option += '<input id="'+index+'" value="'+obj[index].value+'" type="checkbox">';
-	   option += '</label>';
-	   option += '<span class="leaf"> '+obj[index].value+' - '+obj[index].label+'</span>';
-	   option += '</li>'
+		option += '<li data-mode="checkbox" data-name="c1">';
+		option += '<div class="checkbox checkbox-primary">';
+		option += '<input id="'+posSection+index+'" value="'+obj[index].value+'" type="checkbox">';
+		option += '<label for="'+posSection+index+'"> '+obj[index].value+' - '+obj[index].label+'</label>';
+		option += '<div/>';
+		option += '</li>'
 	}
 	$('#'+listSection).append(option);
 	
 	/**Atualiza o seleccionado e as restantes listas**/
-	$('#'+listSection+' li label').children(" input:checkbox").on('change', function() {
-		$('#'+listSection+' li label').children(" input:checkbox").not(this).prop('checked', false);  
+	$('#'+listSection+' li div').children(" input:checkbox").on('change', function() {
+		$('#'+listSection+' li div').children(" input:checkbox").not(this).prop('checked', false);  
 		$("#"+listBodySystem+"").empty();
 		$("#"+listOperation+"").empty();
 		$("#"+listBodyPart+"").empty();
@@ -121,17 +121,17 @@ function buildBodySystemOptions(sectionValue){
 	var option = '';
 	for(var index in obj){
 	   option += '<li data-mode="checkbox" data-name="c1">';
-	   option += '<label>';
-	   option += '<input id="'+index+'" value="'+obj[index].value+'" type="checkbox">';
-	   option += '</label>';
-	   option += '<span class="leaf"> '+obj[index].value+' - '+obj[index].label+'</span>';
+	   option += '<div class="checkbox checkbox-primary">';
+	   option += '<input id="'+posBodySystem+index+'" value="'+obj[index].value+'" type="checkbox">';
+	   option += '<label for="'+posBodySystem+index+'"> '+obj[index].value+' - '+obj[index].label+'</label>';
+	   option += '<div/>';
 	   option += '</li>'
 	}
 	$('#'+listBodySystem).append(option);
 	
 	/**Garante que so um esta selecionado e atualiza o seguinte**/
-	$('#'+listBodySystem+' li label').children(" input:checkbox").on('change', function() {
-		$('#'+listBodySystem+' li label').children(" input:checkbox").not(this).prop('checked', false);  
+	$('#'+listBodySystem+' li div').children(" input:checkbox").on('change', function() {
+		$('#'+listBodySystem+' li div').children(" input:checkbox").not(this).prop('checked', false);  
 		$("#"+listOperation+"").empty();
 		$("#"+listBodyPart+"").empty();
 		$("#"+listApproach+"").empty();
@@ -164,6 +164,9 @@ function buildOperationOptions(sectionValue,bodySystemValue){
 			code = {}
 			code ["value"] = v.axis[axisOperation].label._code;
 			code ["label"] = v.axis[axisOperation].label.__text;
+			if(v.axis[axisOperation].definition){
+				code ["definition"] = v.axis[axisOperation].definition;
+			}
 			obj[i] = code;
 			control.push(v.axis[axisOperation].label._code);
 		}
@@ -172,17 +175,21 @@ function buildOperationOptions(sectionValue,bodySystemValue){
 	var option = '';
 	for(var index in obj){
 	   option += '<li data-mode="checkbox" data-name="c1">';
-	   option += '<label>';
-	   option += '<input id="'+index+'" value="'+obj[index].value+'" type="checkbox">';
-	   option += '</label>';
-	   option += '<span class="leaf"> '+obj[index].value+' - '+obj[index].label+'</span>';
+	   option += '<div class="checkbox checkbox-primary">';
+	   option += '<input id="'+posOperation+index+'" value="'+obj[index].value+'" type="checkbox">';
+	   option += '<label for="'+posOperation+index+'"';
+	    if(obj[index].definition){
+		  option += ' title="'+obj[index].definition+'"'; 
+	   }
+	   option += '"> '+ obj[index].value+' - '+obj[index].label+'</label>';
+	   option += '<div/>';
 	   option += '</li>'
 	}
 	$('#'+listOperation).append(option);
 	
 	/**Garante que so um esta selecionado e atualiza o seguinte**/
-	$('#'+listOperation+' li label').children(" input:checkbox").on('change', function() {
-		$('#'+listOperation+' li label').children(" input:checkbox").not(this).prop('checked', false);  
+	$('#'+listOperation+' li div').children(" input:checkbox").on('change', function() {
+		$('#'+listOperation+' li div').children(" input:checkbox").not(this).prop('checked', false);  
 		$("#"+listBodyPart+"").empty();
 		$("#"+listApproach+"").empty();
 		$("#"+listDevice+"").empty();
@@ -262,18 +269,18 @@ function buildBodyPartOptions(sectionValue,bodySystemValue,operationValue){
 	/**Adiciona o HTML a variavel*/
 	for(var index in obj){
 	   option += '<li data-mode="checkbox" data-name="c1">';
-	   option += '<label>';
-	   option += '<input id="'+index+'" value="'+obj[index].value+'" type="checkbox">';
-	   option += '</label>';
-	   option += '<span class="leaf"> '+obj[index].value+' - '+obj[index].label+'</span>';
+	   option += '<div class="checkbox checkbox-primary">';
+	   option += '<input id="'+posBodyPart+index+'" value="'+obj[index].value+'" type="checkbox">';
+	   option += '<label for="'+posBodyPart+index+'"> '+obj[index].value+' - '+obj[index].label+'</label>';
+	   option += '<div/>';
 	   option += '</li>'
 	}
 	/**Adiciona o HTML a pagina*/
 	$('#'+listBodyPart).append(option);
 	
 	/**Garante que so um esta selecionado e atualiza o seguinte**/
-	$('#'+listBodyPart+' li label').children(" input:checkbox").on('change', function() {
-		$('#'+listBodyPart+' li label').children(" input:checkbox").not(this).prop('checked', false);
+	$('#'+listBodyPart+' li div').children(" input:checkbox").on('change', function() {
+		$('#'+listBodyPart+' li div').children(" input:checkbox").not(this).prop('checked', false);
 		$("#"+listApproach+"").empty();
 		$("#"+listDevice+"").empty();
 		$("#"+listQualifier+"").empty();
@@ -357,18 +364,18 @@ function buildApproachOptions(sectionValue,bodySystemValue,operationValue,bodyPa
 	/**Adiciona o HTML a variavel*/
 	for(var index in obj){
 	   option += '<li data-mode="checkbox" data-name="c1">';
-	   option += '<label>';
-	   option += '<input id="'+index+'" value="'+obj[index].value+'" type="checkbox">';
-	   option += '</label>';
-	   option += '<span class="leaf"> '+obj[index].value+' - '+obj[index].label+'</span>';
+	   option += '<div class="checkbox checkbox-primary">';
+	   option += '<input id="'+posApproach+index+'" value="'+obj[index].value+'" type="checkbox">';
+	   option += '<label for="'+posApproach+index+'"> '+obj[index].value+' - '+obj[index].label+'</label>';
+	   option += '<div/>';
 	   option += '</li>'
 	}
 	/**Adiciona o HTML a pagina*/
 	$('#'+listApproach).append(option);
 	
 	/**Garante que so um esta selecionado e atualiza o seguinte**/
-	$('#'+listApproach+' li label').children(" input:checkbox").on('change', function() {
-		$('#'+listApproach+' li label').children(" input:checkbox").not(this).prop('checked', false); 	
+	$('#'+listApproach+' li div').children(" input:checkbox").on('change', function() {
+		$('#'+listApproach+' li div').children(" input:checkbox").not(this).prop('checked', false); 	
 		$("#"+listDevice+"").empty();
 		$("#"+listQualifier+"").empty();
 		$('#'+codeApproach).val('');
@@ -452,18 +459,18 @@ function buildDeviceOptions(sectionValue,bodySystemValue,operationValue,bodyPart
 	/**Adiciona o HTML a variavel*/
 	for(var index in obj){
 	   option += '<li data-mode="checkbox" data-name="c1">';
-	   option += '<label>';
-	   option += '<input id="'+index+'" value="'+obj[index].value+'" type="checkbox">';
-	   option += '</label>';
-	   option += '<span class="leaf"> '+obj[index].value+' - '+obj[index].label+'</span>';
+	   option += '<div class="checkbox checkbox-primary">';
+	   option += '<input id="'+posDevice+index+'" value="'+obj[index].value+'" type="checkbox">';
+	   option += '<label for="'+posDevice+index+'"> '+obj[index].value+' - '+obj[index].label+'</label>';
+	   option += '<div/>';
 	   option += '</li>'
 	}
 	/**Adiciona o HTML a pagina*/
 	$('#'+listDevice).append(option);
 	
 	/**Garante que so um esta selecionado e atualiza o seguinte**/
-	$('#'+listDevice+' li label').children(" input:checkbox").on('change', function() {
-		$('#'+listDevice+' li label').children(" input:checkbox").not(this).prop('checked', false);
+	$('#'+listDevice+' li div').children(" input:checkbox").on('change', function() {
+		$('#'+listDevice+' li div').children(" input:checkbox").not(this).prop('checked', false);
 		$("#"+listQualifier+"").empty();
 		$('#'+codeDevice).val('');
 		$('#'+codeQualifier).val('');
@@ -547,10 +554,10 @@ function buildQualifierOptions(sectionValue,bodySystemValue,operationValue,bodyP
 	/**Adiciona o HTML a variavel*/
 	for(var index in obj){
 	   option += '<li data-mode="checkbox" data-name="c1">';
-	   option += '<label>';
-	   option += '<input id="'+index+'" value="'+obj[index].value+'" type="checkbox">';
-	   option += '</label>';
-	   option += '<span class="leaf"> '+obj[index].value+' - '+obj[index].label+'</span>';
+	   option += '<div class="checkbox checkbox-primary">';
+	   option += '<input id="'+posQualifier+index+'" value="'+obj[index].value+'" type="checkbox">';
+	   option += '<label for="'+posQualifier+index+'"> '+obj[index].value+' - '+obj[index].label+'</label>';
+	   option += '<div/>';
 	   option += '</li>'
 	}
 	
@@ -558,8 +565,8 @@ function buildQualifierOptions(sectionValue,bodySystemValue,operationValue,bodyP
 	$('#'+listQualifier).append(option);
 	
 	/**Garante que so um esta selecionado e atualiza o seguinte**/
-	$('#'+listQualifier+' li label').children(" input:checkbox").on('change', function() {
-		$('#'+listQualifier+' li label').children(" input:checkbox").not(this).prop('checked', false); 
+	$('#'+listQualifier+' li div').children(" input:checkbox").on('change', function() {
+		$('#'+listQualifier+' li div').children(" input:checkbox").not(this).prop('checked', false); 
 		$('#'+descricaoProc).text('');
 		$('#'+addProc).attr('onclick', '');
 		if(this.checked) {
