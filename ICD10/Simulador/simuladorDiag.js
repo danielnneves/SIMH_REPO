@@ -1,6 +1,3 @@
-$( document ).ready(function() {
-    $("[id='optionFolha de codaficação Internamento']").attr("href", "http://rawgit.com/SIMHSPMS/SIMH_REPO/master/pdf/FolhaCod_ICD10_Int.pdf");
-});
 var diagnosticoSelect;
 
 var chapters;
@@ -16,23 +13,24 @@ function getDiagOptions(diagKey) {
 	var obj = {};
 	/** Percorre os capitulos* */
 	$.each(chapters, function(i, v) {
-		/** variavel com as seccoes do capitulo* */
+		/** variavel com as seccoes do capitulo**/
 		var sections = v.section;
 		/** Percorre as seccoes* */
 		$.each(sections, function(w, q) {
-			/** variavel com os diagnosticos* */
+			/** variavel com os diagnosticos**/
 			var diagnostics = q.diag;
-			/** Se tiver varias opcoes iteras* */
+			/** Se tiver varias opcoes iteras**/
 			if ($.isArray(diagnostics)) {
 				for ( var index in diagnostics) {
-					var xpto = diagnostics[index];
 					if (diagnostics[index].name == diagKey) {
+						/**diagnostico selecionado (os 3 primeiros digitos)**/
 						diagnosticoSelect = diagnostics[index];
 						return false;
 					}
 				}
 			} else {
 				if (diagnostics && diagnostics.name == diagKey) {
+					/**diagnostico selecionado (os 3 primeiros digitos)**/
 					diagnosticoSelect = diagnostics;
 					return false;
 				}
@@ -46,11 +44,14 @@ function getDiagOptions(diagKey) {
 
 /** Carrega as opcoes disponiveis* */
 function buildOptions(filter) {
-
-	diagnosticoSelect;
 	$('#lista_diag').empty();
 	/** se estiver algum diagnostico seleccionado* */
 	if (diagnosticoSelect) {
+		/**valida se tem opoes identificadores genericos para todos os codigos**/
+		var opcoesGenericas;
+		if(diagnosticoSelect.sevenChrDef){
+			opcoesGenericas = diagnosticoSelect.sevenChrDef.extension;
+		}
 		var option = '';
 
 		/** Adiciona o diagnostico principal* */
@@ -58,7 +59,7 @@ function buildOptions(filter) {
 		option += '<div class="capitulo" aria-expanded="true" data-toggle="collapse" data-target="#subList' + diagnosticoSelect.name.split('.').join("") + '">';
 		option += '<strong>' + diagnosticoSelect.name.split('.').join("") + '</strong> ' + diagnosticoSelect.desc + '</div>';
 		option += '<ul id="subList' + diagnosticoSelect.name + '" class="collapse in" style="margin-top: 5px;">';
-		option += buildSubOptions(diagnosticoSelect.diag, filter);
+		option += buildSubOptions(diagnosticoSelect.diag, filter,opcoesGenericas);
 		option += '</ul>'
 		option += '</li>'
 
@@ -67,17 +68,25 @@ function buildOptions(filter) {
 }
 
 /** Carrega as sub opcoes disponiveis* */
-function buildSubOptions(diagnostic, filter) {
-
+function buildSubOptions(diagnostic, filter, opcoesGenericas) {
+	/**passa as opcoes genericas para as especificas**/
+	var opcoesEspecificas;
+	if ($.isArray(opcoesGenericas)) {
+		opcoesEspecificas = opcoesGenericas;
+	}
 	var option = '';
 	if ($.isArray(diagnostic)) {
 		$.each(diagnostic, function(i, v) {
 			/** Se tiver sub diagnosticos* */
 			if ($.isArray(v.diag)) {
+				/**valida se tem opoes identificadores especificos para o sub grupo**/
+				if(diagnostic.sevenChrDef){
+					opcoesEspecificas = diagnostic.sevenChrDef.extension;
+				}
 				var childs = '';
 				/** vai a procura dos codigos finais* */
 				$.each(v.diag, function(w, q) {
-					childs += buildSubOptions(q, filter);
+					childs += buildSubOptions(q, filter, opcoesEspecificas);
 				});
 				/** Se existirem adiciona o nome do grupo tambem* */
 				if (childs.length > 0) {
@@ -87,17 +96,21 @@ function buildSubOptions(diagnostic, filter) {
 			} else {
 				/** Se nao tiver sub opcoes adiciona como codigo final* */
 				if (v.name.indexOf(filter) == 0) {
-					option += buildHtmlDiagnostic(v);
+					option += buildHtmlDiagnostic(v,opcoesEspecificas);
 				}
 			}
 		});
 	} else {
 		/** Se tiver sub diagnosticos* */
 		if ($.isArray(diagnostic.diag)) {
+			/**valida se tem opoes identificadores especificos para o sub grupo**/
+			if(diagnostic.sevenChrDef){
+				opcoesEspecificas = diagnostic.sevenChrDef.extension;
+			}			
 			var childs = '';
 			/** Se tiver sub diagnosticos* */
 			$.each(diagnostic.diag, function(w, q) {
-				childs += buildSubOptions(q, filter);
+				childs += buildSubOptions(q, filter,opcoesEspecificas);
 			});
 			/** Se existirem adiciona o nome do grupo tambem* */
 			if (childs.length > 0) {
@@ -107,7 +120,7 @@ function buildSubOptions(diagnostic, filter) {
 		} else {
 			/** Se nao tiver sub opcoes adiciona como codigo final* */
 			if (diagnostic.name.indexOf(filter) == 0) {
-				option += buildHtmlDiagnostic(diagnostic);
+				option += buildHtmlDiagnostic(diagnostic,opcoesEspecificas);
 			}
 		}
 	}
@@ -129,12 +142,25 @@ function buildHtmlGroupDiagnostic(diagnostic, childs) {
 }
 
 /** Cria o HTML para um codigo de diagnostico* */
-function buildHtmlDiagnostic(diagnostic) {
+function buildHtmlDiagnostic(diagnostic,opcoes) {
 	var diag = "'" + diagnostic.name.split('.').join("") + "'";
-	var option = '<li>';
-	option += '<span onclick="addDiagnosticToTable(' + diag + ');" class="fa fa-plus iconAdd" style="margin-left:10px;"/>';
-	option += '<span class="option" style="margin-left:7px;"><strong>' + diagnostic.name + '</strong> ' + diagnostic.desc + '</span>';
-	option += '</li>';
+	var option = '';
+	/**valida se tem opoes para cada codigo, iteras e define o diagnostico como grupo**/
+	if ($.isArray(opcoes)) {
+		/** vai a procura dos extension* */
+		$.each(opcoes, function(w, q) {
+			option += '<li>';
+			option += '<span onclick="addDiagnosticToTable(' + diag + q._char +');" class="fa fa-arrow-right iconAdd" style="margin-left:10px;">';
+			option += '<span class="option" style="margin-left:7px;color:#555555"><strong>' + diagnostic.name + q._char + '</strong> ' + diagnostic.desc +' '+ q.__text +'</span></span>';
+			option += '</li>';
+		});
+		return buildHtmlGroupDiagnostic(diagnostic, option);
+	}else{
+		option += '<li>';
+		option += '<span onclick="addDiagnosticToTable(' + diag + ');" class="fa fa-arrow-right iconAdd" style="margin-left:10px;">';
+		option += '<span class="option" style="margin-left:7px;color:#555555"><strong>' + diagnostic.name + '</strong> ' + diagnostic.desc + '</span></span>';
+		option += '</li>';		
+	}		
 	return option;
 }
 
