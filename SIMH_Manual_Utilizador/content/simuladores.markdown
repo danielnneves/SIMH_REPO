@@ -9,8 +9,8 @@ title: "Simulador de Codificação"
 # 7. Simuladores
 <div id="simulador"></div>
 
-Através deste módulo é possível simular a codificação clínica e o agrupamento em GDH de um episódio em ICD-10-CM/PCS (versão 2017). 
-Este serve de suporte ao processo de codificação de um episódio (módulo [6. Codificação de Episódios](#codificao-de-episdios)).
+Através deste módulo é possível simular a codificação clínica e o agrupamento em GDH de um episódio. 
+Este serve de suporte ao processo de codificação de episódios (módulo [6. Codificação de Episódios](#codificao-de-episdios)).
 
 Para isso, o utilizador deve, a partir da página inicial, aceder ao módulo "Simuladores", tal como ilustra a [](#figAcessoSimuladores).
 
