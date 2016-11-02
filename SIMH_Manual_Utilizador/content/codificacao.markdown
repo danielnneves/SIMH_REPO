@@ -38,7 +38,7 @@ Este fluxo de estados pode ser consultado a partir da [](#figEstadosCodificacaoE
 
 Um episódio começa sempre no estado **Por Codificar**. A única forma de o colocar disponível para faturação, é ao transitá-lo para o estado **Finalizado**.
 Para que transite para este estado, o episódio deve primeiro sofrer agrupamento GDH. Um episódio pode, adicionalmente, ser guardado em rascunho ou ser auditado. Caso o utilizador esteja à procura de uma visão mais completa e abrangente do fluxo de estados e ações associado a um episódio,
-pode sempre consultar o [diagrama completo](img/episodio_estados_accoes_detalhe.png).
+pode sempre consultar o seguinte [diagrama](img/episodio_estados_accoes_detalhe.png).
 
 ## 6.1. Pesquisa de episódios por codificar
 <div id="codificacao-pesquisa-de-episodios"></div>
@@ -150,8 +150,11 @@ No caso do episódio pertencer ao módulo de internamento (tal como ocorre com o
 ![figRegistoCodificacaoEpisodios1](img/pages/6_3_7.jpg)
 Para adicionar um novo diagnóstico a esta tabela, terá de se indicar o PNA correspondente.
 
-Nesta última secção, podem ser realizadas três ações distintas:  
+Nesta última secção, podem ser realizadas três ações distintas: 
+
 * **Rascunho** - Permite gravar a folha de codificação com o estado de rascunho;
+
 * **Auditar** - Permite gravar a folha de codificação com o estado de auditoria;
+
 * **Finalizar** - Permite gravar a folha de codificação com o estado de finalizado, de forma a este episódio poder ser faturado.
 
