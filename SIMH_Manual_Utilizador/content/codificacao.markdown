@@ -26,20 +26,21 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 Aqui, é possível realizar três ações distintas: **Pesquisa**, **Consulta** ou **Edição** de episódios.
 
 ## 6.0. Processo de Codificação
+<div id="processo-codificacao"></div>
 
 Antes de dar a conhecer as diferentes ações possíveis a realizar na aplicação sobre os episódios, será introduzido ao utilizar os estados e ações passíveis de realizar sobre um episódio durante a sua existência.
  
 Este fluxo de estados pode ser consultado a partir da [](#figEstadosCodificacaoEpisodio).
 
-![figEstadosCodificacaoEpisodio](img/episodio_estados_accoes.jpg)
+![figEstadosCodificacaoEpisodio](img/episodio_estados_accoes.png)
 
-<p class="caption" id="figEstadosCodificacaoEpisodio">Ciclo de vida e operações sobre um episódio</p>
+<p class="caption" id="figEstadosCodificacaoEpisodio">Fluxo de estados e operações sobre um episódio</p>
 
 Um episódio começa sempre no estado **Por Codificar**. A única forma de o colocar disponível para faturação, é ao transitá-lo para o estado **Finalizado**.
 Para que transite para este estado, o episódio deve primeiro sofrer agrupamento GDH. Um episódio pode, adicionalmente, ser guardado em rascunho ou ser auditado.
 
 Caso o utilizador esteja à procura de uma visão mais completa e abrangente do fluxo de estados e ações associado a um episódio,
-pode consultar o [diagrama completo](img/episodio_estados_accoes_detalhe.jpg).
+pode consultar o [diagrama completo](img/episodio_estados_accoes_detalhe.png).
 
 ## 6.1. Pesquisa de episódios por codificar
 <div id="codificacao-pesquisa-de-episodios"></div>
