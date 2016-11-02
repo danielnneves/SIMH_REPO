@@ -9,7 +9,7 @@ title: "Codificação de Episódios"
 # 6. Codificação do Episódio
 <div id="codificar"></div>
 
-Através deste módulo é possível fazer a codificação de episódios ainda não codificados de uma determinada entidade hospitalar.
+Através deste módulo é possível fazer a codificação de episódios de uma determinada entidade hospitalar.
 
 Para isso, o utilizador deve, a partir da página inicial, aceder ao módulo "Codificação do Episódio", tal como ilustra a [](#figAcessoCodificacaoEpisodios).
 
@@ -23,7 +23,23 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 
 <p class="caption" id="figCodificacaoEpisodios">Página de entrada do módulo Codificação do Episódio</p>
 
-Aqui, é possível realizar três ações distintas: **Pesquisa**, **Consulta** ou **Edição** de episódios. 
+Aqui, é possível realizar três ações distintas: **Pesquisa**, **Consulta** ou **Edição** de episódios.
+
+## 6.0. Processo de Codificação
+
+Antes de dar a conhecer as diferentes ações possíveis a realizar na aplicação sobre os episódios, será introduzido ao utilizar os estados e ações passíveis de realizar sobre um episódio durante a sua existência.
+ 
+Este fluxo de estados pode ser consultado a partir da [](#figEstadosCodificacaoEpisodio).
+
+![figEstadosCodificacaoEpisodio](img/episodio_estados_accoes.jpg)
+
+<p class="caption" id="figEstadosCodificacaoEpisodio">Ciclo de vida e operações sobre um episódio</p>
+
+Um episódio começa sempre no estado **Por Codificar**. A única forma de o colocar disponível para faturação, é ao transitá-lo para o estado **Finalizado**.
+Para que transite para este estado, o episódio deve primeiro sofrer agrupamento GDH. Um episódio pode, adicionalmente, ser guardado em rascunho ou ser auditado.
+
+Caso o utilizador esteja à procura de uma visão mais completa e abrangente do fluxo de estados e ações associado a um episódio,
+pode consultar o [diagrama completo](img/episodio_estados_accoes_detalhe.jpg).
 
 ## 6.1. Pesquisa de episódios por codificar
 <div id="codificacao-pesquisa-de-episodios"></div>
@@ -100,7 +116,13 @@ Ao clicar neste botão, o utilizador transita para a página de codificação do
 
 <p class="caption" id="figCodificacaoCodificacaoEpisodios">Codificação de um episódio</p>
 
-Para realizar o processo de codificação, é necessário preencher a secção de **Informação do Episódio** e a de **Registo** do episódio.
+O processo de codificação segue, essencialmente, a sequência descrita na [](#figFluxoCodificacaoEpisodio).
+
+![figFluxoCodificacaoEpisodio](img/fluxo_episodio.jpg)
+
+<p class="caption" id="figFluxoCodificacaoEpisodio">Fluxo de codificação de um episódio</p>
+
+Inicialmente, é necessário preencher a secção de **Informação do Episódio** e a de **Registo** do episódio.
 Caso o utilizador deseje simplesmente marcar o episódio como não codificável, deverá clicar no botão **Não Codificar**.
 
 Na secção de **Informação do Episódio** (ver [](#figCodificacaoInformacaoCodificacaoEpisodios)), secção onde o utilizador começa a codificação do episódio, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**, **Identificação do Doente**, **Identificação do Médico**, **Natureza da Admissão**, **Destino após Alta**, **Intervenção Cirúrgica**, **Serviços** e **Outros Dados**.
@@ -113,7 +135,7 @@ Nesta página irá estar visível o botão **Simular** para utilizadores com per
 
 ![figCodificacaoSimularCodificacaoEpisodios](img/pages/6_3_4.jpg)
 
-<p class="caption" id="figCodificacaoSimularCodificacaoEpisodios">Simular Codificação</p>
+<p class="caption" id="figCodificacaoSimularCodificacaoEpisodios">Simular de Codificação</p>
 
 Para prosseguir para a secção de **Registo** (ver [](#figRegistoCodificacaoEpisodios)) do episódio o utilizador deve premir o botão **Registar**. 
 Nesta secção, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**, **Diagnósticos**, **Procedimentos** e **Dispositivos Médicos**.
@@ -125,10 +147,12 @@ Nesta secção, é possível visualizar e editar a seguinte informação: **Iden
 Para adicionar um novo diagnóstico à tabela de diagnósticos ou um novo procedimento à tabela de procedimentos, é necessário preencher um código na caixa de código e adicioná-lo à tabela ![logo](img/pages/6_3_6.jpg).
 Quer na tabela de diagnósticos, quer na tabela de procedimentos, os códigos adicionados podem ser removidos ao clicar em ![logo](img/remover.jpg) ou reposicionados, usando para isso a opção ![logo](img/subir.jpg) para mover o código para cima ou a opção ![logo](img/descer.jpg) para mover o código para baixo.
 
-No caso do episódio pertencer ao módulo de internamento, a área de diagnósticos terá, adicionalmente, para cada diagnóstico, informação relativa ao indicador PNA (Presente na admissão):
+No caso do episódio pertencer ao módulo de internamento (tal como ocorre com o episódio de exemplo), a área de diagnósticos terá informação relativa ao indicador PNA (Presente na admissão):
 ![figRegistoCodificacaoEpisodios1](img/pages/6_3_7.jpg)
 Para adicionar um novo diagnóstico a esta tabela, terá de se indicar o PNA correspondente.
 
-Nesta última secção, e assim que a codificação do episódio estiver terminada, esta pode ser gravada premindo o botão **Gravar**.
-Também existe a possibilidade de guardar a folha de codificação como rascunho. Para isso, nesta ultima secção, o utilizador deverá clicar no botão **Guardar Rascunho**.
+Nesta última secção, podem ser realizadas três ações distintas:  
+* **Rascunho** - Permite gravar a folha de codificação com o estado de rascunho;
+* **Auditar** - Permite gravar a folha de codificação com o estado de auditoria;
+* **Finalizar** - Permite gravar a folha de codificação com o estado de finalizado, de forma a este episódio poder ser faturado.
 
