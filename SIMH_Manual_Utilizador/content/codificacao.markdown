@@ -28,7 +28,7 @@ Aqui, é possível realizar três ações distintas: **Pesquisa**, **Consulta** 
 ## 6.0. Processo de Codificação
 <div id="processo-codificacao"></div>
 
-Antes de dar a conhecer as diferentes ações possíveis a realizar na aplicação sobre os episódios, será introduzido ao utilizar os estados e ações passíveis de realizar sobre um episódio durante a sua existência.
+Antes de dar a conhecer as diferentes ações possíveis a realizar na aplicação sobre os episódios, será introduzido ao utilizador o conjunto de estados e ações passíveis de realizar sobre um episódio durante a sua existência.
  
 Este fluxo de estados pode ser consultado a partir da [](#figEstadosCodificacaoEpisodio).
 
@@ -115,7 +115,7 @@ Ao clicar neste botão, o utilizador transita para a página de codificação do
 
 <p class="caption" id="figCodificacaoCodificacaoEpisodios">Codificação de um episódio</p>
 
-O processo de codificação segue, essencialmente, a sequência descrita na [](#figFluxoCodificacaoEpisodio).
+A codificação de um episódio segue, essencialmente, a sequência descrita na [](#figFluxoCodificacaoEpisodio).
 
 ![figFluxoCodificacaoEpisodio](img/fluxo_episodio.png)
 
