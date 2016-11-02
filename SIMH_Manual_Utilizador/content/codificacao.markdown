@@ -32,7 +32,7 @@ Antes de dar a conhecer as diferentes ações possíveis a realizar na aplicaç�
  
 Este fluxo de estados pode ser consultado a partir da [](#figEstadosCodificacaoEpisodio).
 
-![figEstadosCodificacaoEpisodio](img/episodio_estados_accoes_reduzido.png)
+![figEstadosCodificacaoEpisodio](img/episodio_estados_accoes.png)
 
 <p class="caption" id="figEstadosCodificacaoEpisodio">Fluxo de estados e operações sobre um episódio</p>
 
@@ -117,7 +117,7 @@ Ao clicar neste botão, o utilizador transita para a página de codificação do
 
 O processo de codificação segue, essencialmente, a sequência descrita na [](#figFluxoCodificacaoEpisodio).
 
-![figFluxoCodificacaoEpisodio](img/fluxo_episodio.jpg)
+![figFluxoCodificacaoEpisodio](img/fluxo_episodio.png)
 
 <p class="caption" id="figFluxoCodificacaoEpisodio">Fluxo de codificação de um episódio</p>
 
