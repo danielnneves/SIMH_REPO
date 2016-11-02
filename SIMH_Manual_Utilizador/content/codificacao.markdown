@@ -19,9 +19,9 @@ Para isso, o utilizador deve, a partir da página inicial, aceder ao módulo "Co
 
 Ao aceder a este módulo, aparecerá a seguinte página:
 
-![figPorCodificar](img/pages/6_2.jpg)
+![figCodificacaoEpisodios](img/pages/6_2.jpg)
 
-<p class="caption" id="figPorCodificar">Página de entrada do módulo Codificação do Episódio</p>
+<p class="caption" id="figCodificacaoEpisodios">Página de entrada do módulo Codificação do Episódio</p>
 
 Aqui, é possível realizar três ações distintas: **Pesquisa**, **Consulta** ou **Edição** de episódios. 
 
@@ -46,39 +46,39 @@ De seguida deve clicar no botão **Pesquisar**.
 
 A pesquisa realizada apenas devolve episódios relativos à entidade hospitalar do utilizador que efetuou a pesquisa.
 
-A [](#figPesquisaPorCodificar) ilustra como exemplo uma pesquisa de episódios no estado ´Por Codificar´ e módulo ´Internamento´ efetuada por um utilizador.
+A [](#figPesquisaCodificacaoEpisodios) ilustra como exemplo uma pesquisa de episódios no estado ´Por Codificar´ e módulo ´Internamento´ efetuada por um utilizador.
 
-![figPesquisaPorCodificar](img/pages/6_1_1.jpg)
+![figPesquisaCodificacaoEpisodios](img/pages/6_1_1.jpg)
 
-<p class="caption" id="figPesquisaPorCodificar">Pesquisa de episódios por codificar e do módulo internamento</p>
+<p class="caption" id="figPesquisaCodificacaoEpisodios">Pesquisa de episódios por codificar e do módulo internamento</p>
 
 ## 6.2. Consulta de um episódio
 <div id="detalhe"></div>
 <div id="codificacao-consulta-de-episodios"></div>
 
 Após realizar a pesquisa de episódios segundo um conjunto de critérios (ver [6.1. Pesquisa de episódios por codificar](#pesquisa-de-episdios-por-codificar)), e ao selecionar um episódio, passa a ser possível a consulta do mesmo.
-Para tal, deve-se clicar no botão **Consultar**, tal como a [](#figConsultaEpisodioPorCodificar) ilustra.
+Para tal, deve-se clicar no botão **Consultar**, tal como a [](#figConsultaCodificacaoEpisodios) ilustra.
 
-![figConsultaEpisodioPorCodificar](img/pages/6_2_1.jpg)
+![figConsultaCodificacaoEpisodios](img/pages/6_2_1.jpg)
 
-<p class="caption" id="figConsultaEpisodioPorCodificar">Consulta de um episódio por codificar</p>
+<p class="caption" id="figConsultaCodificacaoEpisodios">Consulta de um episódio</p>
 
-Ao clicar neste botão, o utilizador transita para a página de detalhe do episódio tal como a [](#figDetalheEpisodioPorCodificar) ilustra.
+Ao clicar neste botão, o utilizador transita para a página de detalhe do episódio tal como a [](#figDetalheCodificacaoEpisodios) ilustra.
 
-![figDetalheEpisodioPorCodificar](img/pages/6_2_2.jpg)
+![figDetalheCodificacaoEpisodios](img/pages/6_2_2.jpg)
 
-<p class="caption" id="figDetalheEpisodioPorCodificar">Detalhe de um episódio</p>
+<p class="caption" id="figDetalheCodificacaoEpisodios">Detalhe de um episódio</p>
 
 Nesta página é possível visualizar a seguinte informação:
 
 * **Identificação do Episódio**
-![figDetalheEpisodioPorCodificar1](img/pages/6_2_3.jpg)
+![figDetalheCodificacaoEpisodios1](img/pages/6_2_3.jpg)
 
 * **Dados do Episódio**
-![figDetalheEpisodioPorCodificar2](img/pages/6_2_4.jpg)
+![figDetalheCodificacaoEpisodios2](img/pages/6_2_4.jpg)
 
 * **Dados da Codificação**
-![figDetalheEpisodioPorCodificar3](img/pages/6_2_5.jpg)
+![figDetalheCodificacaoEpisodios3](img/pages/6_2_5.jpg)
 
 A informação presente na área **Identificação do Episódio** encontra-se sempre visível durante as transições entre as abas **Dados do Episódio** e **Dados da Codificação**.
 Durante a consulta de um episódio todos os campos se encontram bloqueados, não sendo possível realizar alterações ao mesmo.
@@ -88,44 +88,45 @@ Durante a consulta de um episódio todos os campos se encontram bloqueados, não
 <div id="codificacao-edicao-de-episodios"></div>
 
 Após efetuar uma pesquisa por episódios por codificar ([6.1. Pesquisa de episódios por codificar](#pesquisa-de-episdios-por-codificar)) e ao selecionar um episódio devolvido pela mesma passa a ser possível a edição do mesmo.
-Para tal, deve-se clicar no botão **Editar**, tal como a [](#figEditaEpisodioPorCodificar) ilustra.
+Para tal, deve-se clicar no botão **Editar**, tal como a [](#figEditaCodificacaoEpisodios) ilustra.
 
-![figEditaEpisodioPorCodificar](img/pages/6_3_1.jpg)
+![figEditaCodificacaoEpisodios](img/pages/6_3_1.jpg)
 
-<p class="caption" id="figEditaEpisodioPorCodificar">Edição de um episódio por codificar</p>
+<p class="caption" id="figEditaCodificacaoEpisodios">Edição de um episódio</p>
 
-Ao clicar neste botão, o utilizador transita para a página de codificação do episódio tal como a [](#figCodificacaoEpisodioPorCodificar) ilustra.
+Ao clicar neste botão, o utilizador transita para a página de codificação do episódio tal como a [](#figCodificacaoCodificacaoEpisodios) ilustra.
 
-![figCodificacaoEpisodioPorCodificar](img/pages/6_3_2.jpg)
+![figCodificacaoCodificacaoEpisodios](img/pages/6_3_2.jpg)
 
-<p class="caption" id="figCodificacaoEpisodioPorCodificar">Codificação de um episódio</p>
+<p class="caption" id="figCodificacaoCodificacaoEpisodios">Codificação de um episódio</p>
 
-Para realizar o processo de codificação, é necessário preencher a secção de **Informação do Episódio** e a de **Codificação** do episódio.
+Para realizar o processo de codificação, é necessário preencher a secção de **Informação do Episódio** e a de **Registo** do episódio.
+Caso o utilizador deseje simplesmente marcar o episódio como não codificável, deverá clicar no botão **Não Codificar**.
 
-Na secção de **Informação do Episódio** (ver [](#figCodificacaoInformacaoEpisodioPorCodificar)), secção onde o utilizador começa a codificação do episódio, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**, **Identificação do Doente**, **Identificação do Médico**, **Natureza da Admissão**, **Destino após Alta**, **Intervenção Cirúrgica** **Serviços** e **Outros Dados**.
+Na secção de **Informação do Episódio** (ver [](#figCodificacaoInformacaoCodificacaoEpisodios)), secção onde o utilizador começa a codificação do episódio, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**, **Identificação do Doente**, **Identificação do Médico**, **Natureza da Admissão**, **Destino após Alta**, **Intervenção Cirúrgica**, **Serviços** e **Outros Dados**.
 
-![figCodificacaoInformacaoEpisodioPorCodificar](img/pages/6_3_3.jpg)
+![figCodificacaoInformacaoCodificacaoEpisodios](img/pages/6_3_3.jpg)
 
-<p class="caption" id="figCodificacaoInformacaoEpisodioPorCodificar">Passo 1 da codificação: Informação do Episódio</p>
+<p class="caption" id="figCodificacaoInformacaoCodificacaoEpisodios">Passo 1 da codificação: Informação do Episódio</p>
 
-Nesta página irá estar visível o botão **Simular** para utilizadores com perfil médico codificador. Ao clicar neste botão, o utilizador será transportado para um ecrã com o nome **Simular Codificação** (ver [](#figCodificacaoSimularEpisodioPorCodificar)) onde será possível realizar a simulação da codificação do episódio (ver [7. Simulador de Codificação](#simulador-de-codificao)).
+Nesta página irá estar visível o botão **Simular** para utilizadores com perfil médico codificador. Ao clicar neste botão, o utilizador será transportado para um ecrã com o nome **Simular Codificação** (ver [](#figCodificacaoSimularCodificacaoEpisodios)) onde será possível realizar a simulação da codificação do episódio (ver [7. Simuladores](#simulador)).
 
-![figCodificacaoSimularEpisodioPorCodificar](img/pages/6_3_4.jpg)
+![figCodificacaoSimularCodificacaoEpisodios](img/pages/6_3_4.jpg)
 
-<p class="caption" id="figCodificacaoSimularEpisodioPorCodificar">Simular Codificação</p>
+<p class="caption" id="figCodificacaoSimularCodificacaoEpisodios">Simular Codificação</p>
 
-Para prosseguir para a secção de **Codificação** (ver [](#figCodificacaoCodificacaoEpisodioPorCodificar)) do episódio o utilizador deve premir o botão **Codificar**. 
+Para prosseguir para a secção de **Registo** (ver [](#figRegistoCodificacaoEpisodios)) do episódio o utilizador deve premir o botão **Registar**. 
 Nesta secção, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**, **Diagnósticos**, **Procedimentos** e **Dispositivos Médicos**.
 
-![figCodificacaoCodificacaoEpisodioPorCodificar](img/pages/6_3_5.jpg)
+![figRegistoCodificacaoEpisodios](img/pages/6_3_5.jpg)
 
-<p class="caption" id="figCodificacaoCodificacaoEpisodioPorCodificar">Passo 2 da codificação: Codificação do Episódio</p>
+<p class="caption" id="figRegistoCodificacaoEpisodios">Passo 2 da codificação: Registo do Episódio</p>
 
 Para adicionar um novo diagnóstico à tabela de diagnósticos ou um novo procedimento à tabela de procedimentos, é necessário preencher um código na caixa de código e adicioná-lo à tabela ![logo](img/pages/6_3_6.jpg).
 Quer na tabela de diagnósticos, quer na tabela de procedimentos, os códigos adicionados podem ser removidos ao clicar em ![logo](img/remover.jpg) ou reposicionados, usando para isso a opção ![logo](img/subir.jpg) para mover o código para cima ou a opção ![logo](img/descer.jpg) para mover o código para baixo.
 
 No caso do episódio pertencer ao módulo de internamento, a área de diagnósticos terá, adicionalmente, para cada diagnóstico, informação relativa ao indicador PNA (Presente na admissão):
-![figCodificacaoCodificacaoEpisodioPorCodificar3](img/pages/6_3_7.jpg)
+![figRegistoCodificacaoEpisodios1](img/pages/6_3_7.jpg)
 Para adicionar um novo diagnóstico a esta tabela, terá de se indicar o PNA correspondente.
 
 Nesta última secção, e assim que a codificação do episódio estiver terminada, esta pode ser gravada premindo o botão **Gravar**.
