@@ -34,7 +34,8 @@ A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
 |  ACSS    |  Administração Central do Sistema de Saúde									  	|
 |  SPMS    |  Serviços Partilhados do Ministério da Saúde									|
 |  SNS     |  Serviço Nacional de Saúde														|
-|  GDH     |  Grupos de Diagnóstico Homogéneo												|                                                 
+|  GDH     |  Grupos de Diagnóstico Homogéneo												|
+|  RNP     |  Registo Nacional de Profissionais              								|                                    
 |  ICD9CM  |  International Classification of Diseases 9th revision Clinical modification 	|
 | ICD10CM  |  International Classification of Diseases 10th revision Clinical modification 	|
 | ICD10PCS |  ICD-10 Procedure Coding System          										|
@@ -108,6 +109,8 @@ Aqui, o utilizador deve inserir as suas credenciais nos campos obrigatórios e c
 | a) | e-mail associado à conta na aplicação  			|
 | b) | password								  			| 
 
+> Os médicos registados na plataforma RNP podem entrar no SIMH com as credenciais daquela. Apenas é necessário que, primeiramente, o administrador da entidade hospitalar a que o médico está associado, faça a associação desse médico à sua entidade. Uma vez realizado, o médico ficará com o perfil de médico codificador (ver capítulo [8. Médicos Codificadores](#gestaoMedicos) para mais informações).
+> Os restantes utilizadores, devem ser primeiro criados conforme descrito no capítulo [5. Gestão de Utilizadores](#gestaoUtilizadores).
 
 Caso o utilizador não saiba as suas credencias, deverá clicar em **Recuperar Senha**.
 
