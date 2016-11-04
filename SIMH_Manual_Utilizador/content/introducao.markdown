@@ -104,10 +104,10 @@ O acesso ao SIMH é realizado através da navegação ao endereço em <http://si
 
 Aqui, o utilizador deve inserir as suas credenciais nos campos obrigatórios e clicar em **Avançar**.
 
-|    |  Campos Obrigatórios [](#figLogin)  	|	           
-|----|--------------------------------------------------|
-| a) | e-mail associado à conta na aplicação  			|
-| b) | password								  			| 
+|    |  Campos Obrigatórios [](#figLogin)  															|	           
+|----|----------------------------------------------------------------------------------------------|
+| a) | Nome de utilizador (utilizador do RNP ou o utilizador criado na aplicação SIMH)  			|
+| b) | password								  														| 
 
 > Os médicos registados na plataforma RNP podem entrar no SIMH com as credenciais daquela. Apenas é necessário que o administrador da entidade hospitalar a que o médico pertence, faça a associação desse médico à sua entidade. Uma vez realizado, o médico ficará com o perfil de médico codificador e fica habilitado a entrar no SIMH (ver capítulo [8. Médicos Codificadores](#gestaoMedicos) para mais informações).
 > Os restantes utilizadores, devem ser primeiro criados conforme descrito no capítulo [5. Gestão de Utilizadores](#gestaoUtilizadores).
@@ -120,9 +120,9 @@ Caso o utilizador não saiba as suas credencias, deverá clicar em **Recuperar S
 
 De seguida, deverá preencher os campos obrigatórios do formulário e clicar em **Enviar**.  
 
-|    |  Campos Obrigatórios [](#figLoginRecuperacao)  	|	           
-|----|--------------------------------------------------|
-| a) | e-mail associado à conta na aplicação  			|
+|    |  Campos Obrigatórios [](#figLoginRecuperacao)  											|	           
+|----|------------------------------------------------------------------------------------------|
+| a) | Nome de utilizador (utilizador do RNP ou o utilizador criado na aplicação SIMH) 			|
 
 Irá ser enviado um e-mail para o e-mail escolhido, com instruções de recuperação de acesso à conta.
 
