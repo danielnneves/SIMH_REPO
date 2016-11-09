@@ -50,7 +50,8 @@ Ao clicar neste botão aparecerá a página de **Criar Médico Codificador** (ve
 <p class="caption" id="figAssociaMedicoCodificador2">Página de associação de médico codificador</p>
 
 Nesta página, terá de colocar o nº da ordem dos médicos da pessoa que deseja associar como médico codificador e clicar no botão **Pesquisar**.
-Se a pesquisa devolver resultado, deverá clicar no botão **Adicionar** para finalizar a operação.
+Se a pesquisa devolver resultado, deverá indicar no campo Auditor se pretende que o médico aceda ao módulo de Auditoria.
+Clicar no botão **Adicionar** para finalizar a operação.
 
 ## 8.2 Desassociar médico codificador
 <div id="removerMedico"></div>
