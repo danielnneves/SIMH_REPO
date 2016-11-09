@@ -47,14 +47,22 @@ Ao clicar neste botão aparecerá a página de **Criar Utilizador** (ver [](#fig
 
 Para a criação de um utilizador devem ser preenchidos os seguintes campos obrigatórios:
 
-|    |  Campos Obrigatórios [](#figCriarUtilizadores)	| 		|    
-|----|--------------------------------------------------|-------|
-| a) |  Nome       		                				|		|
-| b) |  Nº Mecanográfico                   				|		|
-| c) |  E-mail				              				|		|
-| d) |  Perfil                          				| 		|
+|    |  Campos Obrigatórios [](#figCriarUtilizadores)				| 		|    
+|----|--------------------------------------------------------------|-------|
+| a) |  Tipo Utilizador       		                				|		|
+| b) |  Nome       		                							|		|
+| c) |  Nº Mecanográfico                   							|		|
+| d) |  Nº Ordem dos Médicos (apenas Utilizador Médico Codificador) |		|
+| e) |  Auditor (apenas Utilizador Médico Codificador) 				|		|
+| f) |  E-mail				              							|		|
+| g) |  Perfil (apenas Utilizador Aplicacional) 					| 		|
+	
+Os tipos de utilizador disponíveis para novos utilizadores são:
 
-Os perfis disponíveis para novos utilizadores são:
+* **Utilizador Aplicacional** - Permite a este utilizador aceder como administrativo ou administrador da entidade. Quando selecionado, o campo perfil é obrigatório.
+* **Utilizador Médico Codificador** - Permite a este utilizador aceder como médico da entidade tornando-o responsável pela codificação de episódios. Quando selecionado, os campos Nº Ordem dos Médicos e Auditor são obrigatórios.
+
+Os perfis disponíveis para novos utilizadores aplicacionais são:
 
 * **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar. Podem codificar episódios mas não são os responsáveis pela codificação de um episódio;
 * **Administrador da Entidade** - Trabalhadores que pertencem e administram uma entidade hospitalar.
