@@ -50,15 +50,35 @@ Ao clicar neste botão aparecerá a página de **Criar Médico Codificador** (ve
 <p class="caption" id="figAssociaMedicoCodificador2">Página de associação de médico codificador</p>
 
 Nesta página, terá de colocar o nº da ordem dos médicos da pessoa que deseja associar como médico codificador e clicar no botão **Pesquisar**.
-Se a pesquisa devolver resultado, deverá indicar no campo Auditor se pretende que o médico aceda ao módulo de Auditoria.
+Se a pesquisa devolver resultado, deverá indicar, no campo Auditor, se pretende que o médico aceda ao módulo de Auditoria e ainda o perifl com que pretende que este entre na plataforma.
 Clicar no botão **Adicionar** para finalizar a operação.
 
-## 8.2 Desassociar médico codificador
+## 8.2 Editar Médico Codificador 
+<div id="editarMedico"></div>
+
+A edição do médico codificador permite ao utilizador, com perfil de adminisitrador, editar os campos de Auditor e o perfil à qual o médico fica associado.
+
+![figEditaMedicoCodificador1](img/pages/8_2_1.jpg)
+
+<p class="caption" id="figEditaMedicoCodificador1">Ação de Editar médico codificador</p>
+
+Atenta-se que o administrador de uma entidade hospitalar apenas pode editar médicos codificadores pertencentes a essa mesma entidade. 
+
+Ao clicar neste botão aparecerá a página de **Editar Médico Codificador** (ver [](#figEditaMedicoCodificador2)).
+
+![figEditaMedicoCodificador2](img/pages/8_2_2.jpg)
+
+<p class="caption" id="figEditaMedicoCodificador2">Página de edição de médico codificador</p>
+
+Nesta página, pode-se visualizar os dados gerais do utilizador selecionado.
+Para finalizar a operação de ediçao do médico codificador, o botão **Editar** deverá ser clicado.
+
+## 8.3 Desassociar Médico Codificador
 <div id="removerMedico"></div>
 
 Para desassociar um médico codificador, o utilizador com perfil de administrador deve selecionar o médico que pretende desassociar e clicar no botão **Desassociar**, tal como a [](#figDesassociaMedicoCodificador1) ilustra.
 
-![figDesassociaMedicoCodificador1](img/pages/8_2_1.jpg)
+![figDesassociaMedicoCodificador1](img/pages/8_3_1.jpg)
 
 <p class="caption" id="figDesassociaMedicoCodificador1">Ação de desassociar médico codificador</p>
 
@@ -66,7 +86,7 @@ Atenta-se que o administrador de uma entidade hospitalar apenas pode desassociar
 
 Ao clicar neste botão aparecerá a página de **Remover Médico Codificador** (ver [](#figDesassociaMedicoCodificador2)).
 
-![figDesassociaMedicoCodificador2](img/pages/8_2_2.jpg)
+![figDesassociaMedicoCodificador2](img/pages/8_3_2.jpg)
 
 <p class="caption" id="figDesassociaMedicoCodificador2">Página de desassociação de médico codificador</p>
 
