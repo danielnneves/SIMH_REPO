@@ -86,7 +86,7 @@ Atenta-se que o administrador de uma entidade hospitalar apenas pode desassociar
 
 Ao clicar neste botão aparecerá a página de **Remover Médico Codificador** (ver [](#figDesassociaMedicoCodificador2)).
 
-![figDesassociaMedicoCodificador2](img/pages/8_3_2.jpg)
+![figDesassociaMedicoCodificador2](img/pages/8_3_2.JPG)
 
 <p class="caption" id="figDesassociaMedicoCodificador2">Página de desassociação de médico codificador</p>
 
