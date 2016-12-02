@@ -17,7 +17,7 @@ Esta gestão apenas está acessível para um utilizador que detenha o perfil de 
 
 Para isso, o utilizador deve, a partir da página inicial, aceder ao módulo de “Finalizar Urgente”, tal como ilustra a figura [](#figAcessoFinalizarUrgente).
 
-![figAcessoFinalizarUrgente](img/pages/10_1.jpg)
+![figAcessoFinalizarUrgente](img/pages/10_1.png)   
 
 <p class="caption" id="figAcessoFinalizarUrgente">Módulo de Finalizar Urgente</p>
 
@@ -31,7 +31,7 @@ Nesta página terá de indicar o Nº Episódio, Nº Processo e o Tipo de Episód
 
 Depois de seleccionado o botão de **PESQUISAR**, será enviado para a seguinte página:
 
-![figFinalizarUrgente](img/pages/10_2.jpg)
+![figFinalizarUrgente2](img/pages/10_3.jpg)
 
 <p class="caption" id="figFinalizarUrgente">Página de Finalizar Urgente</p>
 
