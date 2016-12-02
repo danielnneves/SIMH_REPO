@@ -15,11 +15,11 @@ Através deste módulo é possível realizar a gestão de utilizadores pertencen
 
 Esta gestão apenas está acessível para um utilizador que detenha o perfil de administrador da entidade hospitalar onde exerce funções e para episódios que estejam em fase de Rascunho, Auditoria ou Finalizado.
 
-Para isso, o utilizador deve, a partir da página inicial, ao módulo de “Finalizar Urgente”, tal como ilustra a [](#figAcessoFinalizarUrgente).
+Para isso, o utilizador deve, a partir da página inicial, aceder ao módulo de “Finalizar Urgente”, tal como ilustra a figura [](#figAcessoFinalizarUrgente).
 
 ![figAcessoFinalizarUrgente](img/pages/10_1.jpg)
 
-<p class="caption" id="figAcessoGestaoUtilizadores">Módulo de Finalizar Urgente</p>
+<p class="caption" id="figAcessoFinalizarUrgente">Módulo de Finalizar Urgente</p>
 
 Ao aceder a este módulo, aparecerá a seguinte página:
 
