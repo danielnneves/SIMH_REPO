@@ -6,7 +6,7 @@ title: "Finalizar Urgente"
 
 ---
 
-# 5. Finalizar Urgente
+# 10. Finalizar Urgente
 <div id="finalizarUrgente"></div>
 
 Este módulo permite que os utilizadores agrupem e finalizem um determinado episódio.
@@ -17,7 +17,7 @@ Esta gestão apenas está acessível para um utilizador que detenha o perfil de 
 
 Para isso, o utilizador deve, a partir da página inicial, aceder ao módulo de “Finalizar Urgente”, tal como ilustra a figura [](#figAcessoFinalizarUrgente).
 
-![figAcessoFinalizarUrgente](img/pages/10_1.png)   
+![figAcessoFinalizarUrgente](img/pages/10_1.jpg)   
 
 <p class="caption" id="figAcessoFinalizarUrgente">Módulo de Finalizar Urgente</p>
 
