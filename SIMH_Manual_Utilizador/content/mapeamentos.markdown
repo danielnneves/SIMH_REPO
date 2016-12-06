@@ -11,13 +11,6 @@ title: "Mapeamentos"
 
 Este módulo permite fazer a correspondência de mapeamentos, de acordo com os valores identificativos de cada entidade.
 
-É possível criar mapeamentos para cada uma das seguintes secções:
-**Destino Após Alta**
-**Unidade de Saúde**
-**Entidade Financeira Responsável**
-**Motivo Transferência**
-**Natureza de Admissão**
-
 Para isso, o utilizador deve, a partir da página inicial, aceder ao módulo de “Mapeamentos”, tal como ilustra a figura [](#figAcessoMapeamentos). 
 
 ![figAcessoMapeamentos](img/pages/12_1.jpg)   
@@ -31,11 +24,11 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 <p class="caption" id="figMapeamentos">Página de Visualização de Mapeamentos</p>
 
 Como é possível ver nesta figura, existe um separador para cada secção de Mapeamento, ou seja, é possível manipular mapeamento para cada uma das seguintes secções:
-**Destino Após Alta**
-**Unidade de Saúde**
-**Entidade Financeira Responsável**
-**Motivo Transferência**
-**Natureza de Admissão**
+* **Destino Após Alta**
+* **Unidade de Saúde**
+* **Entidade Financeira Responsável**
+* **Motivo Transferência**
+* **Natureza de Admissão**
 
 Aqui, é possível realizar três ações distintas: **Criar**, **Editar** ou **Remover** Mapeamentos de acordo com o separador que o utilizador selecionar. 
 
