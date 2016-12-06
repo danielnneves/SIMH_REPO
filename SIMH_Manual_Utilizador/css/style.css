@@ -349,9 +349,12 @@ margin-bottom:0;
 
 
 #paginas p  img[alt=figLogin], #paginas p  img[alt=figLoginRecuperacao], #paginas p img[alt=figMudaModulo],
-#paginas p  img[alt=figAcessoGestaoUtilizadores], #paginas p img[alt=figAcessoCodificacaoEpisodios],
+#paginas p  img[alt=figAcessoGestaoUtilizadores], 
+#paginas p img[alt=figAcessoCodificacaoEpisodios],
 #paginas p img[alt=figAcessoSimuladores],
-#paginas p img[alt=figAcessoMedicosCodificadores], #paginas p img[alt=figAcessoSimuladorAgrupamento], 
+#paginas p img[alt=figAcessoMedicosCodificadores], 
+#paginas p img[alt=figAcessoSimuladorAgrupamento], 
+#paginas p img[alt=figAcessoFinalizarUrgente],
 #paginas p img[alt=figAcessoGestaoEspecialidades] {
 width: auto;
 }

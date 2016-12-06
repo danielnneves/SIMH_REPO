@@ -31,13 +31,11 @@ Aqui, é possível realizar uma ação: **Editar** a informação relativa às d
 ## 9.1 Edição de especialidades
 <div id="editarEspecialidades"></div>
 
-Após clicar numa dada especialidade para a qual se pretenda alterar informação,
+Após clicar numa dada especialidade para a qual se pretenda alterar informação, a opção de **Editar** torna-se disponível (ver [](#figSelecaoEspecialidade)).
 
 ![figSelecaoEspecialidade](img/pages/9_1_1.jpg)
 
 <p class="caption" id="figSelecaoEspecialidade">Seleção de uma especialidade</p>
-
-a opção de **Editar** torna-se disponível (ver [](#figSelecaoEspecialidade)).
 
 Ao clicar na mesma, o utilizador é transportado para uma página (ver [](#figEdicaoEspecialidade)) onde poderá editar a informação relativa a essa especialidade de acordo com o que a entidade hospitalar oferece.
 
