@@ -61,7 +61,7 @@ No final da criação, o utilizador deve clicar no botão **Criar**, para comple
 
 ### 12.2 Editar Mapeamentos
 
-Quando no ecrã da figura [](#figAcessoMapeamentos), o utilizador pode selecionar um mapeamento já criado da lista, clicando no elemento da tabela, como mostrado de seguida:
+Quando no ecrã da figura [](#figMapeamentos), o utilizador pode selecionar um mapeamento já criado da lista, clicando no elemento da tabela, como mostrado de seguida:
 
 ![figSelecionaMapeamentos](img/pages/12_4.jpg)
 

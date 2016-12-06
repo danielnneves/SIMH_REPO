@@ -13,11 +13,11 @@ Este módulo permite ao utilizador manter-se a par de variadas informações rel
 Existem várias informações que podem ser associadas ao episódio:
 
 
-**Comentários**
+**1. Comentários**
 
 O utilizador pode adicionar observações que ache relevantes relativamente ao episódio ou ao processo associado ao mesmo.
  
-**Ponto de situação**
+**2. Ponto de situação**
 
 Um processo pode ter 4 pontos de situação:
 
