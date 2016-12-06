@@ -69,7 +69,7 @@ Quando no ecrã da figura [](#figAcessoMapeamentos), o utilizador pode seleciona
 
 Só assim é possível aceder à página de Edição de Mapeamentos, que se revela da seguinte maneira:
 
-![figEditaMapeamentos](img/pages/12_4.jpg)
+![figEditaMapeamentos](img/pages/12_5.jpg)
 
 <p class="caption" id="figEditaMapeamentos">Página de Edição de Mapeamentos</p>
 
@@ -83,7 +83,7 @@ Uma vez concluídas as alterações pretendidas no mapeamento em edição, o uti
 
 Para aceder a esta página deverá selecionar um elemento da lista e selecionar o botão **Remover**, sendo enviado para o seguinte ecrã:
 
-![figRemoveMapeamentos](img/pages/12_5.jpg)
+![figRemoveMapeamentos](img/pages/12_6.jpg)
 
 <p class="caption" id="figRemoveMapeamentos">Página de Remoção de Mapeamentos</p>
 
