@@ -13,22 +13,22 @@ Este módulo permite ao utilizador manter-se a par de variadas informações rel
 Existem várias informações que podem ser associadas ao episódio:
 
 
-**1. Comentários**
+1. **Comentários**
 
-O utilizador pode adicionar observações que ache relevantes relativamente ao episódio ou ao processo associado ao mesmo.
+..O utilizador pode adicionar observações que ache relevantes relativamente ao episódio ou ao processo associado ao mesmo.
  
-**2. Ponto de situação**
+2. **Ponto de situação**
 
-Um processo pode ter 4 pontos de situação:
+..Um processo pode ter 4 pontos de situação:
 
 
-* **Receção do episódio**
+..* **Receção do episódio**
 
-* **Entrega do episódio ao médico codificador**
+..* **Entrega do episódio ao médico codificador**
 
-* **Aguarda informação do serviço**
+..* **Aguarda informação do serviço**
 
-* **Receção do episódio codificado**
+..* **Receção do episódio codificado**
 
 
 Os pontos de situação disponíveis para associar, vão variar consoante o estado em que se encontra o episódio.
