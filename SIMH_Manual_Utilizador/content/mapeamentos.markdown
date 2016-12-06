@@ -24,10 +24,15 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 <p class="caption" id="figMapeamentos">Página de Visualização de Mapeamentos</p>
 
 Como é possível ver nesta figura, existe um separador para cada secção de Mapeamento, ou seja, é possível manipular mapeamento para cada uma das seguintes secções:
+
 * **Destino Após Alta**
+
 * **Unidade de Saúde**
+
 * **Entidade Financeira Responsável**
+
 * **Motivo Transferência**
+
 * **Natureza de Admissão**
 
 Aqui, é possível realizar três ações distintas: **Criar**, **Editar** ou **Remover** Mapeamentos de acordo com o separador que o utilizador selecionar. 
@@ -56,13 +61,17 @@ No final da criação, o utilizador deve clicar no botão **Criar**, para comple
 
 ### 12.2 Editar Mapeamentos
 
-Quando no ecrã da figura [](#figAcessoMapeamentos), o utilizador pode selecionar um mapeamento já criado da lista, clicando no elemento da tabela.
+Quando no ecrã da figura [](#figAcessoMapeamentos), o utilizador pode selecionar um mapeamento já criado da lista, clicando no elemento da tabela, como mostrado de seguida:
+
+![figSelecionaMapeamentos](img/pages/12_4.jpg)
+
+<p class="caption" id="figSelecionaMapeamentos">Selecção de um Mapeamento</p>
 
 Só assim é possível aceder à página de Edição de Mapeamentos, que se revela da seguinte maneira:
 
-![figCriaMapeamentos](img/pages/12_4.jpg)
+![figEditaMapeamentos](img/pages/12_4.jpg)
 
-<p class="caption" id="figCriaMapeamentos">Página de Edição de Mapeamentos</p>
+<p class="caption" id="figEditaMapeamentos">Página de Edição de Mapeamentos</p>
 
 Os critérios de preenchimento são semelhantes ao da página de criação.
 
@@ -74,9 +83,9 @@ Uma vez concluídas as alterações pretendidas no mapeamento em edição, o uti
 
 Para aceder a esta página deverá selecionar um elemento da lista e selecionar o botão **Remover**, sendo enviado para o seguinte ecrã:
 
-![figCriaMapeamentos](img/pages/12_5.jpg)
+![figRemoveMapeamentos](img/pages/12_5.jpg)
 
-<p class="caption" id="figCriaMapeamentos">Página de Remoção de Mapeamentos</p>
+<p class="caption" id="figRemoveMapeamentos">Página de Remoção de Mapeamentos</p>
 
 Uma vez neste ecrã, deverá selecionar o botão **Remover** ara remover o mapeamento pretendido.
 
