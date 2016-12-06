@@ -51,7 +51,7 @@ Ao selecionar o botão **Criar** o utilizador é enviado para o seguinte ecrã:
 
 Quando se pretende criar um mapeamento é necessário preencher os seguintes campos obrigatórios:
 
-|    |  Campos Obrigatórios [](#figCriarUtilizadores)				| 		|    
+|    |  Campos Obrigatórios 										| 		|    
 |----|--------------------------------------------------------------|-------|
 | a) |  Tipo    		          				      				|		|
 | b) |  ID da Entidade       		                				|		|
