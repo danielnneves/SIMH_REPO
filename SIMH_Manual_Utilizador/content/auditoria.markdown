@@ -27,7 +27,7 @@ Uma vez realizada a pesquisa, os resultados apresentam-se da seguinte maneira:
 
 **Para que o utilizador possa consultar os detalhes de um episódio deverá selecionar um episódio da lista.**
 
-## 13.1 Consultar um Episódio
+## 13.1 Consultar um Episódio em Auditoria
 <div id="consultaAuditoria"></div>
 
 O botão **CONSULTAR** permite ao utilizador aceder aos detalhes do episódio em auditoria, como se apresenta de seguida:
