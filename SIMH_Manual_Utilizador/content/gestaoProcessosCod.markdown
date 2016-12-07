@@ -12,16 +12,15 @@ Este módulo permite ao utilizador manter-se a par de várias informações rela
 Existem várias informações que podem ser associadas ao episódio:
 
  1. **Comentários**
+
 O utilizador pode adicionar observações que ache relevantes relativamente ao episódio ou ao processo associado ao mesmo.
 
  2. **Ponto de Situação**
+
 Um processo pode ter 4 pontos de situação:
 * **Receção do episódio**
-
 * **Entrega do episódio ao médico codificador**
-
 * **Aguarda informação do serviço**
-
 * **Receção do episódio codificado**
 
 Os pontos de situação disponíveis para associar, vão variar consoante o estado em que se encontra o episódio.
@@ -34,7 +33,7 @@ Para aceder a este módulo o utilizador deverá selecionar a "Gestão de Process
 
 Onde será enviado para o seguinte ecrã:
 
-![figGestaoProcessosCod](img/pages/11_2.jpg)   
+![figGestaoProcessosCod](img/pages/11_2.jpg)
 
 A página principal do módulo "Gestão de Processos" permite fazer a pesquisa do episódio que se pretende gerir. O utilizador deverá usar pelo menos um filtro para que o sistema permita realizar a pesquisa. Os resultados obtidos na pesquisa apresenta-se de acordo com a seguinte imagem:
 
@@ -63,6 +62,8 @@ Para concluir o processo deverá selecionar o botão **CRIAR** presenta na pági
 
 ## 11.3 Consultar de Processos
 <div id="consultarGestaoProcessosCod"></div>
+
+
 Este módulo permite ao utilizador consultar o histórico de alterações do processo pretendido.
 
 Para aceder à Consulta, o utilizador deverá selecionar um peisódio da lista de resultados e de seguida o botão **Consultar**, visualizando o seguinte ecrã:
@@ -73,7 +74,7 @@ Neste ecrã é apresentada uma cronologia que começa na alteração mais antiga
 |  Icon apresentado  								  |  Significado 										   | 		|    
 |-----------------------------------------------------|--------------------------------------------------------|--------|
 | ![figEditarGestaoProcessosCod](img/pages/11_7.jpg)  |  Quando existe uma alteração no ponto de situação 	   |		|
-| ![figEditarGestaoProcessosCod](img/pages/11_8.jpg)  |  Quando existe uma alteração do estado do episódio     |		|
+| ![figEditarGestaoProcessosCod](img/pages/11_8.jpg)  |  Quando existe uma alteração no estado do episódio     |		|
 | ![figEditarGestaoProcessosCod](img/pages/11_9.jpg)  |  Restantes alterações verificadas no processo          |		|
 
 
