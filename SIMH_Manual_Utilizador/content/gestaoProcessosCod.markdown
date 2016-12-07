@@ -5,9 +5,10 @@ title: "Gestão de Processos"
 
 
 ---
+<div id="gestaoProcessosCod"></div>
 
 # 11. Gestão de Processos
-<div id="gestaoProcessosCod"></div>
+
 Este módulo permite ao utilizador manter-se a par de várias informações relativamente ao episódio e a sua situação no sistema.
 Existem várias informações que podem ser associadas ao episódio:
 
@@ -45,8 +46,9 @@ A página principal do módulo "Gestão de Processos" permite fazer a pesquisa d
 
 **Para que seja possível aceder a qualquer uma das funcionalidades deste módulo é necessário selecionar um item obtido da lista anterior.**
 
-## 11.1 Criar um Novo Processo
 <div id="criarGestaoProcessosCod"></div>
+
+## 11.1 Criar um Novo Processo
 
 Na figura [](#figGestaoProcessosCod) é possível visualizar a página onde será possível criar um processo de codificação, após selecionar o botão **CRIAR** presente na figura .
 
@@ -58,8 +60,10 @@ A funcionalidade de criar um processo de codificação permite ao utilizador alt
 
 Para concluir o processo deverá selecionar o botão **CRIAR** presenta na página da figura [](#figCriarGestaoProcessosCod).
 
-## 11.2 Editar um Processo
 <div id="editarGestaoProcessosCod"></div>
+
+## 11.2 Editar um Processo
+
  No processo de edição apenas fica disponível a edição do **Ponto de Situação** e dos **Comentários** relativos ao processo. Para aceder a esta funcionalidade no ecrã da figura [](#figGestaoProcessosCod) deverá selecionar o botão **EDITAR**, sendo enviado para o seguinte ecrã:
 
 ![figEditarGestaoProcessosCod](img/pages/11_5.jpg)  
@@ -68,9 +72,9 @@ Para concluir o processo deverá selecionar o botão **CRIAR** presenta na pági
  
  Uma vez concluídas as alterações pretendidas, o utilizador deverá selecionar o botão **EDITAR** presente na página.
 
-## 11.3 Consultar Processos
 <div id="consultarGestaoProcessosCod"></div>
 
+## 11.3 Consultar Processos
 
 Este módulo permite ao utilizador consultar o histórico de alterações do processo pretendido.
 
