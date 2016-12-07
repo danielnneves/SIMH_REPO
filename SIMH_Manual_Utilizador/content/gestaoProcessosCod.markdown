@@ -11,10 +11,10 @@ title: "Gestão de Processos"
 Este módulo permite ao utilizador manter-se a par de várias informações relativamente ao episódio e a sua situação no sistema.
 Existem várias informações que podem ser associadas ao episódio:
 
- 1. **Comentários** <br>
+ 1. **Comentários**<br>
 O utilizador pode adicionar observações que ache relevantes relativamente ao episódio ou ao processo associado ao mesmo.
-<br>
- 2. **Ponto de Situação** <br>
+
+ 1. **Ponto de Situação**<br>
 Um processo pode ter 4 pontos de situação:
 
 * **Receção do episódio**
