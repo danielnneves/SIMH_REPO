@@ -5,9 +5,9 @@ title: "Finalizar Urgente"
 
 
 ---
+<div id="finalizarUrgente"></div>
 
 # 10. Finalizar Urgente
-<div id="finalizarUrgente"></div>
 
 Este módulo permite que os utilizadores agrupem e finalizem um determinado episódio.
 
