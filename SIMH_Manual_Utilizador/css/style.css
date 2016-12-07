@@ -356,6 +356,7 @@ margin-bottom:0;
 #paginas p img[alt=figAcessoSimuladorAgrupamento], 
 #paginas p img[alt=figAcessoFinalizarUrgente],
 #paginas p img[alt=figAcessoMapeamentos],
+#paginas p img[alt=figAcessoGestaoProcessosCod],
 #paginas p img[alt=figAcessoGestaoEspecialidades] {
 width: auto;
 }
