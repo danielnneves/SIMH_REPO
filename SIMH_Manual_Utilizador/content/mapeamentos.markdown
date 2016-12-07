@@ -13,9 +13,9 @@ Este módulo permite fazer a correspondência de mapeamentos, de acordo com os v
 
 Para isso, o utilizador deve, a partir da página inicial, aceder ao módulo de “Mapeamentos”, tal como ilustra a figura [](#figAcessoMapeamentos). 
 
-![figAcessoMapeamentos](img/pages/12_1.jpg)   
+![figAcessoMapeamentos](img/pages/12_1.jpg) 
 
-<p class="caption" id="figAcessoMapeamentos">Módulo de Finalizar Urgente</p>
+<p class="caption" id="figAcessoMapeamentos">Módulo de Mapeamentos</p>
 
 Ao aceder a este módulo, aparecerá a seguinte página:
 

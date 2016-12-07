@@ -27,15 +27,21 @@ Assim sendo este módulo permite ao utilizador, criar, editar e consultar o esta
 
 Para aceder a este módulo o utilizador deverá selecionar a "Gestão de Processos" na pagina inicial da plataforma, como demonstrado na figura seguinte:
 
-![figAcessoGestaoProcessosCod](img/pages/11_1.jpg)   
+![figAcessoGestaoProcessosCod](img/pages/11_1.jpg)
+
+<p class="caption" id="figAcessoGestaoProcessosCod">Módulo de Gestão de Processos</p>
 
 Onde será enviado para o seguinte ecrã:
 
 ![figGestaoProcessosCod](img/pages/11_2.jpg)
 
+<p class="caption" id="figGestaoProcessosCod">Página Inicial de Gestão de Processos</p>
+
 A página principal do módulo "Gestão de Processos" permite fazer a pesquisa do episódio que se pretende gerir. O utilizador deverá usar pelo menos um filtro para que o sistema permita realizar a pesquisa. Os resultados obtidos na pesquisa apresenta-se de acordo com a seguinte imagem:
 
-![figResultadosGestaoProcessosCod](img/pages/11_3.jpg)   
+![figResultadosGestaoProcessosCod](img/pages/11_3.jpg)
+
+<p class="caption" id="figResultadosGestaoProcessosCod">Exemplo dos Resultados obtidos na pesquisa</p>
 
 **Para que seja possível aceder a qualquer uma das funcionalidades deste módulo é necessário selecionar um item obtido da lista anterior.**
 
@@ -44,7 +50,9 @@ A página principal do módulo "Gestão de Processos" permite fazer a pesquisa d
 
 Na figura [](#figGestaoProcessosCod) é possível visualizar a página onde será possível criar um processo de codificação, após selecionar o botão **CRIAR** presente na figura .
 
-![figCriarGestaoProcessosCod](img/pages/11_4.jpg)   
+![figCriarGestaoProcessosCod](img/pages/11_4.jpg)
+
+<p class="caption" id="figCriarGestaoProcessosCod">Criar um Novo Processo</p>
 
 A funcionalidade de criar um processo de codificação permite ao utilizador alterar o **Medico Codificador**, o **Medico Auditor**, o **Ponto de Situação** e adicionar/alterar os **Comentários** relativos ao processo.
 
@@ -55,10 +63,12 @@ Para concluir o processo deverá selecionar o botão **CRIAR** presenta na pági
  No processo de edição apenas fica disponível a edição do **Ponto de Situação** e dos **Comentários** relativos ao processo. Para aceder a esta funcionalidade no ecrã da figura [](#figGestaoProcessosCod) deverá selecionar o botão **EDITAR**, sendo enviado para o seguinte ecrã:
 
 ![figEditarGestaoProcessosCod](img/pages/11_5.jpg)  
+
+<p class="caption" id="figEditarGestaoProcessosCod">Editar um Processo</p>
  
  Uma vez concluídas as alterações pretendidas, o utilizador deverá selecionar o botão **EDITAR** presente na página.
 
-## 11.3 Consultar de Processos
+## 11.3 Consultar Processos
 <div id="consultarGestaoProcessosCod"></div>
 
 
@@ -66,6 +76,8 @@ Este módulo permite ao utilizador consultar o histórico de alterações do pro
 
 Para aceder à Consulta, o utilizador deverá selecionar um peisódio da lista de resultados e de seguida o botão **Consultar**, visualizando o seguinte ecrã:
 ![figConsultarGestaoProcessosCod](img/pages/11_6.jpg) 
+
+<p class="caption" id="figConsultarGestaoProcessosCod">Consultar Processos</p>
 
 Neste ecrã é apresentada uma cronologia que começa na alteração mais antiga e vai para a mais recente. No centro do cronograma são apresentados vários *icons* que variam a sua apresentação consoante o tipo de alteração feita no processo.
 
