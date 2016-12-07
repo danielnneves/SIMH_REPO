@@ -5,9 +5,9 @@ title: "Codificação de Episódios"
 
 
 ---
+<div id="codificar"></div>
 
 # 6. Codificação do Episódio
-<div id="codificar"></div>
 
 Através deste módulo é possível fazer a codificação de episódios de uma determinada entidade hospitalar.
 
@@ -25,8 +25,9 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 
 Aqui, é possível realizar três ações distintas: **Pesquisa**, **Consulta** ou **Edição** de episódios.
 
-## 6.0. Processo de Codificação
 <div id="processo-codificacao"></div>
+
+## 6.0. Processo de Codificação
 
 Antes de dar a conhecer as diferentes ações possíveis a realizar na aplicação sobre os episódios, será introduzido ao utilizador o conjunto de estados e ações passíveis de realizar sobre um episódio durante a sua existência.
  
@@ -40,8 +41,9 @@ Um episódio começa sempre no estado **Por Codificar**. A única forma de o col
 Para que transite para este estado, o episódio deve primeiro sofrer agrupamento GDH. Um episódio pode, adicionalmente, ser guardado em rascunho ou ser auditado. Caso o utilizador esteja à procura de uma visão mais completa e abrangente do fluxo de estados e ações associado a um episódio,
 pode sempre consultar o seguinte [diagrama](img/episodio_estados_accoes_detalhe.png).
 
-## 6.1. Pesquisa de episódios por codificar
 <div id="codificacao-pesquisa-de-episodios"></div>
+
+## 6.1. Pesquisa de episódios por codificar
 
 Na pesquisa de episódios por codificar, um utilizador deve preencher obrigatoriamente um dos seguintes campos:
 
@@ -67,9 +69,10 @@ A [](#figPesquisaCodificacaoEpisodios) ilustra como exemplo uma pesquisa de epis
 
 <p class="caption" id="figPesquisaCodificacaoEpisodios">Pesquisa de episódios por codificar e do módulo internamento</p>
 
-## 6.2. Consulta de um episódio
 <div id="detalhe"></div>
 <div id="codificacao-consulta-de-episodios"></div>
+
+## 6.2. Consulta de um episódio
 
 Após realizar a pesquisa de episódios segundo um conjunto de critérios (ver [6.1. Pesquisa de episódios por codificar](#pesquisa-de-episdios-por-codificar)), e ao selecionar um episódio, passa a ser possível a consulta do mesmo.
 Para tal, deve-se clicar no botão **Consultar**, tal como a [](#figConsultaCodificacaoEpisodios) ilustra.
@@ -101,9 +104,11 @@ Nesta página é possível visualizar a seguinte informação:
 A informação presente na área **Identificação do Episódio** encontra-se sempre visível durante as transições entre as abas **Dados do Episódio** e **Dados da Codificação**.
 Durante a consulta de um episódio todos os campos se encontram bloqueados, não sendo possível realizar alterações ao mesmo.
 
-## 6.3. Edição de um episódio
 <div id="codificacao"></div>
 <div id="codificacao-edicao-de-episodios"></div>
+
+## 6.3. Edição de um episódio
+
 
 Após efetuar uma pesquisa por episódios por codificar ([6.1. Pesquisa de episódios por codificar](#pesquisa-de-episdios-por-codificar)) e ao selecionar um episódio devolvido pela mesma passa a ser possível a edição do mesmo.
 Para tal, deve-se clicar no botão **Editar**, tal como a [](#figEditaCodificacaoEpisodios) ilustra.

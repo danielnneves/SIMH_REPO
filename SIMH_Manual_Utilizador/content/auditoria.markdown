@@ -5,9 +5,9 @@ title: "Auditoria"
 
 
 ---
+<div id="auditoria"></div>
 
 # 13. Auditoria
-<div id="auditoria"></div>
 
 O módulo auditoria permite consultar os detalhes dos episódios no estado "em auditoria". Sendo que apenas os médicos tem acesso a este menu.
 
@@ -31,8 +31,9 @@ Uma vez realizada a pesquisa, os resultados apresentam-se da seguinte maneira:
 
 **Para que o utilizador possa consultar os detalhes de um episódio deverá selecionar um episódio da lista.**
 
-## 13.1 Consultar um Episódio em Auditoria
 <div id="consultaAuditoria"></div>
+
+## 13.1 Consultar um Episódio em Auditoria
 
 O botão **CONSULTAR** permite ao utilizador aceder aos detalhes do episódio em auditoria, como se apresenta de seguida:
 

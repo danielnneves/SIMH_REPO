@@ -5,9 +5,10 @@ title: "Simulador de Codificação"
 
 
 ---
+<div id="simulador"></div>
 
 # 7. Simuladores
-<div id="simulador"></div>
+
 
 Através deste módulo é possível simular a codificação clínica e o agrupamento em GDH de um episódio. 
 Este serve de suporte ao processo de codificação de episódios (módulo [6. Codificação do Episódio](#codificar)).
