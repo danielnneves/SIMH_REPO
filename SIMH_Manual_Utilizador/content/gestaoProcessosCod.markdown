@@ -16,7 +16,6 @@ O utilizador pode adicionar observações que ache relevantes relativamente ao e
 
  1. **Ponto de Situação**<br>
 Um processo pode ter 4 pontos de situação:
-
 * **Receção do episódio**
 * **Entrega do episódio ao médico codificador**
 * **Aguarda informação do serviço**
