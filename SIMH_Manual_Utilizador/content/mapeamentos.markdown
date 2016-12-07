@@ -23,7 +23,7 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 
 <p class="caption" id="figMapeamentos">Página de Visualização de Mapeamentos</p>
 
-Como é possível ver nesta figura, existe um separador para cada secção de Mapeamento, ou seja, é possível manipular mapeamento para cada uma das seguintes secções:
+Como é possível ver nesta figura, existe um separador para cada secção de Mapeamento, ou seja, é possível manipular mapeamentos para cada uma das seguintes secções:
 
 * **Destino Após Alta**
 
@@ -74,7 +74,6 @@ Só assim é possível aceder à página de Edição de Mapeamentos, que se reve
 <p class="caption" id="figEditaMapeamentos">Página de Edição de Mapeamentos</p>
 
 Os critérios de preenchimento são semelhantes ao da página de criação.
-
 Uma vez concluídas as alterações pretendidas no mapeamento em edição, o utilizador deve clicar no botão **Alterar**. 
 
 <div id="removerUtilizadores"></div>
@@ -87,6 +86,6 @@ Para aceder a esta página deverá selecionar um elemento da lista e selecionar 
 
 <p class="caption" id="figRemoveMapeamentos">Página de Remoção de Mapeamentos</p>
 
-Uma vez neste ecrã, deverá selecionar o botão **Remover** ara remover o mapeamento pretendido.
+Uma vez neste ecrã, deverá selecionar o botão **Remover** para remover o mapeamento pretendido.
 
 
