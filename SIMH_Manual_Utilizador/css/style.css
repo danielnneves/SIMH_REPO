@@ -46,6 +46,10 @@ p, li, div{
 margin-top:.0001pt;margin-bottom: .0001pt;font-size:  11.0pt;
 font-family:"Calibri","sans-serif";line-height:  150%;text-align:  justify;}
 
+ol li {
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
 
 
 /*
