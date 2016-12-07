@@ -12,12 +12,11 @@ Este módulo permite ao utilizador manter-se a par de várias informações rela
 Existem várias informações que podem ser associadas ao episódio:
 
  1. **Comentários**
-
-O utilizador pode adicionar observações que ache relevantes relativamente ao episódio ou ao processo associado ao mesmo.
+	O utilizador pode adicionar observações que ache relevantes relativamente ao episódio ou ao processo associado ao mesmo.
 
  2. **Ponto de Situação**
+	Um processo pode ter 4 pontos de situação:
 
-Um processo pode ter 4 pontos de situação:
 * **Receção do episódio**
 * **Entrega do episódio ao médico codificador**
 * **Aguarda informação do serviço**
