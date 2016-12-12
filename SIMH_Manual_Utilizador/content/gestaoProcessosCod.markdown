@@ -1,19 +1,19 @@
 ---
 layout: default
-title: "Gestão de Processos"
+title: "Gestão de Processos de COdificação"
 ---
 
 
 ---
 <div id="gestaoProcessosCod"></div>
 
-# 11. Gestão de Processos
+# 11. Gestão de Processos de Codificação
 
 Este módulo permite ao utilizador manter-se a par de várias informações relativamente ao episódio e a sua situação no sistema.
 Existem várias informações que podem ser associadas ao episódio:
 
  1. **Comentários**<br>
-O utilizador pode adicionar observações que ache relevantes relativamente ao episódio ou ao processo associado ao mesmo.
+O utilizador pode adicionar observações que considere relevantes relativamente ao episódio ou ao processo associado ao mesmo.
 
  1. **Ponto de Situação**<br>
 Um processo pode ter 4 pontos de situação:
@@ -24,13 +24,13 @@ Um processo pode ter 4 pontos de situação:
 
 Os pontos de situação disponíveis para associar, vão variar consoante o estado em que se encontra o episódio.
 
-Assim sendo este módulo permite ao utilizador, criar, editar e consultar o estado em que o episódio se encontra no sistema. Funcionalidades explicadas de seguida.
+Assim sendo este módulo permite ao utilizador, criar, editar e consultar o estado em que o episódio se encontra no sistema, funcionalidades explicadas de seguida.
 
-Para aceder a este módulo o utilizador deverá selecionar a "Gestão de Processos" na pagina inicial da plataforma, como demonstrado na figura seguinte:
+Para aceder a este módulo o utilizador deverá selecionar a "Gestão de Processos de Codificação" na página inicial da plataforma, como demonstrado na figura seguinte:
 
 ![figAcessoGestaoProcessosCod](img/pages/11_1.jpg)
 
-<p class="caption" id="figAcessoGestaoProcessosCod">Módulo de Gestão de Processos</p>
+<p class="caption" id="figAcessoGestaoProcessosCod">Módulo de Gestão de Processos de Codificação</p>
 
 Onde será enviado para o seguinte ecrã:
 
@@ -44,7 +44,7 @@ A página principal do módulo "Gestão de Processos" permite fazer a pesquisa d
 
 <p class="caption" id="figResultadosGestaoProcessosCod">Exemplo dos Resultados obtidos na pesquisa</p>
 
-**Para que seja possível aceder a qualquer uma das funcionalidades deste módulo é necessário selecionar um item obtido da lista anterior.**
+**Para que seja possível aceder a qualquer uma das funcionalidades deste módulo é necessário selecionar um dos episódios obtido na lista anterior.**
 
 <div id="criarGestaoProcessosCod"></div>
 
@@ -78,7 +78,7 @@ Para concluir o processo deverá selecionar o botão **CRIAR** presenta na pági
 
 Este módulo permite ao utilizador consultar o histórico de alterações do processo pretendido.
 
-Para aceder à Consulta, o utilizador deverá selecionar um peisódio da lista de resultados e de seguida o botão **Consultar**, visualizando o seguinte ecrã:
+Para aceder à Consulta, o utilizador deverá selecionar um episódio da lista de resultados e de seguida o botão **Consultar**, visualizando o seguinte ecrã:
 ![figConsultarGestaoProcessosCod](img/pages/11_6.jpg) 
 
 <p class="caption" id="figConsultarGestaoProcessosCod">Consultar Processos</p>

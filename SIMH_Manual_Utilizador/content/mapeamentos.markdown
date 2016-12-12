@@ -23,7 +23,7 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 
 <p class="caption" id="figMapeamentos">Página de Visualização de Mapeamentos</p>
 
-Como é possível ver nesta figura, existe um separador para cada secção de Mapeamento, ou seja, é possível manipular mapeamentos para cada uma das seguintes secções:
+Como é possível ver nesta figura, existe um separador para cada secção de Mapeamento, ou seja, é possível manipular os mapeamentos de cada uma das seguintes secções:
 
 * **Destino Após Alta**
 
@@ -65,7 +65,7 @@ Quando no ecrã da figura [](#figMapeamentos), o utilizador pode selecionar um m
 
 ![figSelecionaMapeamentos](img/pages/12_4.jpg)
 
-<p class="caption" id="figSelecionaMapeamentos">Selecção de um Mapeamento</p>
+<p class="caption" id="figSelecionaMapeamentos">Seleção de um Mapeamento</p>
 
 Só assim é possível aceder à página de Edição de Mapeamentos, que se revela da seguinte maneira:
 
@@ -87,5 +87,3 @@ Para aceder a esta página deverá selecionar um elemento da lista e selecionar 
 <p class="caption" id="figRemoveMapeamentos">Página de Remoção de Mapeamentos</p>
 
 Uma vez neste ecrã, deverá selecionar o botão **Remover** para remover o mapeamento pretendido.
-
-
