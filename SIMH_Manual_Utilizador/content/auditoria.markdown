@@ -12,7 +12,7 @@ title: "Auditoria"
 O módulo auditoria permite consultar os detalhes dos episódios no estado "em auditoria", bem como gerar relatórios em PDF com os episódios em auditoria. 
 Sendo que os médicos codificadores apenas conseguem ver os seus episódios no estado "Em Auditoria", os médicos auditores e administrativos conseguem ver os episódios todos que estão no estado "Em Auditoria"
 
-Uma vez na pagina inicial, o utilizador deverá selecionar o botão "Auditoria" como demonstrado na seguinte figura:
+Uma vez na página inicial, o utilizador deverá selecionar o botão "Auditoria" como demonstrado na seguinte figura:
 
 ![figAcessoAuditoria](img/pages/13_1.jpg)
 
@@ -24,7 +24,7 @@ Uma vez selecionado o módulo será enviado para o seguinte ecrã:
 
 <p class="caption" id="figAuditoria">Página Inicial do Módulo Auditoria</p>
 
-Uma vez realizada a pesquisa, os resultados apresentam-se da seguinte maneira:
+Depois de realizada a pesquisa, os resultados apresentam-se da seguinte maneira:
 
 ![figResultadosAuditoria](img/pages/13_3.jpg)
 
@@ -44,7 +44,7 @@ O botão **CONSULTAR** permite ao utilizador aceder aos detalhes do episódio em
 
 Este contém três separadores: **Dados do Episódio**, **Dados da Codificação** e **Dados da Auditoria**.
 
-Ao clicar neste botão, o utilizador transita para a página de detalhe do episódio tal como a [](#figDetalheAuditoria) ilustra.
+Ao clicar neste botão, o utilizador transita para a página de detalhe do episódio tal como figura anterior ilustra.
 
 Nesta página é possível visualizar a seguinte informação:
 
