@@ -101,7 +101,7 @@ Nesta página é possível visualizar a seguinte informação:
 * **Dados da Auditoria**
 ![figDetalheCodificacaoEpisodios4](img/pages/6_2_6.jpg)
 
-A informação presente na área **Identificação do Episódio** encontra-se sempre visível durante as transições entre as abas **Dados do Episódio** e **Dados da Codificação**.
+A informação presente na área **Identificação do Episódio** encontra-se sempre visível durante as transições entre as abas **Dados do Episódio**, **Dados da Codificação** e **Dados da Auditoria**.
 Durante a consulta de um episódio todos os campos se encontram bloqueados, não sendo possível realizar alterações ao mesmo.
 
 <div id="codificacao"></div>

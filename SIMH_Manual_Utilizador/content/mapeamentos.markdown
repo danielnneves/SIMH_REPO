@@ -35,7 +35,7 @@ Como é possível ver nesta figura, existe um separador para cada secção de Ma
 
 * **Natureza de Admissão**
 
-Aqui, é possível realizar três ações distintas: **Criar**, **Editar** ou **Remover** Mapeamentos de acordo com o separador que o utilizador selecionar. 
+Aqui, poderão ser realizadas três ações distintas: **Criar**, **Editar** ou **Remover** mapeamentos de acordo com o separador que o utilizador selecionar. 
 
 <div id="criarMapeamentos"></div>
 
@@ -67,7 +67,7 @@ Quando no ecrã da figura [](#figMapeamentos), o utilizador pode selecionar um m
 
 <p class="caption" id="figSelecionaMapeamentos">Seleção de um Mapeamento</p>
 
-Só assim é possível aceder à página de Edição de Mapeamentos, que se revela da seguinte maneira:
+Só assim é possível aceder à página de Edição de mapeamentos, que se revela da seguinte maneira:
 
 ![figEditaMapeamentos](img/pages/12_5.jpg)
 
