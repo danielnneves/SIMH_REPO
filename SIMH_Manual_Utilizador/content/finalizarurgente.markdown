@@ -11,8 +11,6 @@ title: "Finalizar Urgente"
 
 Este módulo permite que os utilizadores agrupem e finalizem um determinado episódio.
 
-Através deste módulo é possível realizar a gestão de utilizadores pertencentes a uma entidade hospitalar. 
-
 Esta gestão apenas está acessível para um utilizador que detenha o perfil de administrador da entidade hospitalar onde exerce funções e para episódios que estejam em fase de Rascunho, Auditoria ou Finalizado.
 
 Para isso, o utilizador deve, a partir da página inicial, aceder ao módulo de “Finalizar Urgente”, tal como ilustra a figura [](#figAcessoFinalizarUrgente).
@@ -29,7 +27,7 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 
 Nesta página terá de indicar o Nº Episódio, Nº Processo e o Tipo de Episódio para que o sistema possa encontrar o episódio.
 
-Depois de seleccionado o botão de **PESQUISAR**, será enviado para a seguinte página:
+Depois de selecionado o botão de **PESQUISAR**, será enviado para a seguinte página:
 
 ![figFinalizarUrgente2](img/pages/10_3.jpg)
 
