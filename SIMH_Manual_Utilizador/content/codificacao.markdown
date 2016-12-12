@@ -74,7 +74,7 @@ A [](#figPesquisaCodificacaoEpisodios) ilustra como exemplo uma pesquisa de epis
 
 ## 6.2. Consulta de um episódio
 
-Após realizar a pesquisa de episódios segundo um conjunto de critérios (ver [6.1. Pesquisa de episódios por codificar](#pesquisa-de-episdios-por-codificar)), e ao selecionar um episódio, passa a ser possível a consulta do mesmo.
+Após realizar a pesquisa de episódios segundo um conjunto de critérios (ver [6.1. Pesquisa de episódios por codificar](#codificacao-pesquisa-de-episodios)), e ao selecionar um episódio, passa a ser possível a consulta do mesmo.
 Para tal, deve-se clicar no botão **Consultar**, tal como a [](#figConsultaCodificacaoEpisodios) ilustra.
 
 ![figConsultaCodificacaoEpisodios](img/pages/6_2_1.jpg)
@@ -149,7 +149,7 @@ Nesta secção, é possível visualizar e editar a seguinte informação: **Iden
 
 ![figRegistoCodificacaoEpisodios](img/pages/6_3_5.jpg)
 
-<p class="caption" id="figRegistoCodificacaoEpisodios">Passo 2 da codificação: Registo do Episódio</p>
+<p class="caption" id="figRegistoCodificacaoEpisodios">Passo 2 da codificação: Registo do Episódio </p>
 
 Para adicionar um novo diagnóstico à tabela de diagnósticos ou um novo procedimento à tabela de procedimentos, é necessário preencher um código na caixa de código e adicioná-lo à tabela ![logo](img/pages/6_3_6.jpg).
 Quer na tabela de diagnósticos, quer na tabela de procedimentos, os códigos adicionados podem ser removidos ao clicar em ![logo](img/remover.jpg) ou reposicionados, usando para isso a opção ![logo](img/subir.jpg) para mover o código para cima ou a opção ![logo](img/descer.jpg) para mover o código para baixo.
