@@ -9,7 +9,8 @@ title: "Auditoria"
 
 # 13. Auditoria
 
-O módulo auditoria permite consultar os detalhes dos episódios no estado "em auditoria". Sendo que apenas os médicos tem acesso a este menu.
+O módulo auditoria permite consultar os detalhes dos episódios no estado "em auditoria", bem como gerar relatórios em PDF com os episódios em auditoria. 
+Sendo que os médicos codificadores apenas conseguem ver os seus episódios no estado "Em Auditoria", os médicos auditores e administrativos conseguem ver os episódios todos que estão no estado "Em Auditoria"
 
 Uma vez na pagina inicial, o utilizador deverá selecionar o botão "Auditoria" como demonstrado na seguinte figura:
 
