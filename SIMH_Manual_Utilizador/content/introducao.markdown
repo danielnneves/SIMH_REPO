@@ -147,8 +147,6 @@ O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar 
 
 O menu principal irá apresentar-se ao utilizador de acordo com o perfil que este tem associado à sua conta. É possível na tabela seguinte consultar os acessos que cada perfil tem na aplicação.
 
-Na figura seguinte é possível consultar as permissões que cada perfil tem:
-
 ![figPerfisPermissoes](img/perfispermissoes.png)
 <p class="caption" id="figPerfisPermissoes">Permissões vs Perfis</p>
 
