@@ -141,18 +141,19 @@ Dentro de cada módulo é possível aceder aos restantes bastando para isso clic
 Na primeira vez que o utilizador acede a aplicação, aparecerá a página para alterar a sua senha ([4.2. Alteração da senha](#alterao-da-senha)).
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
+<div id="permissoesPerfis"></div>
 
-<div id="alteraPassword"></div>
-## 4.2. Permissões vs Perfis
+## 4.2. Permissões e Perfis
+
 O menu principal irá apresentar-se ao utilizador de acordo com o perfil que este tem associado à sua conta. É possível na tabela seguinte consultar os acessos que cada perfil tem na aplicação.
 
-Na figura seguinte é possivel consultar as permissões que cada perfil tem:
+Na figura seguinte é possível consultar as permissões que cada perfil tem:
 
 ![figPerfisPermissoes](img/perfispermissoes.png)
 <p class="caption" id="figPerfisPermissoes">Permissões vs Perfis</p>
 
 
-É possivel consultar as respectivas correspondencias da fugura na seguinte tabela:
+É possível consultar as respetivas correspondências da figura na seguinte tabela:
 
 |    | Descrições |
 |----|------------|
@@ -186,8 +187,8 @@ Na figura seguinte é possivel consultar as permissões que cada perfil tem:
 
 O utilizador poderá ter apenas acesso parcial a uma funcionalidade, por exemplo, ter acesso ao módulo de Episódios, mas não poder finalizar os mesmos.
 
-
 <div id="alteraPassword"></div>
+
 ## 4.3. Alteração da senha
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página (ver [4.Conceitos Básicos](#conceitos-bsicos)). 
