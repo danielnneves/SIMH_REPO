@@ -142,8 +142,10 @@ Na primeira vez que o utilizador acede a aplicação, aparecerá a página para 
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
 
-<div id="alteraPassword"></div>
-## 4.2. Permissões vs Perfis
+<div id="permissoesPerfis"></div>
+
+## 4.2. Permissões e Perfis
+
 O menu principal irá apresentar-se ao utilizador de acordo com o perfil que este tem associado à sua conta. É possível na tabela seguinte consultar os acessos que cada perfil tem na aplicação.
 
 Na figura seguinte é possivel consultar as permissões que cada perfil tem:
@@ -188,6 +190,7 @@ O utilizador poderá ter apenas acesso parcial a uma funcionalidade, por exemplo
 
 
 <div id="alteraPassword"></div>
+
 ## 4.3. Alteração da senha
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página (ver [4.Conceitos Básicos](#conceitos-bsicos)). 
