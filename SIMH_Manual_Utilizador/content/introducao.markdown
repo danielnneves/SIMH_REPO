@@ -141,8 +141,54 @@ Dentro de cada módulo é possível aceder aos restantes bastando para isso clic
 Na primeira vez que o utilizador acede a aplicação, aparecerá a página para alterar a sua senha ([4.2. Alteração da senha](#alterao-da-senha)).
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
-## 4.2. Alteração da senha
+
 <div id="alteraPassword"></div>
+## 4.2. Permissões vs Perfis
+O menu principal irá apresentar-se ao utilizador de acordo com o perfil que este tem associado à sua conta. É possível na tabela seguinte consultar os acessos que cada perfil tem na aplicação.
+
+Na figura seguinte é possivel consultar as permissões que cada perfil tem:
+
+![figPerfisPermissoes](img/perfispermissoes.png)
+<p class="caption" id="figPerfisPermissoes">Permissões vs Perfis</p>
+
+
+É possivel consultar as respectivas correspondencias da fugura na seguinte tabela:
+
+|    | Descrições |
+|----|------------|
+|**Nº**	|**Titulo**|
+|1	|Finalizar Urgente|
+|2	|Alteração da Senha|
+|3	|Codificação do Episódio|
+|4	|Codificação do Episódio Auditar|
+|5	|Codificação do Episódio Finalizar|
+|6	|Codificação do Episódio Gravar Rascunho|
+|7	|Codificação do Episódio Não Codificar|
+|8	|Episódios|
+|9	|Detalhe do Episódio|
+|10	|Não Codificavel|
+|11	|Gestão de Especialidades|
+|12	|Criar Mapeamento|
+|13	|Editar Mapeamento	|
+|14	|Mapeamentos|
+|15	|Remover Mapeamento|
+|16	|Cria Médico Codificador|
+|17	|Editar Médico Codificador|
+|18	|Médicos Codificadores|
+|19	|Remover Médico Codificador|
+|20	|Simulador de codificação em ICD 10|
+|21	|Editar Estado do Utilizador|
+|22	|Criar Utilizador|
+|23	|Editar Utilizador|
+|24	|Gestão Utilizadores|
+|25	|Remover Utilizador|
+|26	|Auditoria|
+
+O utilizador poderá ter apenas acesso parcial a uma funcionalidade, por exemplo, ter acesso ao módulo de Episódios, mas não poder finalizar os mesmos.
+
+
+<div id="alteraPassword"></div>
+## 4.3. Alteração da senha
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página (ver [4.Conceitos Básicos](#conceitos-bsicos)). 
 Após clicar em **Alterar Password** é apresentada uma página de alteração de senha, ver [](#figAlteraSenha).
