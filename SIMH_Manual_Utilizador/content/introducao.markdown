@@ -87,7 +87,7 @@ No cabeçalho das páginas do *SIMH* existe um conjunto de dados que serve para 
 
 * Nome do utilizador e o perfil de utilizador que lhe esteja associado;
 * Nome da entidade hospitalar a que o utilizador pertença, caso o utilizador pertença a uma entidade;
-* Botão das opções avançadas ![logo](img/definicao.png). Ao clicar neste, o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como por exemplo alterar password ([4.2. Alteração da senha](#alterao-da-senha) ou aceder ao perfil do utilizador;
+* Botão das opções avançadas ![logo](img/definicao.png). Ao clicar neste, o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como por exemplo alterar password ([4.2. Alteração da senha](#alterao-da-senha)) ou aceder ao perfil do utilizador;
 <img id="figDefinicaoEntradas" src="img/pages/4_1.jpg" style="display:block; margin:auto;"/>
 * Botão de acesso rápido ao manual de utilizador ![logo](img/manual.jpg);
 * Contexto de navegação atual do utilizador, presente na barra *breadcrumbs* ![logo](img/breadcrumbs.jpg), que são clicáveis se o utilizador pretender voltar a uma página já navegada.
@@ -107,12 +107,12 @@ Aqui, o utilizador deve inserir as suas credenciais nos campos obrigatórios e c
 |    |  Campos Obrigatórios [](#figLogin)  															|	           
 |----|----------------------------------------------------------------------------------------------|
 | a) | Nome de utilizador (utilizador do RNP ou o utilizador criado na aplicação SIMH)  			|
-| b) | password								  														| 
+| b) | Password								  														| 
 
-> Os médicos registados na plataforma RNP podem entrar no SIMH com as credenciais daquela. Apenas é necessário que o administrador da entidade hospitalar a que o médico pertence, faça a associação desse médico à sua entidade. Uma vez realizado, o médico ficará com o perfil de médico codificador e fica habilitado a entrar no SIMH (ver capítulo [8. Médicos Codificadores](#gestaoMedicos) para mais informações).
+> Os médicos registados na plataforma RNP podem entrar no SIMH com as credenciais da mesma. Apenas é necessário que o administrador da entidade hospitalar a que o médico pertence, faça a associação desse médico à sua entidade. Uma vez realizado, o médico ficará com o perfil de médico codificador e fica habilitado a entrar no SIMH (ver capítulo [8. Médicos Codificadores](#gestaoMedicos) para mais informações).
 > Os restantes utilizadores, devem ser primeiro criados conforme descrito no capítulo [5. Gestão de Utilizadores](#gestaoUtilizadores).
 
-Caso o utilizador não saiba as suas credencias, deverá clicar em **Recuperar Senha**.
+Caso o utilizador não saiba as suas credenciais, deverá clicar em **Recuperar Senha**.
 
 ![figLoginRecuperacao](img/pages/4_1_2.jpg)
 
@@ -124,7 +124,7 @@ De seguida, deverá preencher os campos obrigatórios do formulário e clicar em
 |----|------------------------------------------------------------------------------------------|
 | a) | Nome de utilizador (utilizador do RNP ou o utilizador criado na aplicação SIMH) 			|
 
-Irá ser enviado um e-mail para o e-mail escolhido, com instruções de recuperação de acesso à conta.
+Serão enviadas as intruções de recuperação de password para o e-mail associado ao utilizador introduzido no campo.
 
 Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do *SIMH* ([](#figPaginaEntrada)), onde este pode aceder às funcionalidades que lhe estão disponíveis.
 
