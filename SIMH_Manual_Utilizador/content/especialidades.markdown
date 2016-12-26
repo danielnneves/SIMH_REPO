@@ -26,4 +26,4 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 <p class="caption" id="figGestaoEspecialidades">Página de entrada do módulo Gestão de Especialidades</p>
 
 
-Nesta página o utilizador deverá selecionar quais as especialidades associadas à sua entidade (![figcheckbox](img/pages/9_3.jpg)) e de seguida o botão **GRAVAR**.
+Nesta página o utilizador deverá selecionar quais as especialidades associadas à sua entidade (utilizando a coluna "Activo" da tabela) e de seguida o botão **GRAVAR**.
