@@ -117,7 +117,6 @@ Caso o utilizador não saiba as suas credenciais, deverá clicar em **Recuperar 
 ![figLoginRecuperacao](img/pages/4_1_2.jpg)
 
 <p class="caption" id="figLoginRecuperacao"> Recuperação da Senha </p>
-
 De seguida, deverá preencher os campos obrigatórios do formulário e clicar em **Enviar**.  
 
 |    |  Campos Obrigatórios [](#figLoginRecuperacao)  											|	           
