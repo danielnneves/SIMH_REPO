@@ -47,15 +47,23 @@ Ao selecionar o botão **Criar** o utilizador é enviado para o seguinte ecrã:
 
 <p class="caption" id="figCriaMapeamentos">Página de Criação de Mapeamentos</p>
 
+Neste ecrã constam os seguintes campos:
+
+* O Tipo de mapeamento
+* O Mapeamento no lado do SIMH
+* A tabela do Sonho à qual aquele tipo de mapeamento corresponde
+* O código do mapeamento na tabela de Sonho
+* A descrição que se encontra na tabela do Sonho.
+
 Quando se pretende criar um mapeamento é necessário preencher os seguintes campos obrigatórios:
 
 |    |  Campos Obrigatórios 										| 		|    
 |----|--------------------------------------------------------------|-------|
-| a) |  Tipo    		          				      				|		|
-| b) |  ID da Entidade       		                				|		|
-| c) |  Mapeamento		                  							|		|
+| a) |  Mapeamento       		                					|		|
+| b) |  COD_DESTINO		                  							|		|
 
 No final da criação, o utilizador deve clicar no botão **Criar**, para completar a mesma.
+ 
 
 <div id="editarMapeamentos"></div>
 
