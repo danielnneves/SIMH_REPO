@@ -57,5 +57,8 @@ Nesta página é possível visualizar a seguinte informação:
 * **Dados da Codificação**
 ![figDetalheCodificacaoEpisodiosAuditoria3](img/pages/6_2_5.jpg)
 
+* **Dados das Sessões**
+![figDetalheCodificacaoEpisodios5](img/pages/6_2_7.jpg)
+
 * **Dados da Auditoria**
 ![figDetalheCodificacaoEpisodiosAuditoria4](img/pages/6_2_6.jpg)
