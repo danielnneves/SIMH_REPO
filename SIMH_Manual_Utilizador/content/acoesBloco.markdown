@@ -41,4 +41,4 @@ O utilizador poderá também consultar os detalhes de um determinado episódio. 
 
 <p class="caption" id="figResultadosAcoesBloco">Consulta de Episódios</p>
 
-Quando selecionado o botao de consulta o utilizador é enviado para o detalhe do episodio ([6.2. Consulta de um episódio](#codificacao-consulta-de-episodios))
+Quando selecionado o botão de consulta o utilizador é enviado para o detalhe do episódio ([6.2. Consulta de um episódio](#codificacao-consulta-de-episodios))
