@@ -25,12 +25,10 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 
 <p class="caption" id="figFinalizarUrgente">Página de Pesquisa do Episódio</p>
 
-Nesta página terá de indicar o Nº Episódio, Nº Processo e o Tipo de Episódio para que o sistema possa encontrar o episódio.
+Nesta página terá de indicar o Nº Episódio e o Tipo de Episódio para que o sistema possa encontrar o episódio.
 
-Depois de selecionado o botão de **PESQUISAR**, será enviado para a seguinte página:
+Depois de selecionado o botão de **PESQUISAR**, será enviado para a página de codificação do episódio ([6.1. Edição de um episódio](#codificacao-edicao-de-episodios)) onde poderá terminar a codificação do episódio.
 
-![figFinalizarUrgente2](img/pages/10_3.jpg)
-
-<p class="caption" id="figFinalizarUrgente">Página de Finalizar Urgente</p>
+Após concluir o preenchimento dos dados do episódio, deverá seleccionar o botão **Finalizar Urgente** presente na página de Registo.
 
 
