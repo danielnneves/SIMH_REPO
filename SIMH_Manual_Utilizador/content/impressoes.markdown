@@ -32,4 +32,4 @@ Existem dois tipos de impressões:
 * **PDF** - Contém apenas a informação administrativa do episódio, dando margem ao utilizador para preencher os restantes dados do episódio.
 * **PDF (Exaustiva)** - Contém a lista de episódios com o preenchimento já proveniente do SIMH, ou seja, a lista de diagnósticos, de procedimentos, dispositivos médicos e alertas vêm de acordo com os dados inseridos no SIMH.
 
-Os dados presentes na Impressão vão variar com o módulo onde se seleciona o botão de **IMPRIMIR**
+Os dados presentes na Impressão vão variar com o módulo onde se seleciona o botão de **IMPRIMIR**.
