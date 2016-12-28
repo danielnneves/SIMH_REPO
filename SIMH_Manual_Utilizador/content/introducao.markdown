@@ -26,7 +26,7 @@ Este encontra-se organizado da seguinte forma:
  
 # 2. Tabela de Acrónimos
 
-A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
+A tabela seguinte contém a descrição de várias siglas usadas ao longo do documento.
 
 |  Sigla   |  Designação             													  	|	           
 |----------|--------------------------------------------------------------------------------|
@@ -85,9 +85,9 @@ Para auxiliar as validações existem 4 tipos de mensagens:
 
 No cabeçalho das páginas do *SIMH* existe um conjunto de dados que serve para informação/contextualização do utilizador:
 
-* Nome do utilizador e o perfil de utilizador que lhe esteja associado;
-* Nome da entidade hospitalar a que o utilizador pertença, caso o utilizador pertença a uma entidade;
-* Botão das opções avançadas ![logo](img/definicao.png). Ao clicar neste, o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como por exemplo alterar password ([4.2. Alteração da senha](#alterao-da-senha)) ou aceder ao perfil do utilizador;
+* Nome do utilizador;
+* Nome da entidade hospitalar, caso exista, associada ao utilizador;
+* Botão das opções avançadas ![logo](img/definicao.png). Ao clicar neste, o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como por exemplo alterar password ([4.2. Alteração da senha](#alterao-da-senha)) ou as folhas de codificação para internamento e ambulatório;
 <img id="figDefinicaoEntradas" src="img/pages/4_1.jpg" style="display:block; margin:auto;"/>
 * Botão de acesso rápido ao manual de utilizador ![logo](img/manual.jpg);
 * Contexto de navegação atual do utilizador, presente na barra *breadcrumbs* ![logo](img/breadcrumbs.jpg), que são clicáveis se o utilizador pretender voltar a uma página já navegada.
@@ -112,7 +112,7 @@ Aqui, o utilizador deve inserir as suas credenciais nos campos obrigatórios e c
 > Os médicos registados na plataforma RNP podem entrar no SIMH com as credenciais da mesma. Apenas é necessário que o administrador da entidade hospitalar a que o médico pertence, faça a associação desse médico à sua entidade. Uma vez realizado, o médico ficará com o perfil de médico codificador e fica habilitado a entrar no SIMH (ver capítulo [8. Médicos Codificadores](#gestaoMedicos) para mais informações).
 > Os restantes utilizadores, devem ser primeiro criados conforme descrito no capítulo [5. Gestão de Utilizadores](#gestaoUtilizadores).
 
-Caso o utilizador não saiba as suas credenciais, deverá clicar em **Recuperar Senha**.
+Caso o utilizador, por algum motivo, necessite de uma nova senha gerada pelo sistema, deverá clicar em **Recuperar Senha**.
 
 ![figLoginRecuperacao](img/pages/4_1_2.jpg)
 
@@ -144,13 +144,13 @@ O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar 
 
 ## 4.2. Permissões e Perfis
 
-O menu principal irá apresentar-se ao utilizador de acordo com o perfil que este tem associado à sua conta. É possível na tabela seguinte consultar os acessos que cada perfil tem na aplicação.
+O menu principal irá apresentar-se ao utilizador de acordo com o perfil que este tem associado à sua conta. É possível, na imagem seguinte, consultar os acessos que cada perfil tem na aplicação.
 
 ![figPerfisPermissoes](img/perfispermissoes.png)
 <p class="caption" id="figPerfisPermissoes">Permissões vs Perfis</p>
 
 
-É possível consultar as respetivas correspondências da figura na seguinte tabela:
+Na tabela está feito o mapeamento entre os números presentes na figura e as respectivas funcionalidades:
 
 |    | Descrições |
 |----|------------|
