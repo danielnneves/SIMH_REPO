@@ -10,5 +10,5 @@ title: "Gestão de Utilizadores"
 
 # Anexos
 
-![Campos da folha de Codificação SIMH para Ambulatório e Internamento] (file/30.12.2016_CAMPOS SIMH_FOLHA DE CODIFICAÇÃO_ICD10CMPCS.xlsx)
+![Campos] (file/30.12.2016_CAMPOS SIMH_FOLHA DE CODIFICAÇÃO_ICD10CMPCS.xlsx)
 
