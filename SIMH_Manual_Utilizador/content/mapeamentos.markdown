@@ -82,9 +82,12 @@ Só assim é possível aceder à página de Edição de mapeamentos, que se reve
 <p class="caption" id="figEditaMapeamentos">Página de Edição de Mapeamentos</p>
 
 Os critérios de preenchimento são semelhantes ao da página de criação.
+O sistema permite, ao editar um mapeamento, que estas alterações se reflitam nos episódios já modificados. 
+Ao selecionar a opção Sim do campo "Acutalizar registos anteriores", a edição efectuada será aplicada a todos os episódios já modificados para trás. Caso selecione Não, o novo mapeamento só terá efeito a partir do momento da mesma.
+
 Uma vez concluídas as alterações pretendidas no mapeamento em edição, o utilizador deve clicar no botão **Alterar**. 
 
-<div id="removerUtilizadores"></div>
+<div id="removerMapeamentos"></div>
 
 ### 11.3 Remover Mapeamentos
 
