@@ -7,7 +7,7 @@ title: "Mapeamentos"
 ---
 <div id="mapeamentos"></div>
 
-# 12. Mapeamentos
+# 11. Mapeamentos
 
 Este módulo permite fazer a correspondência de mapeamentos, de acordo com os valores identificativos de cada entidade.
 
@@ -39,7 +39,7 @@ Aqui, poderão ser realizadas três ações distintas: **Criar**, **Editar** ou 
 
 <div id="criarMapeamentos"></div>
 
-## 12.1 Criar Mapeamentos
+## 11.1 Criar Mapeamentos
 
 Ao selecionar o botão **Criar** o utilizador é enviado para o seguinte ecrã:
 
@@ -67,7 +67,7 @@ No final da criação, o utilizador deve clicar no botão **Criar**, para comple
 
 <div id="editarMapeamentos"></div>
 
-### 12.2 Editar Mapeamentos
+### 11.2 Editar Mapeamentos
 
 Quando no ecrã da figura [](#figMapeamentos), o utilizador pode selecionar um mapeamento já criado da lista, clicando no elemento da tabela, como mostrado de seguida:
 
@@ -86,7 +86,7 @@ Uma vez concluídas as alterações pretendidas no mapeamento em edição, o uti
 
 <div id="removerUtilizadores"></div>
 
-### 12.3 Remover Mapeamentos
+### 11.3 Remover Mapeamentos
 
 Para aceder a esta página deverá selecionar um elemento da lista e selecionar o botão **Remover**, sendo enviado para o seguinte ecrã:
 

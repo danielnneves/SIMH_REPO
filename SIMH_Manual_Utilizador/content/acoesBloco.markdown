@@ -7,7 +7,7 @@ title: "Acoes Bloco"
 ---
 <div id="acoesBloco"></div>
 
-# 14. Ações em bloco
+# 13. Ações em bloco
 
 Este módulo tem como objetivo agilizar a mudança de estado dos episódios, permitindo-o fazer em bloco. O utilizador pode exercer ações sobre 25 episódios de cada vez.
 

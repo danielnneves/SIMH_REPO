@@ -131,13 +131,13 @@ Uma vez identificado e autenticado, é apresentada ao utilizador a página de en
 
 <p class="caption" id="figPaginaEntrada"> Página de entrada no SIMH </p>
  
-Dentro de cada módulo é possível aceder aos restantes bastando para isso clicar no logotipo da aplicação, no canto superior esquerdo, e selecionar o módulo para onde se deseja transitar, tal como ilustrado na [](#figMudaModulo).
+Dentro de cada módulo é possível aceder aos restantes menus bastando para isso clicar no logotipo da aplicação, no canto superior esquerdo, e selecionar o módulo para onde se deseja transitar, tal como ilustrado na [](#figMudaModulo).
 
 ![figMudaModulo](img/pages/4_1_4.jpg)
 
 <p class="caption" id="figMudaModulo">Transição entre módulos</p> 
  
-Na primeira vez que o utilizador acede a aplicação, aparecerá a página para alterar a sua senha ([4.2. Alteração da senha](#alterao-da-senha)).
+Na primeira vez que o utilizador acede a aplicação, aparecerá a página para alterar a sua senha ([4.3. Alteração da senha](#alterao-da-senha)).
 O utilizador pode sair do sistema a qualquer momento, bastando para isso clicar no botão **Terminar Sessão** ![logo](img/logout.jpg).
 
 <div id="permissoesPerfis"></div>
@@ -181,6 +181,9 @@ Na tabela está feito o mapeamento entre os números presentes na figura e as re
 |24	|Gestão Utilizadores|
 |25	|Remover Utilizador|
 |26	|Auditoria|
+|27	|Botão de Imprimir em vários módulos|
+|28	|Acções em Bloco|
+
 
 O utilizador poderá ter apenas acesso parcial a uma funcionalidade, por exemplo, ter acesso ao módulo de Episódios, mas não poder finalizar os mesmos.
 

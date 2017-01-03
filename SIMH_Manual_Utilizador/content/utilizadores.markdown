@@ -89,6 +89,8 @@ Os perfis disponíveis para pesquisa são:
 
 * **Administrativo da Entidade** - Trabalhadores que pertencem a uma entidade hospitalar. Podem codificar episódios mas não são os responsáveis pela codificação de um episódio;
 * **Administrador da Entidade** - Trabalhadores que pertencem e administram uma entidade hospitalar.
+* **Médico Codificador** - Médico que codifica episódios.
+* **Médico codificador sem permissões para finalizar** - médico que codifica episódios mas não os poderá finalizar.
 
 Os estados disponíveis para pesquisa são:
 
