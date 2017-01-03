@@ -10,5 +10,5 @@ title: "Gestão de Utilizadores"
 
 # Anexos
 
-![Campos] (file/30.12.2016_CAMPOS SIMH_FOLHA DE CODIFICAÇÃO_ICD10CMPCS.xlsx)
+<a href="./file/30.12.2016_CAMPOS SIMH_FOLHA DE CODIFICAÇÃO_ICD10CMPCS.xlsx">Campos Folha Codificação</a>
 
