@@ -7,7 +7,7 @@ title: "Auditoria"
 ---
 <div id="auditoria"></div>
 
-# 13. Auditoria
+# 12. Auditoria
 
 O módulo auditoria permite consultar os detalhes dos episódios no estado "em auditoria", bem como gerar relatórios em PDF com os episódios em auditoria. 
 Sendo que os médicos codificadores apenas conseguem ver os seus episódios no estado "Em Auditoria", os médicos auditores e administrativos conseguem ver os episódios todos que estão no estado "Em Auditoria"
@@ -32,9 +32,9 @@ Depois de realizada a pesquisa, os resultados apresentam-se da seguinte maneira:
 
 **Para que o utilizador possa consultar os detalhes de um episódio deverá selecionar um episódio da lista.**
 
-<div id="consultaAuditoria"></div>
+<div id="consultarAuditoria"></div>
 
-## 13.1 Consultar um Episódio em Auditoria
+## 12.1 Consultar um Episódio em Auditoria
 
 O botão **CONSULTAR** permite ao utilizador aceder aos detalhes do episódio em auditoria, como se apresenta de seguida:
 

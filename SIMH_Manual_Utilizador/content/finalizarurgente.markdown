@@ -7,7 +7,7 @@ title: "Finalizar Urgente"
 ---
 <div id="finalizarUrgente"></div>
 
-# 10. Finalizar Urgente
+# 9. Finalizar Urgente
 
 Este módulo permite que os utilizadores agrupem e finalizem um determinado episódio.
 
@@ -27,7 +27,7 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 
 Nesta página terá de indicar o Nº Episódio e o Tipo de Episódio para que o sistema possa encontrar o episódio.
 
-Depois de selecionado o botão de **PESQUISAR**, será enviado para a página de codificação do episódio ([6.1. Edição de um episódio](#codificacao-edicao-de-episodios)) onde poderá terminar a codificação do episódio.
+Depois de selecionado o botão de **PESQUISAR**, será enviado para a página de codificação do episódio ([6.3. Edição de um episódio](#codificacao-edicao-de-episodios)) onde poderá terminar a codificação do episódio.
 
 Após concluir o preenchimento dos dados do episódio, deverá seleccionar o botão **Finalizar Urgente** presente na página de Registo.
 

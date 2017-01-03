@@ -7,7 +7,7 @@ title: "Gestão de Processos de COdificação"
 ---
 <div id="gestaoProcessosCod"></div>
 
-# 11. Gestão de Processos de Codificação
+# 10. Gestão de Processos de Codificação
 
 Este módulo permite ao utilizador gerir o ponto de situação de cada processo no âmbito da codificação.
 Existem várias informações que podem ser associadas ao episódio:
@@ -49,7 +49,7 @@ Os resultados obtidos na pesquisa apresentam-se de acordo com a seguinte imagem:
 
 <div id="criarGestaoProcessosCod"></div>
 
-## 11.1 Criar um Novo Processo de Codificação
+## 10.1 Criar um Novo Processo de Codificação
 
 Na figura [](#figGestaoProcessosCod) é possível visualizar a página onde se poderá criar um processo de codificação, após selecionar o botão **CRIAR** presente na figura .
 
@@ -63,7 +63,7 @@ Para concluir o processo deverá selecionar o botão **CRIAR** apresentado na p�
 
 <div id="editarGestaoProcessosCod"></div>
 
-## 11.2 Editar um Processo de Codificação
+## 10.2 Editar um Processo de Codificação
 
  No processo de edição apenas fica disponível a edição do **Ponto de Situação** e dos **Comentários** relativos ao processo. Para aceder a esta funcionalidade no ecrã da figura [](#figGestaoProcessosCod) deverá selecionar o botão **EDITAR**, sendo enviado para o seguinte ecrã:
 
@@ -75,7 +75,7 @@ Para concluir o processo deverá selecionar o botão **CRIAR** apresentado na p�
 
 <div id="consultarGestaoProcessosCod"></div>
 
-## 11.3 Consultar Processos de Codificação
+## 10.3 Consultar Processos de Codificação
 
 Este módulo permite ao utilizador consultar o histórico de alterações do processo pretendido.
 

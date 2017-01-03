@@ -7,7 +7,7 @@ title: "Impressoes"
 ---
 <div id="impressoes"></div>
 
-# 15. Impressões
+# 14. Impressões
 
 A plataforma SIMH permite ao utilizador fazer a impressão de folhas de codificação dos episódios a apresentar nos resultados das pesquisas que existem em vários módulos da aplicação.
 A impressão encontra-se atualmente disponível nos seguintes módulos:
