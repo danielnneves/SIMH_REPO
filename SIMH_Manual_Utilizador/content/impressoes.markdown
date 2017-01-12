@@ -32,7 +32,8 @@ Existem dois tipos de impressões:
 
 * **Folha de Codificação Pré-Preenchida** - Contém apenas a informação administrativa do episódio, dando margem ao utilizador para preencher os restantes dados do episódio.
 * **Lista Exaustiva** - Contém a lista de episódios com o preenchimento já proveniente do SIMH, ou seja, a lista de diagnósticos, de procedimentos, dispositivos médicos e alertas vêm de acordo com os dados inseridos no SIMH.
+* **Resumo** - Contém a lista dos episódios obtidos da pesquisa com as informações básicas do episódio (Nº processo, Nº Episódio, Data Alta, Módulo, Médico Codificador, Especialidade, Estado, GDH e o Lote em que este consta no PDF).
 
-Se o utilizador avançar para a última página da lista de impressão de episódios aparecerá a opção de **RESUMO**, como pode consultar na figura [](#figImprimir). 
+Se o utilizador avançar para a última página da lista de impressão de episódios aparecerá a consulta do **RESUMO** dos episódios, como pode consultar na figura [](#figImprimir). 
 
-Os dados presentes na Impressão vão variar com o módulo em que se seleciona o botão de **IMPRIMIR**.
+Os dados presentes na Impressão vão variar com o módulo do SIMH em que se acede ao botão de **IMPRIMIR**.
