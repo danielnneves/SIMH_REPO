@@ -15,7 +15,7 @@ A impressão encontra-se atualmente disponível nos seguintes módulos:
 * **Episódios**
 * **Gestão de Processos**
 
-Para ativar o botão de impressão, o utilizador deverá escolher um intervalo de datas inferior ou igual a 31 dias nos filtros de pesquisa, demonstrado na figura seguinte:
+Para ativar o botão de impressão, **o utilizador deverá escolher um intervalo de datas inferior ou igual a 31 dias nos filtros de pesquisa**, demonstrado na figura seguinte:
 
 ![figAcessoImprimir](img/pages/15_1.jpg) 
 
@@ -27,7 +27,7 @@ Ao selecionar o botão **IMPRIMIR** o utilizador será enviado para a seguinte p
 
 <p class="caption" id="figImprimir">Página de Impressão de Episódios</p>
 
-A lista de episódios está dividida em lotes de 100 episódios por ficheiro PDF.
+A lista de episódios está dividida em lotes de 100 episódios por ficheiro PDF. Foi necessário subdividir os ficheiros em lotes limitados de tamanho, para precaver a sobrecarga do sistema, caso contrário não seria possível gerar a informação pretendida.
 Existem dois tipos de impressões:
 
 * **Folha de Codificação Pré-Preenchida** - Contém apenas a informação administrativa do episódio, dando margem ao utilizador para preencher os restantes dados do episódio.
@@ -37,3 +37,5 @@ Existem dois tipos de impressões:
 Se o utilizador avançar para a última página da lista de impressão de episódios aparecerá a consulta do **RESUMO** dos episódios, como pode consultar na figura [](#figImprimir). 
 
 Os dados presentes na Impressão vão variar com o módulo do SIMH em que se acede ao botão de **IMPRIMIR**.
+
+<a href="./file/SIMHdemo.mp4">Demonstração da Utilização da Página de Impressão</a>
