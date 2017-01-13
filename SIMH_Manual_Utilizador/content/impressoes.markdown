@@ -39,4 +39,4 @@ Se o utilizador avançar para a última página da lista de impressão de episó
 Os dados presentes na Impressão vão variar com o módulo do SIMH em que se acede ao botão de **IMPRIMIR**.
 
 
-<p><a href="./file/SIMHdemo.mp4">**Demonstração da Utilização da Página de Impressão**</a></p>
+**<p><a href="./file/SIMHdemo.mp4">Demonstração da Utilização da Página de Impressão</a></p>**
