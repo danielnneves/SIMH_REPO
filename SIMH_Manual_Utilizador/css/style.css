@@ -446,10 +446,10 @@ border-top:    solid #005082 1.0pt;
 	text-align: left;
 }
 
-
-
-
-
+.faq p{
+  font-size: 18px;
+  font-weight: bold;
+}
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
