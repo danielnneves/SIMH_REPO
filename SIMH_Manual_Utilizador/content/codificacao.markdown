@@ -135,7 +135,7 @@ Inicialmente, é necessário preencher a secção de **Informação do Episódio
 Caso o utilizador deseje simplesmente marcar o episódio como não codificável, deverá clicar no botão **Não Codificar**.
 Poderá também em qualquer altura marcar o episódio como Rascunho, para que o possa codificar/alterar mais tarde.
 
-Na secção de **Informação do Episódio** (ver [](#figCodificacaoInformacaoCodificacaoEpisodios)), secção onde o utilizador começa a codificação do episódio, é possível visualizar e editar a seguinte informação: **Identificação do Médico**, **Natureza da Admissão**, **Destino após Alta** e **Outros Dados**.
+Na secção de **Informação do Episódio** (ver [](#figCodificacaoInformacaoCodificacaoEpisodios)), secção onde o utilizador começa a codificação do episódio, é possível visualizar e editar a seguinte informação: **Natureza da Admissão**, **Destino após Alta** e **Outros Dados**.
 **As restantes informações vêm do Sistema de Informação fonte e qualquer alteração terá de ser feita no mesmo.**
 
 Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
@@ -169,7 +169,7 @@ Nesta página irá estar visível o botão **Simular** para utilizadores com per
 <p class="caption" id="figCodificacaoSimularCodificacaoEpisodios">Simular de Codificação</p>
 
 Para prosseguir para a secção de **Registo** (ver [](#figRegistoCodificacaoEpisodios)) do episódio o utilizador deve premir o botão **Registar**. 
-Nesta secção, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**,**Identificação do Doente**, **Intervenção Cirurgica** ,**Diagnósticos**, **Procedimentos** e **Dispositivos Médicos**.
+Nesta secção, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**, **Identificação do Doente**, **Identificação do Médico**, **Intervenção Cirurgica** ,**Diagnósticos**, **Procedimentos** e **Dispositivos Médicos**.
 
 Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
 
@@ -184,7 +184,7 @@ Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
 |**Código**	|**Descrição**| 
 |Z5309|	Procedure and treatment not carried out because of other contraindication|
 |Z5329|	Procedure and treatment not carried out because of patient`s decision for other reasons|
-|Z538|	Procedure and treatment not carried out for other reasons|
+|Z538 |	Procedure and treatment not carried out for other reasons|
 
 ![figRegistoCodificacaoEpisodios](img/pages/6_3_5.jpg)
 
