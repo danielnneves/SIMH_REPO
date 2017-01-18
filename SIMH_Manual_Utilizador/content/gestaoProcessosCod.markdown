@@ -57,7 +57,7 @@ Na figura [](#figGestaoProcessosCod) é possível visualizar a página onde se p
 
 <p class="caption" id="figCriarGestaoProcessosCod">Criar um Novo Processo de Codificação</p>
 
-A funcionalidade de criar um processo de codificação permite ao utilizador adicionar o **Medico Codificador**, o **Medico Auditor**, o **Ponto de Situação** e os **Comentários** relativos ao processo.
+A funcionalidade de criar um processo de codificação permite ao utilizador adicionar o **Médico Codificador**, o **Médico Auditor**, o **Ponto de Situação** e os **Comentários** relativos ao processo.
 
 Para concluir o processo deverá selecionar o botão **CRIAR** apresentado na página da figura [](#figCriarGestaoProcessosCod).
 
