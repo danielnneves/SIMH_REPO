@@ -362,8 +362,7 @@ margin-bottom:0;
 #paginas p img[alt=figAcessoMapeamentos],
 #paginas p img[alt=figAcessoGestaoProcessosCod],
 #paginas p img[alt=figAcessoAuditoria],
-#paginas p img[alt=figAcessoAcoesBloco],
-#paginas p img[alt=figAcessoGestaoEspecialidades] {
+#paginas p img[alt=figAcessoAcoesBloco] {
 width: auto;
 }
 
