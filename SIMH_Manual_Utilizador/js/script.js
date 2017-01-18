@@ -33,8 +33,8 @@ $('tr').each(function(){
 	 $('#paginas p>img:not([alt="logo"])').each(function(){
 		 var alt = $(this).attr("alt")
 		 var exclusions = ["figLogin","figLoginRecuperacao","figMudaModulo","figAcessoGestaoUtilizadores",
-						   "figAcessoCodificacaoEpisodios","figAcessoSimuladores","figAcessoMedicosCodificadores",
-						   "figAcessoGestaoEspecialidades"];
+						   "figAcessoCodificacaoEpisodios","figAcessoSimuladores","figAcessoMedicosCodificadores","figAcessoSimuladorAgrupamento",
+							"figAcessoFinalizarUrgente","figAcessoMapeamentos","figAcessoGestaoProcessosCod","figAcessoAuditoria","figAcessoAcoesBloco"];
 		 if($.inArray(alt, exclusions) == -1)
 			$(this).wrap("<a class='imagem' href='"+$(this).attr( "src" ) + "' onclick='return hs.expand(this)'></a>"); 
 });
