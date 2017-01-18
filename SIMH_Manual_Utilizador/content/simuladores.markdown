@@ -27,7 +27,7 @@ Ao aceder a este módulo, aparecerá a seguinte página:
 
 Esta página é composta por 5 áreas principais:
 
-* **Tipo de Agrupador** - Nesta área deve ser feita a seleção do tipo de ICD e do agrupador a utilizar para o resto da simulação. No caso de ter sido escolhido ICD-10-CM/PCS, o agrupador a usar será necessariamente o APR (APR-DRG). Caso o ICD escolhido seja ICD9, o agrupador poderá ser alternado entre as várias opções disponíveis.
+* **Tipo de Agrupador** - Nesta área deve ser feita a seleção do tipo de ICD e do agrupador a utilizar para o resto da simulação. No caso de ter sido escolhido ICD-10-CM/PCS, o agrupador a usar será necessariamente o APR (APR-DRG). Caso o ICD escolhido seja ICD9, o agrupador utilizará agrupamento em AP.
 ![figSimuladoresTipoAgrupador](img/pages/7_3.jpg)
 
 * **Outros dados** - Nesta área, é possível parametrizar o episódio com informação auxiliar, tal como o sexo do paciente ou o destino após alta.

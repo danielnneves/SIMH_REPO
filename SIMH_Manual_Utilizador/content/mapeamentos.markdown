@@ -63,11 +63,10 @@ Quando se pretende criar um mapeamento é necessário preencher os seguintes cam
 | b) |  COD_DESTINO		                  							|		|
 
 No final da criação, o utilizador deve clicar no botão **Criar**, para completar a mesma.
- 
 
 <div id="editarMapeamentos"></div>
 
-### 11.2 Editar Mapeamentos
+## 11.2 Editar Mapeamentos
 
 Quando no ecrã da figura [](#figMapeamentos), o utilizador pode selecionar um mapeamento já criado da lista, clicando no elemento da tabela, como mostrado de seguida:
 
@@ -89,7 +88,7 @@ Uma vez concluídas as alterações pretendidas no mapeamento em edição, o uti
 
 <div id="removerMapeamentos"></div>
 
-### 11.3 Remover Mapeamentos
+## 11.3 Remover Mapeamentos
 
 Para aceder a esta página deverá selecionar um elemento da lista e selecionar o botão **Remover**, sendo enviado para o seguinte ecrã:
 
