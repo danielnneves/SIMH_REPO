@@ -13,7 +13,7 @@ A plataforma SIMH permite ao utilizador fazer a impressão de folhas de codifica
 A impressão encontra-se atualmente disponível nos seguintes módulos:
 
 * **Episódios**
-* **Gestão de Processos**
+* **Gestão de Processos** - É necessário selecionar nos filtros o estado **Por codificar** ou **Rascunho**.
 
 Para ativar o botão de impressão, **o utilizador deverá escolher um intervalo de datas inferior ou igual a 31 dias nos filtros de pesquisa**, demonstrado na figura seguinte:
 

@@ -151,6 +151,7 @@ Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
 	* Existem alguns tipos de destino que exigem o preenchimento do motivo de transferência. Como se consulta na figura seguinte:
  
 ![figCodificacaoCodificacaoEpisodios](img/pages/6_3_8.jpg)
+
 <p class="caption" id="figDestinoAposAlta">Exemplo Destino Após Alta com Transferido para e Motivo de Transferência</p>
  
 * **Outros Dados**
@@ -171,12 +172,13 @@ Para prosseguir para a secção de **Registo** (ver [](#figRegistoCodificacaoEpi
 Nesta secção, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**,**Identificação do Doente**, **Intervenção Cirurgica** ,**Diagnósticos**, **Procedimentos** e **Dispositivos Médicos**.
 
 Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
+
 * **Intervenção Cirurgica**
 
 	* No caso de ser um episodio de internamento e ter como Tipo de Proveniência a opção cirurgia de ambulatorio as datas de cirurgia podem ser antes da data de admissão do episódio.
 	* Se for um episódio de cirurgia de ambulatório é obrigadorio o preenchimento das datas de cirurgia excepto de estiver presente 1 dos 3 diagnósticos seguintes que inibem o preenchimento da data:
 
-|    | Descrições |
+|    | Diagnósticos que inibem as datas de cirurgia |
 |----|------------|
 |**Código**	|**Descrição**| 
 |Z5309|	Procedure and treatment not carried out because of other contraindication|

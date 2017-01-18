@@ -167,24 +167,23 @@ Na tabela está feito o mapeamento entre os números presentes na figura e as re
 |8	|Episódios|
 |9	|Detalhe do Episódio|
 |10	|Não Codificavel|
-|11	|Gestão de Especialidades|
-|12	|Criar Mapeamento|
-|13	|Editar Mapeamento	|
-|14	|Mapeamentos|
-|15	|Remover Mapeamento|
-|16	|Cria Médico Codificador|
-|17	|Editar Médico Codificador|
-|18	|Médicos Codificadores|
-|19	|Remover Médico Codificador|
-|20	|Simulador de codificação em ICD 10|
-|21	|Editar Estado do Utilizador|
-|22	|Criar Utilizador|
-|23	|Editar Utilizador|
-|24	|Gestão Utilizadores|
-|25	|Remover Utilizador|
-|26	|Auditoria|
-|27	|Botão de Imprimir em vários módulos|
-|28	|Acções em Bloco|
+|11	|Criar Mapeamento|
+|12	|Editar Mapeamento	|
+|13	|Mapeamentos|
+|14	|Remover Mapeamento|
+|15	|Cria Médico Codificador|
+|16	|Editar Médico Codificador|
+|17	|Médicos Codificadores|
+|18	|Remover Médico Codificador|
+|19	|Simulador de codificação em ICD 10|
+|20	|Editar Estado do Utilizador|
+|21	|Criar Utilizador|
+|22	|Editar Utilizador|
+|23	|Gestão Utilizadores|
+|24	|Remover Utilizador|
+|25	|Auditoria|
+|26	|Botão de Imprimir em vários módulos|
+|27	|Acções em Bloco|
 
 
 O utilizador poderá ter apenas acesso parcial a uma funcionalidade, por exemplo, ter acesso ao módulo de Episódios, mas não poder finalizar os mesmos.
