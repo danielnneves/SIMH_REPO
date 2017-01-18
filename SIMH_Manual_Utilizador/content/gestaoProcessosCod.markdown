@@ -12,10 +12,10 @@ title: "Gestão de Processos de COdificação"
 Este módulo permite ao utilizador gerir o ponto de situação de cada processo no âmbito da codificação.
 Existem várias informações que podem ser associadas ao episódio:
 
- 1. **Comentários**<br>
+ 1. **Comentários** <br>
 O utilizador pode adicionar observações que considere relevantes relativamente ao episódio ou ao processo associado ao mesmo.
 
- 1. **Ponto de Situação**<br>
+ 1. **Ponto de Situação** <br>
 Um processo pode ter 4 pontos de situação:
 * **Receção do episódio**
 * **Entrega do episódio ao médico codificador**
@@ -49,7 +49,7 @@ Os resultados obtidos na pesquisa apresentam-se de acordo com a seguinte imagem:
 
 <div id="criarGestaoProcessosCod"></div>
 
-## 10.1 Criar um Novo Processo de Codificação
+## 10.1 Associar Pontos de Situação a um Processo de Codificação
 
 Na figura [](#figGestaoProcessosCod) é possível visualizar a página onde se poderá criar um processo de codificação, após selecionar o botão **CRIAR** presente na figura .
 
@@ -63,7 +63,7 @@ Para concluir o processo deverá selecionar o botão **CRIAR** apresentado na p�
 
 <div id="editarGestaoProcessosCod"></div>
 
-## 10.2 Editar um Processo de Codificação
+## 10.2 Associar Médicos a um Processo de Codificação
 
  No processo de edição apenas fica disponível a edição do **Ponto de Situação** e dos **Comentários** relativos ao processo. Para aceder a esta funcionalidade no ecrã da figura [](#figGestaoProcessosCod) deverá selecionar o botão **EDITAR**, sendo enviado para o seguinte ecrã:
 
@@ -75,7 +75,23 @@ Para concluir o processo deverá selecionar o botão **CRIAR** apresentado na p�
 
 <div id="consultarGestaoProcessosCod"></div>
 
-## 10.3 Consultar Processos de Codificação
+##10.3 Associação em Bloco
+
+O sistema permite que se façam associações em bloco neste módulo. Assim o utilizador poderá adicionar um atributo a todos os episódios ao mesmo tempo. 
+Esta associação utiliza a pesquisa da imagem [](#figGestaoProcessosCod), portanto o utilizador deve utilizar os filtros da pesquisa, pois a associação será feita a todos os episódios obtidos da pesquisa.
+
+Para iniciar a associação em bloco o utilizador deverá selecionar o botão **ASSOCIAÇÃO EM BLOCO**, de onde obterá o seguinte ecrã:
+
+![figAssociacaoBloco](img/pages/11_10.jpg) 
+
+<p class="caption" id="figConsultarGestaoProcessosCod">Página de Associação em Bloco</p>
+
+
+Este ecrã fornecerá informação sobre os filtros utilizados na pesquisa, o Número total de episódios que vão ser alterados, e as propriedades possíveis de alterar.
+
+
+
+## 10.4 Consultar Processos de Codificação
 
 Este módulo permite ao utilizador consultar o histórico de alterações do processo pretendido.
 
