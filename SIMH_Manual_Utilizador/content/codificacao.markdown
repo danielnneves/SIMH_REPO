@@ -146,8 +146,8 @@ Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
  - Tipo de Admissão - campo de preenchimento obrigatório. Se vier do SI fonte então não é possivel o seu preenchimento no SIMH, caso contrário é obrigatório o seu preenchimento no SIMH.
 * **Destino após Alta**
 
- - Se o módulo do episódio for de ambulatório (CON, MCDT, HDI), então este campo pode ser editado pelo utilizador, caso contrário, só poderá ser alterado no SI fonte.<br>
- - Existem alguns tipos de destino que exigem o preenchimento do motivo de transferência. Como se consulta na figura seguinte:
+	* Se o módulo do episódio for de ambulatório (CON, MCDT, HDI), então este campo pode ser editado pelo utilizador, caso contrário, só poderá ser alterado no SI fonte.<br>
+	* Existem alguns tipos de destino que exigem o preenchimento do motivo de transferência. Como se consulta na figura seguinte:
  
 ![figCodificacaoCodificacaoEpisodios](img/pages/6_3_8.jpg)
 <p class="caption" id="figDestinoAposAlta">Exemplo Destino Após Alta com Transferido para e Motivo de Transferência</p>
