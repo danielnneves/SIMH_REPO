@@ -112,7 +112,7 @@ Durante a consulta de um episódio todos os campos se encontram bloqueados, não
 ## 6.3. Edição de um episódio
 
 
-Após efetuar uma pesquisa por episódios por codificar ([6.1. Pesquisa de episódios por codificar](#pesquisa-de-episdios-por-codificar)) e ao selecionar um episódio devolvido pela mesma passa a ser possível a edição do mesmo.
+Após efetuar uma pesquisa por episódios por codificar ([6.1. Pesquisa de episódios por codificar](#pesquisa-de-episodios-por-codificar)) e ao selecionar um episódio devolvido pela mesma passa a ser possível a edição do mesmo.
 Para tal, deve-se clicar no botão **Editar**, tal como a [](#figEditaCodificacaoEpisodios) ilustra.
 
 ![figEditaCodificacaoEpisodios](img/pages/6_3_1.jpg)
@@ -143,11 +143,11 @@ Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
 * **Natureza da Admissão**
 
 	* Campo Proveniência – não é de preenchimento obrigatório. Se a opção "Da própria instituição" for selecionada e se tratar de um episódio de internamento, então terá de selecionar o tipo de proveniência da própria instituição. Caso selecione "De outra instituição", deverá preencher a unidade de origem.<br>
-	* Tipo de Admissão – campo de preenchimento obrigatório. Se vier do SI fonte então não é possivel o seu preenchimento no SIMH, caso contrário é obrigatório o seu preenchimento no SIMH.
+	* Tipo de Admissão – campo de preenchimento obrigatório. Se vier do SI fonte então não é possível o seu preenchimento no SIMH, caso contrário é obrigatório o seu preenchimento no SIMH.
 
 * **Destino após Alta**
 
-	* Se o módulo do episódio for de ambulatório (CON, MCDT, HDI), então este campo pode ser editado pelo utilizador, caso contrário, só poderá ser alterado no SI fonte.<br>
+	* Se o módulo do episódio for de ambulatório (CON, MCDT, HDI), então este campo pode ser editado pelo utilizador, caso contrário, só poderá ser alterado no SI fonte. <br>
 	* Existem alguns tipos de destino que exigem o preenchimento do motivo de transferência. Como se consulta na figura seguinte:
  
 ![figDestinoAposAlta](img/pages/6_3_8.jpg)
@@ -160,7 +160,7 @@ Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
 
 ![figCodificacaoInformacaoCodificacaoEpisodios](img/pages/6_3_3.jpg)
 
-<p class="caption" id="figCodificacaoInformacaoCodificacaoEpisodios">Passo 1 da codificação: Informação do Episódio</p>
+<p class="caption" id="figCodificacaoInformacaoCodificacaoEpisodios">Passo 1 da codificação: Informação do Episódio </p>
 
 Nesta página irá estar visível o botão **Simular** para utilizadores com perfil médico codificador. Ao clicar neste botão, o utilizador será transportado para um ecrã com o nome **Simular Codificação** (ver [](#figCodificacaoSimularCodificacaoEpisodios)) onde será possível realizar a simulação da codificação do episódio (ver [7. Simuladores](#simulador)).
 
@@ -169,14 +169,14 @@ Nesta página irá estar visível o botão **Simular** para utilizadores com per
 <p class="caption" id="figCodificacaoSimularCodificacaoEpisodios">Simular de Codificação</p>
 
 Para prosseguir para a secção de **Registo** (ver [](#figRegistoCodificacaoEpisodios)) do episódio o utilizador deve premir o botão **Registar**. 
-Nesta secção, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**, **Identificação do Doente**, **Identificação do Médico**, **Intervenção Cirurgica** ,**Diagnósticos**, **Procedimentos** e **Dispositivos Médicos**.
+Nesta secção, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**, **Identificação do Doente**, **Identificação do Médico**, **Intervenção Cirúrgica**, **Diagnósticos**, **Procedimentos** e **Dispositivos Médicos**.
 
 Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
 
-* **Intervenção Cirurgica**
+* **Intervenção Cirúrgica**
 
-	* No caso de ser um episodio de internamento e ter como Tipo de Proveniência a opção cirurgia de ambulatorio as datas de cirurgia podem ser antes da data de admissão do episódio.<br>
-	* Se for um episódio de cirurgia de ambulatório é obrigadorio o preenchimento das datas de cirurgia excepto de estiver presente 1 dos 3 diagnósticos seguintes que inibem o preenchimento da data:
+	* No caso de ser um episódio de internamento e ter como Tipo de Proveniência a opção cirurgia de ambulatório, as datas de cirurgia podem ser antes da data de admissão do episódio. <br>
+	* Se for um episódio de cirurgia de ambulatório é obrigatório o preenchimento das datas de cirurgia exceto de estiver presente 1 dos 3 diagnósticos seguintes que inibem o preenchimento da data:
 
 	
 |    | Diagnósticos que inibem as datas de cirurgia |

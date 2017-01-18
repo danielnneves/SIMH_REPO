@@ -33,7 +33,7 @@ Esta página é composta por 5 áreas principais:
 * **Outros dados** - Nesta área, é possível parametrizar o episódio com informação auxiliar, tal como o sexo do paciente ou o destino após alta.
 ![figSimuladoresOutrosDados](img/pages/7_4.jpg)
 
-* **Tabelas de diagnósticos e de Procedimentos** - Nesta área é possível visualizar os diagnósticos e procedimentos que vão sendo adicionados ao episódio nas suas tabelas respetivas, que inicialmente começam vazias.
+* **Tabelas de Diagnósticos e de Procedimentos** - Nesta área é possível visualizar os diagnósticos e procedimentos que vão sendo adicionados ao episódio nas suas tabelas respetivas, que inicialmente começam vazias.
 ![figSimuladoresTabelasVazias](img/pages/7_5.jpg)
 
 À medida que vão sendo escolhidos e adicionados diagnósticos e procedimentos a cada tabela, passa a ser possível realizar um conjunto de operações adicionais sobre cada registo adicionado. Tomando como exemplo a seguinte imagem,
