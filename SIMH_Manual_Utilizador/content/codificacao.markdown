@@ -38,8 +38,7 @@ Este fluxo de estados pode ser consultado a partir da [](#figEstadosCodificacaoE
 <p class="caption" id="figEstadosCodificacaoEpisodio">Fluxo de estados e operações sobre um episódio</p>
 
 Um episódio começa sempre no estado **Por Codificar**. A única forma de o colocar disponível para faturação, é ao transitá-lo para o estado **Finalizado**.
-Para que transite para este estado, o episódio deve primeiro sofrer agrupamento GDH. Um episódio pode, adicionalmente, ser guardado em rascunho ou ser auditado. Caso o utilizador esteja à procura de uma visão mais completa e abrangente do fluxo de estados e ações associado a um episódio,
-pode sempre consultar o seguinte [diagrama](img/episodio_estados_accoes_detalhe.png).
+Para que transite para este estado, o episódio deve primeiro sofrer agrupamento GDH. Um episódio pode, adicionalmente, ser guardado em rascunho ou ser auditado. Caso o utilizador esteja à procura de uma visão mais completa e abrangente do fluxo de estados e ações associado a um episódio, pode sempre consultar o seguinte [diagrama](img/episodio_estados_accoes_detalhe.png).
 
 <div id="codificacao-pesquisa-de-episodios"></div>
 
@@ -63,11 +62,11 @@ De seguida deve clicar no botão **Pesquisar**.
 
 A pesquisa realizada apenas devolve episódios relativos à entidade hospitalar do utilizador que efetuou a pesquisa.
 
-A [](#figPesquisaCodificacaoEpisodios) ilustra como exemplo uma pesquisa de episódios no estado ´Por Codificar´ e módulo ´Internamento´ efetuada por um utilizador.
+A [](#figPesquisaCodificacaoEpisodios) ilustra como exemplo uma pesquisa de episódios no estado ´Por Codificar´ efetuada por um utilizador.
 
 ![figPesquisaCodificacaoEpisodios](img/pages/6_1_1.jpg)
 
-<p class="caption" id="figPesquisaCodificacaoEpisodios">Pesquisa de episódios por codificar e do módulo internamento</p>
+<p class="caption" id="figPesquisaCodificacaoEpisodios">Pesquisa de episódios por codificar</p>
 
 <div id="detalhe"></div>
 <div id="codificacao-consulta-de-episodios"></div>
@@ -134,9 +133,24 @@ A codificação de um episódio segue, essencialmente, a sequência descrita na 
 
 Inicialmente, é necessário preencher a secção de **Informação do Episódio** e a de **Registo** do episódio.
 Caso o utilizador deseje simplesmente marcar o episódio como não codificável, deverá clicar no botão **Não Codificar**.
+Poderá também em qualquer altura marcar o episódio como Rascunho, para que o possa codificar/alterar mais tarde.
 
-Na secção de **Informação do Episódio** (ver [](#figCodificacaoInformacaoCodificacaoEpisodios)), secção onde o utilizador começa a codificação do episódio, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**, **Identificação do Doente**, **Identificação do Médico**, **Natureza da Admissão**, **Destino após Alta**, **Intervenção Cirúrgica**, **Serviços** e **Outros Dados**.
+Na secção de **Informação do Episódio** (ver [](#figCodificacaoInformacaoCodificacaoEpisodios)), secção onde o utilizador começa a codificação do episódio, é possível visualizar e editar a seguinte informação: **Identificação do Médico**, **Natureza da Admissão**, **Destino após Alta** e **Outros Dados**.
+**As restantes informações vêm do Sistema de Informação fonte e qualquer alteração terá de ser feita no mesmo.**
 
+Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
+* **Natureza da Admissão**
+ - Campo Proveniência – não é de preenchimento obrigatório. Se a opção "Da própria instituição" for selecionada e se tratar de um episódio de internamento, então terá de selecionar o tipo de proveniência da própria instituição. Caso selecione "De outra instituição", deverá preencher a unidade de origem.
+ - Tipo de Admissão - campo de preenchimento obrigatório. Se vier do SI fonte então não é possivel o seu preenchimento no SIMH, caso contrário é obrigatório o seu preenchimento no SIMH.
+ * **Destino após Alta**
+ - Se o módulo do episódio for de ambulatório (CON, MCDT, HDI), então este campo pode ser editado pelo utilizador, caso contrário, só poderá ser alterado no SI fonte.
+ - Existem alguns tipos de destino que exigem o preenchimento do motivo de transferência. Como se consulta na figura seguinte:
+ 
+![figCodificacaoCodificacaoEpisodios](img/pages/6_3_8.jpg)
+<p class="caption" id="figDestinoAposAlta">Exemplo Destino Após Alta com Transferido para e Motivo de Transferência</p>
+ 
+* **Outros Dados**
+ - Os campos do **Número de Dias em Cuidados Intensivos** e **Número de Dias de Ventilação Mecânica Invasiva** podem ser preenchidos pelo utilizador. Já o **Peso à Nascença** e **Semanas de Gestação** vêm preenchidos do SI fonte.
 ![figCodificacaoInformacaoCodificacaoEpisodios](img/pages/6_3_3.jpg)
 
 <p class="caption" id="figCodificacaoInformacaoCodificacaoEpisodios">Passo 1 da codificação: Informação do Episódio</p>
@@ -148,7 +162,19 @@ Nesta página irá estar visível o botão **Simular** para utilizadores com per
 <p class="caption" id="figCodificacaoSimularCodificacaoEpisodios">Simular de Codificação</p>
 
 Para prosseguir para a secção de **Registo** (ver [](#figRegistoCodificacaoEpisodios)) do episódio o utilizador deve premir o botão **Registar**. 
-Nesta secção, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**, **Diagnósticos**, **Procedimentos** e **Dispositivos Médicos**.
+Nesta secção, é possível visualizar e editar a seguinte informação: **Identificação do Episódio**,**Identificação do Doente**, **Intervenção Cirurgica** ,**Diagnósticos**, **Procedimentos** e **Dispositivos Médicos**.
+
+Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
+* **Intervenção Cirurgica**
+ - No caso de ser um episodio de internamento e ter como Tipo de Proveniência a opção cirurgia de ambulatorio as datas de cirurgia podem ser antes da data de admissão do episódio.
+ - Se for um episódio de cirurgia de ambulatório é obrigadorio o preenchimento das datas de cirurgia excepto de estiver presente 1 dos 3 diagnósticos seguintes que inibem o preenchimento da data:
+
+|    | Descrições |
+|----|------------|
+|**Código**	|**Descrição**| 
+|Z5309|	Procedure and treatment not carried out because of other contraindication|
+|Z5329|	Procedure and treatment not carried out because of patient`s decision for other reasons|
+|Z538|	Procedure and treatment not carried out for other reasons|
 
 ![figRegistoCodificacaoEpisodios](img/pages/6_3_5.jpg)
 
@@ -157,7 +183,7 @@ Nesta secção, é possível visualizar e editar a seguinte informação: **Iden
 Para adicionar um novo diagnóstico à tabela de diagnósticos ou um novo procedimento à tabela de procedimentos, é necessário preencher um código na caixa de código e adicioná-lo à tabela ![logo](img/pages/6_3_6.jpg).
 Quer na tabela de diagnósticos, quer na tabela de procedimentos, os códigos adicionados podem ser removidos ao clicar em ![logo](img/remover.jpg) ou reposicionados, usando para isso a opção ![logo](img/subir.jpg) para mover o código para cima ou a opção ![logo](img/descer.jpg) para mover o código para baixo.
 
-No caso do episódio pertencer ao módulo de internamento (tal como ocorre com o episódio de exemplo), a área de diagnósticos terá informação relativa ao indicador PNA (Presente na admissão):
+No caso de o episódio pertencer ao módulo de internamento (tal como ocorre com o episódio de exemplo), a área de diagnósticos terá informação relativa ao indicador PNA (Presente na admissão):
 ![figRegistoCodificacaoEpisodios1](img/pages/6_3_7.jpg)
 Para adicionar um novo diagnóstico a esta tabela, terá de se indicar o PNA correspondente.
 
