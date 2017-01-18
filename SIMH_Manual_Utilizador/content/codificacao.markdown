@@ -155,7 +155,7 @@ Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
  
 * **Outros Dados**
 
-	*Os campos do **Número de Dias em Cuidados Intensivos** e **Número de Dias de Ventilação Mecânica Invasiva** podem ser preenchidos pelo utilizador. Já o **Peso à Nascença** e **Semanas de Gestação** vêm preenchidos do SI fonte.
+	* Os campos do **Número de Dias em Cuidados Intensivos** e **Número de Dias de Ventilação Mecânica Invasiva** podem ser preenchidos pelo utilizador. Já o **Peso à Nascença** e **Semanas de Gestação** vêm preenchidos do SI fonte.
 
 ![figCodificacaoInformacaoCodificacaoEpisodios](img/pages/6_3_3.jpg)
 
@@ -172,8 +172,9 @@ Nesta secção, é possível visualizar e editar a seguinte informação: **Iden
 
 Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
 * **Intervenção Cirurgica**
- - No caso de ser um episodio de internamento e ter como Tipo de Proveniência a opção cirurgia de ambulatorio as datas de cirurgia podem ser antes da data de admissão do episódio.
- - Se for um episódio de cirurgia de ambulatório é obrigadorio o preenchimento das datas de cirurgia excepto de estiver presente 1 dos 3 diagnósticos seguintes que inibem o preenchimento da data:
+
+	* No caso de ser um episodio de internamento e ter como Tipo de Proveniência a opção cirurgia de ambulatorio as datas de cirurgia podem ser antes da data de admissão do episódio.
+	* Se for um episódio de cirurgia de ambulatório é obrigadorio o preenchimento das datas de cirurgia excepto de estiver presente 1 dos 3 diagnósticos seguintes que inibem o preenchimento da data:
 
 |    | Descrições |
 |----|------------|
