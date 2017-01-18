@@ -142,8 +142,9 @@ Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
 
 * **Natureza da Admissão**
 
- - Campo Proveniência – não é de preenchimento obrigatório. Se a opção "Da própria instituição" for selecionada e se tratar de um episódio de internamento, então terá de selecionar o tipo de proveniência da própria instituição. Caso selecione "De outra instituição", deverá preencher a unidade de origem.<br>
- - Tipo de Admissão - campo de preenchimento obrigatório. Se vier do SI fonte então não é possivel o seu preenchimento no SIMH, caso contrário é obrigatório o seu preenchimento no SIMH.
+	* Campo Proveniência – não é de preenchimento obrigatório. Se a opção "Da própria instituição" for selecionada e se tratar de um episódio de internamento, então terá de selecionar o tipo de proveniência da própria instituição. Caso selecione "De outra instituição", deverá preencher a unidade de origem.<br>
+	* Tipo de Admissão - campo de preenchimento obrigatório. Se vier do SI fonte então não é possivel o seu preenchimento no SIMH, caso contrário é obrigatório o seu preenchimento no SIMH.
+
 * **Destino após Alta**
 
 	* Se o módulo do episódio for de ambulatório (CON, MCDT, HDI), então este campo pode ser editado pelo utilizador, caso contrário, só poderá ser alterado no SI fonte.<br>
@@ -153,7 +154,9 @@ Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
 <p class="caption" id="figDestinoAposAlta">Exemplo Destino Após Alta com Transferido para e Motivo de Transferência</p>
  
 * **Outros Dados**
- - Os campos do **Número de Dias em Cuidados Intensivos** e **Número de Dias de Ventilação Mecânica Invasiva** podem ser preenchidos pelo utilizador. Já o **Peso à Nascença** e **Semanas de Gestação** vêm preenchidos do SI fonte.
+
+	*Os campos do **Número de Dias em Cuidados Intensivos** e **Número de Dias de Ventilação Mecânica Invasiva** podem ser preenchidos pelo utilizador. Já o **Peso à Nascença** e **Semanas de Gestação** vêm preenchidos do SI fonte.
+
 ![figCodificacaoInformacaoCodificacaoEpisodios](img/pages/6_3_3.jpg)
 
 <p class="caption" id="figCodificacaoInformacaoCodificacaoEpisodios">Passo 1 da codificação: Informação do Episódio</p>
