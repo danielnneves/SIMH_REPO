@@ -22,7 +22,7 @@ Existem três hipóteses para que o episódio não surja no SIMH:
 
 Por favor, valide se a versão do browser que está a ser usada é a correcta para o uso da aplicação
 <br>
-
+<br>
 <p class="faq"> - O que fazer quando o médico codificador não está no Registo Nacional de Profissionais? </p>
 
 Existem, na aplicação, duas maneiras de criar um médico codificador: 
