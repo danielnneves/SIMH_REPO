@@ -33,8 +33,6 @@ Como é possível ver nesta figura, existe um separador para cada secção de Ma
 
 * **Motivo Transferência**
 
-* **Natureza de Admissão**
-
 Aqui, poderão ser realizadas três ações distintas: **Criar**, **Editar** ou **Remover** mapeamentos de acordo com o separador que o utilizador selecionar. 
 
 <div id="criarMapeamentos"></div>
@@ -49,11 +47,11 @@ Ao selecionar o botão **Criar** o utilizador é enviado para o seguinte ecrã:
 
 Neste ecrã constam os seguintes campos:
 
-* O Tipo de mapeamento
-* O Mapeamento no lado do SIMH
-* A tabela do Sonho à qual aquele tipo de mapeamento corresponde
-* O código do mapeamento na tabela de Sonho
-* A descrição que se encontra na tabela do Sonho.
+* O Tipo de mapeamento que vem sempre preenchido de acordo com o separador selecionado.
+* O Mapeamento no lado do SIMH - deverá escolher uma das opções disponiveis da lista fornecida.
+* A tabela do Sonho à qual aquele tipo de mapeamento corresponde.
+* O código do mapeamento na tabela de Sonho (COD_DESTINO).
+* A descrição que se encontra na tabela do Sonho (DES_DESTINO).
 
 Quando se pretende criar um mapeamento é necessário preencher os seguintes campos obrigatórios:
 
