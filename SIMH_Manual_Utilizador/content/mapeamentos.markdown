@@ -48,7 +48,7 @@ Ao selecionar o botão **Criar** o utilizador é enviado para o seguinte ecrã:
 Neste ecrã constam os seguintes campos:
 
 * O Tipo de mapeamento que vem sempre preenchido de acordo com o separador selecionado.
-* O Mapeamento no lado do SIMH - deverá escolher uma das opções disponiveis da lista fornecida.
+* O Mapeamento no lado do SIMH - deverá escolher uma das opções disponíveis da lista fornecida.
 * A tabela do Sonho à qual aquele tipo de mapeamento corresponde.
 * O código do mapeamento na tabela de Sonho (COD_DESTINO).
 * A descrição que se encontra na tabela do Sonho (DES_DESTINO).
@@ -80,7 +80,7 @@ Só assim é possível aceder à página de Edição de mapeamentos, que se reve
 
 Os critérios de preenchimento são semelhantes ao da página de criação.
 O sistema permite, ao editar um mapeamento, que estas alterações se reflitam nos episódios já modificados. 
-Ao selecionar a opção Sim do campo "Acutalizar registos anteriores", a edição efectuada será aplicada a todos os episódios já modificados para trás. Caso selecione Não, o novo mapeamento só terá efeito a partir do momento da mesma.
+Ao selecionar a opção Sim do campo "Atualizar registos anteriores", a edição efetuada será aplicada a todos os episódios já modificados para trás. Caso selecione Não, o novo mapeamento só terá efeito a partir do momento da mesma.
 
 Uma vez concluídas as alterações pretendidas no mapeamento em edição, o utilizador deve clicar no botão **Alterar**. 
 
@@ -94,4 +94,4 @@ Para aceder a esta página deverá selecionar um elemento da lista e selecionar 
 
 <p class="caption" id="figRemoveMapeamentos">Página de Remoção de Mapeamentos</p>
 
-Uma vez neste ecrã, deverá selecionar o botão **Remover** para remover o mapeamento pretendido.
+Uma vez neste ecrã deverá selecionar o botão **Remover** para remover o mapeamento pretendido.
