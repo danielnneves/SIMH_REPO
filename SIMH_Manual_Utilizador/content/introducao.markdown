@@ -89,8 +89,9 @@ No cabeçalho das páginas do *SIMH* existe um conjunto de dados que serve para 
 
 * Nome do utilizador;
 * Nome da entidade hospitalar, caso exista, associada ao utilizador;
-* Botão das opções avançadas ![logo](img/definicao.png). Ao clicar neste, o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como por exemplo alterar password ([4.2. Alteração da senha](#alterao-da-senha)) ou as folhas de codificação para internamento e ambulatório;
+* Botão das opções avançadas ![logo](img/definicao.png). Ao clicar neste, o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como por exemplo alterar password ([4.2. Alteração da senha](#alterao-da-senha)) ou as folhas de codificação para internamento e ambulatório tanto em **PDF** como em **EXCEL**;
 <img id="figDefinicaoEntradas" src="img/pages/4_1.jpg" style="display:block; margin:auto;"/>
+
 * Botão de acesso rápido ao manual de utilizador ![logo](img/manual.jpg);
 * Contexto de navegação atual do utilizador, presente na barra *breadcrumbs* ![logo](img/breadcrumbs.jpg), que são clicáveis se o utilizador pretender voltar a uma página já navegada.
 

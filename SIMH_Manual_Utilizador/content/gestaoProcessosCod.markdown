@@ -75,7 +75,7 @@ Para concluir o processo deverá selecionar o botão **CRIAR** apresentado na p�
 
 <div id="consultarGestaoProcessosCod"></div>
 
-##10.3 Associação em Bloco
+## 10.3 Associação em Bloco
 
 O sistema permite que se façam associações em bloco neste módulo. Assim o utilizador poderá adicionar um atributo a todos os episódios ao mesmo tempo. 
 Esta associação utiliza a pesquisa da imagem [](#figGestaoProcessosCod), portanto o utilizador deve utilizar os filtros da pesquisa, pois a associação será feita a todos os episódios obtidos da pesquisa.

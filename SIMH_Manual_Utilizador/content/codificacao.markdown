@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Codificação de Episódios"
+title: "Episódios"
 ---
 
 
 ---
 <div id="codificar"></div>
 
-# 6. Codificação do Episódio
+# 6. Episódios
 
 Através deste módulo é possível fazer a codificação de episódios de uma determinada entidade hospitalar.
 

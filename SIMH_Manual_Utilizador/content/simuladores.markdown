@@ -63,7 +63,8 @@ Nessa zona, passa a ser possível a adição desse código à tabela de procedim
 ![figSimuladoresProcedimentosTabelaProcedimentos](img/pages/7_12.jpg)
 
 
-No fim da codificação do episódio, a simulação de agrupamento do mesmo pode ser feita no botão **Simular**.
+No fim da codificação do episódio, a simulação de agrupamento do mesmo pode ser feita no botão **Simular**. 
+Se o utilizador pretender ficar com a codificação em papel, existe o botão **IMPRIMIR** que permite imprimir a simulação realizada atá a altura de carregar no botão.
 
 Para ser permitido ao utilizador simular o agrupamento de um episódio, este deve, pelo menos, preencher os seguintes campos obrigatórios:
 
