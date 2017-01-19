@@ -17,13 +17,13 @@ Existem três hipóteses para que o episódio não surja no SIMH:
 * **Hipótese 1:** O episódio em causa já se encontra codificado no WEBGDH.
 * **Hipótese 2:** O episódio em causa não reúne as condições necessárias para ser codificado.
 * **Hipótese 3:** Uma ou mais informações relacionadas com o episódio não se encontram mapeadas no SIMH, o que impossibilita a integração do mesmo no SIMH. De forma a identificar o mapeamento em falta deverão contactar-nos indicando o número do episódio e respetivo módulo, de forma a indicarmos quais os mapeamentos em falta.
-
  
 <p class="faq"> - Porque as imagens aparecem desformatadas? Porque não consigo pesquisar? </p>
 
 Por favor, valide se a versão do browser que está a ser usada é a correcta para o uso da aplicação
+<br>
 
-<p class="faq"> O que fazer quando o médico codificador não está no Registo Nacional de Profissionais? </p>
+<p class="faq"> - O que fazer quando o médico codificador não está no Registo Nacional de Profissionais? </p>
 
 Existem, na aplicação, duas maneiras de criar um médico codificador: 
 
