@@ -42,8 +42,8 @@ A tabela seguinte contém a descrição de várias siglas usadas ao longo do doc
 | ICD10CM  |  International Classification of Diseases 10th revision Clinical modification 	|
 | ICD10PCS |  ICD-10 Procedure Coding System          										|
 | APR-DRG  |  All Patient Refined Diagnosis Related Groups									|
-|  AP 27   |  GDH All Patient Refined Diagnosis Related Groups, versão 27					|
-|  AP 21   |  GDH All Patient Refined Diagnosis Related Groups, versão 21					|
+|  AP 27   |  GDH All Patient Diagnosis Related Groups, versão 27							|
+|  AP 21   |  GDH All Patient Diagnosis Related Groups, versão 21							|
 |  SI      |  Sistema de Informação															|           
 
 ---
@@ -90,6 +90,7 @@ No cabeçalho das páginas do *SIMH* existe um conjunto de dados que serve para 
 * Nome do utilizador;
 * Nome da entidade hospitalar, caso exista, associada ao utilizador;
 * Botão das opções avançadas ![logo](img/definicao.png). Ao clicar neste, o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como por exemplo alterar password ([4.2. Alteração da senha](#alterao-da-senha)) ou as folhas de codificação para internamento e ambulatório tanto em **PDF** como em **EXCEL**;
+
 <img id="figDefinicaoEntradas" src="img/pages/4_1.jpg" style="display:block; margin:auto;"/>
 
 * Botão de acesso rápido ao manual de utilizador ![logo](img/manual.jpg);
@@ -155,36 +156,36 @@ O menu principal irá apresentar-se ao utilizador de acordo com o perfil que est
 
 Na tabela está feito o mapeamento entre os números presentes na figura e as respectivas funcionalidades:
 
-|    | Descrições |
-|----|------------|
-|**Nº**	|**Titulo**|
-|1	|Finalizar Urgente|
-|2	|Alteração da Senha|
-|3	|Codificação do Episódio|
-|4	|Codificação do Episódio Auditar|
-|5	|Codificação do Episódio Finalizar|
-|6	|Codificação do Episódio Gravar Rascunho|
-|7	|Codificação do Episódio Não Codificar|
-|8	|Episódios|
-|9	|Detalhe do Episódio|
-|10	|Não Codificavel|
-|11	|Criar Mapeamento|
-|12	|Editar Mapeamento	|
-|13	|Mapeamentos|
-|14	|Remover Mapeamento|
-|15	|Cria Médico Codificador|
-|16	|Editar Médico Codificador|
-|17	|Médicos Codificadores|
-|18	|Remover Médico Codificador|
-|19	|Simulador de codificação em ICD 10|
-|20	|Editar Estado do Utilizador|
-|21	|Criar Utilizador|
-|22	|Editar Utilizador|
-|23	|Gestão Utilizadores|
-|24	|Remover Utilizador|
-|25	|Auditoria|
-|26	|Botão de Imprimir em vários módulos|
-|27	|Acções em Bloco|
+|    	| Descrições 								|
+|-------|-------------------------------------------|
+|**Nº**	|**Titulo**									|
+|1		|Finalizar Urgente							|
+|2		|Alteração da Senha							|
+|3		|Codificação do Episódio					|
+|4		|Codificação do Episódio Auditar			|
+|5		|Codificação do Episódio Finalizar			|
+|6		|Codificação do Episódio Gravar Rascunho	|
+|7		|Codificação do Episódio Não Codificar		|
+|8		|Episódios									|
+|9		|Detalhe do Episódio						|
+|10		|Não Codificavel							|
+|11		|Criar Mapeamento							|
+|12		|Editar Mapeamento							|
+|13		|Mapeamentos								|
+|14		|Remover Mapeamento							|
+|15		|Cria Médico Codificador					|
+|16		|Editar Médico Codificador					|
+|17		|Médicos Codificadores						|
+|18		|Remover Médico Codificador					|
+|19		|Simulador de codificação em ICD 10			|
+|20		|Editar Estado do Utilizador				|
+|21		|Criar Utilizador							|
+|22		|Editar Utilizador							|
+|23		|Gestão Utilizadores						|
+|24		|Remover Utilizador							|
+|25		|Auditoria									|
+|26		|Botão de Imprimir em vários módulos		|
+|27		|Acções em Bloco							|
 
 
 O utilizador poderá ter apenas acesso parcial a uma funcionalidade, por exemplo, ter acesso ao módulo de Episódios, mas não poder finalizar os mesmos.
