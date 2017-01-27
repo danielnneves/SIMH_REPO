@@ -37,6 +37,7 @@ Existem dois tipos de impressões:
 Se o utilizador avançar para a última página da lista de impressão de episódios aparecerá a consulta do **RESUMO** dos episódios, como pode consultar na figura [](#figImprimir). 
 
 Os dados presentes na Impressão vão variar com o módulo do SIMH em que se acede ao botão de **IMPRIMIR**.
-
+<br>
+<br>
 O link seguinte demonstra como utilizar esta funcionalidade:
 <p style="text-align: center; font-weight: bold;"><a href="./file/Impressoes.mp4">Demonstração da Utilização da Página de Impressão</a></p>

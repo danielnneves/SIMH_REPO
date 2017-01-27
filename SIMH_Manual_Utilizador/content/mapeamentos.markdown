@@ -37,7 +37,7 @@ Aqui, poderão ser realizadas três ações distintas: **Criar**, **Editar** ou 
 <br>
 <br>
 O link seguinte demonstra como utilizar esta funcionalidade:
-<p style="text-align: center; font-weight: bold;"><a href="./file/Mapeamentos.mp4">Demonstração da Utilização da Página de Impressão</a></p>
+<p style="text-align: center; font-weight: bold;"><a href="./file/Mapeamentos.mp4">Demonstração da Utilização da Página de Mapeamentos</a></p>
 
 <div id="criarMapeamentos"></div>
 
