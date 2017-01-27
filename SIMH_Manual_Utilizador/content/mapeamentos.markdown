@@ -34,6 +34,10 @@ Como é possível ver nesta figura, existe um separador para cada secção de Ma
 * **Motivo Transferência**
 
 Aqui, poderão ser realizadas três ações distintas: **Criar**, **Editar** ou **Remover** mapeamentos de acordo com o separador que o utilizador selecionar. 
+<br>
+<br>
+O link seguinte demonstra como utilizar esta funcionalidade:
+<p style="text-align: center; font-weight: bold;"><a href="./file/Mapeamentos.mp4">Demonstração da Utilização da Página de Impressão</a></p>
 
 <div id="criarMapeamentos"></div>
 
