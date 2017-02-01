@@ -41,14 +41,22 @@ No caso de o médico não estar inscrito no RNP, deverão criá-lo na Gestão de
 <br>
 <p class="faq"> 4. Como imprimir o Manual de Utilizador? </p>
 
-1.	No browser que estiver a utilizar, escolher a opção de imprimir, como mostra o exemplo abaixo:
+*	No browser que estiver a utilizar, escolher a opção de imprimir, como mostra o exemplo abaixo:
+
 ![figGestaoEspecialidades](img/pages/imprimirManual1.png)
+
 <p class="caption" id="figImprimirManual1">Página de entrada do módulo Gestão de Especialidades</p>
-2.	Irá abrir uma janela, que deverá ter a opção Print to PDF (ou semelhante):
+
+*	Irá abrir uma janela, que deverá ter a opção Print to PDF (ou semelhante):
+
 ![figGestaoEspecialidades](img/pages/imprimirManual2.png)
+
 <p class="caption" id="figImprimirManual2">Página de entrada do módulo Gestão de Especialidades</p>
-3.	Depois é só salvar o documento como PDF, e a partir daqui já poderá ser impresso
+
+*	Depois é só salvar o documento como PDF, e a partir daqui já poderá ser impresso
+
 ![figGestaoEspecialidades](img/pages/imprimirManual3.png)
+
 <p class="caption" id="figImprimirManual2">Página de entrada do módulo Gestão de Especialidades</p>
 
 **NOTA: O manual encontra-se ainda em constantes modificações, pelo que se guardar uma versão do mesmo deverá ter em conta que poderá estar desatualizada**
