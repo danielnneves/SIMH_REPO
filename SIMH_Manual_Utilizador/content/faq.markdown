@@ -16,8 +16,11 @@ Existem três hipóteses para que o episódio não surja no SIMH:
 
 * **Hipótese 1:** O episódio em causa já se encontra codificado no WEBGDH.
 * **Hipótese 2:** O episódio em causa não reúne as condições necessárias para ser codificado.
-* **Hipótese 3:** Uma ou mais informações relacionadas com o episódio não se encontram mapeadas no SIMH, o que impossibilita a integração do mesmo no SIMH. De forma a identificar o mapeamento em falta deverão contactar-nos indicando o número do episódio e respetivo módulo, de forma a indicarmos quais os mapeamentos em falta.
- 
+* **Hipótese 3:** Os episódios poderão não estar a integrar no SIMH, ou poderá não ser possível proceder com a codificação de episódios, devido à incongruência de informação no SONHO e no SIMH.
+No seguinte ficheiro <a href="./file/30.12.2016_CAMPOS SIMH_FOLHA DE CODIFICAÇÃO_ICD10CMPCS.xlsx">Integração SIMH-SONHO</a> podem consultar detalhadamente quais as possiveis razões de o episódio não aparecer no SIMH.
+É de fazer notar que **nos mapeamentos os códigos deverão mapear um ou mais códigos do sonho para apenas um no SIMH, não sendo possível mapear um código do sonho para mais que um do SIMH.**
+<br>
+<br>
 <p class="faq"> 2. Porque as imagens aparecem desformatadas? Porque não consigo pesquisar? </p>
 
 Valide se a versão do browser que está a ser usada é a correta para o uso da aplicação.
@@ -32,3 +35,16 @@ Existem, na aplicação, duas maneiras de criar um médico codificador:
 * Na Gestão de Utilizadores. 
 
 No caso de o médico não estar inscrito no RNP, deverão criá-lo na Gestão de Utilizadores. Para tal, escolham como tipo de utilizador "Utilizador Médico Codificador" e preencham os restantes campos devidos.
+<br>
+<br>
+<p class="faq"> 4. Como imprimir o Manual de Utilizador? </p>
+
+É possivel imprimir este manual de Utilizador. Para tal, deverá apenas carregar no botão direito do rato e aparecerão as seguintes opções:
+
+![figImprimirManual](img/imprimirManual.png)
+
+<p class="caption" id="figGestaoEspecialidades">Opções visíveis</p>
+
+Deverá selecionar a opção de imprimir.
+
+**NOTA: O manual encontra ainda em constantes modificações, pelo que se guardar uma versão do mesmo deverá ter em conta que poderá estar desatualizada**
