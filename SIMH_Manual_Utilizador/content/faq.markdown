@@ -17,7 +17,9 @@ Existem três hipóteses para que o episódio não surja no SIMH:
 * **Hipótese 1:** O episódio em causa já se encontra codificado no WEBGDH.
 * **Hipótese 2:** O episódio em causa não reúne as condições necessárias para ser codificado.
 * **Hipótese 3:** Os episódios poderão não estar a integrar no SIMH, ou poderá não ser possível proceder com a codificação de episódios, devido à incongruência de informação no SONHO e no SIMH.
-No seguinte ficheiro <a href="./file/30.12.2016_CAMPOS SIMH_FOLHA DE CODIFICAÇÃO_ICD10CMPCS.xlsx">Integração SIMH-SONHO</a> podem consultar detalhadamente quais as possiveis razões de o episódio não aparecer no SIMH.
+<br>
+No seguinte ficheiro <a href="./file/SIMH_IntegraçãoSONHO.pdf">Integração SIMH-SONHO</a> podem consultar detalhadamente quais as possiveis razões de o episódio não aparecer no SIMH.
+<br>
 É de fazer notar que **nos mapeamentos os códigos deverão mapear um ou mais códigos do sonho para apenas um no SIMH, não sendo possível mapear um código do sonho para mais que um do SIMH.**
 <br>
 <br>
@@ -45,6 +47,6 @@ No caso de o médico não estar inscrito no RNP, deverão criá-lo na Gestão de
 
 <p class="caption" id="figGestaoEspecialidades">Opções visíveis</p>
 
-Deverá selecionar a opção de imprimir.
+Deverá selecionar a opção de **IMPRIMIR**.
 
 **NOTA: O manual encontra ainda em constantes modificações, pelo que se guardar uma versão do mesmo deverá ter em conta que poderá estar desatualizada**
