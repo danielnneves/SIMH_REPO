@@ -60,3 +60,10 @@ No caso de o médico não estar inscrito no RNP, deverão criá-lo na Gestão de
 <p class="caption" id="figImprimirManual2">Página de entrada do módulo Gestão de Especialidades</p>
 
 **NOTA: O manual encontra-se ainda em constantes modificações, pelo que se guardar uma versão do mesmo deverá ter em conta que poderá estar desatualizada**
+<br>
+<br>
+<p class="faq"> 5. O que fazer quando o mesmo episódio aparece no SIMH e no WEBGDH?  </p>
+
+Existirão episódios codificados no WEBGDH que irão aparecer no SIMH para codificar devido a uma questão de sincronização com os dados do SONHO.
+
+Caso alguns destes episódios surjam na pesquisa no SIMH, mas já estejam codificados no WEBGDH, deverão marcar estes episódios para **Não Codificável** no SIMH com a causa **Codificado em ICD9CM**.
