@@ -27,7 +27,7 @@ Este módulo apenas pesquisa por episódios no estado de **Rascunho**, **Por Cod
 O utilizador será obrigado a preencher sempre o filtro do **Estado**, poderá ou não selecionar um dos outros filtros.
 
 |  		|Alterações de Estados			                ||    
-|------------------------------|----------------------------||
+|------------------------------|----------------------------|-----|
 | **Estado Atual do Episódio**| **Alterações Possíveis do Episódio**||
 |------------------------------|----------------------------||
 | Rascuhno	    	     	   | Finalizar <br> Auditar     ||
