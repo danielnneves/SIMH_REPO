@@ -49,31 +49,19 @@ Os resultados obtidos na pesquisa apresentam-se de acordo com a seguinte imagem:
 
 <div id="criarGestaoProcessosCod"></div>
 
-## 10.1 Associar Pontos de Situação a um Processo de Codificação
+## 10.1 Gerir Processo
 
-Na figura [](#figGestaoProcessosCod) é possível visualizar a página onde se poderá criar um processo de codificação, após selecionar o botão **CRIAR** presente na figura .
+Na figura [](#figGestaoProcessosCod) é possível visualizar a página onde se poderá gerir um processo de codificação, após selecionar o botão **GERIR PROCESSO** presente na figura seguinte.
 
 ![figCriarGestaoProcessosCod](img/pages/11_4.jpg)
 
-<p class="caption" id="figCriarGestaoProcessosCod">Criar um Novo Processo de Codificação</p>
+<p class="caption" id="figCriarGestaoProcessosCod">Gerir um Processo de Codificação</p>
 
-A funcionalidade de criar um processo de codificação permite ao utilizador adicionar o **Médico Codificador**, o **Médico Auditor**, o **Ponto de Situação** e os **Comentários** relativos ao processo.
+A funcionalidade de Gerir um processo de codificação permite ao utilizador adicionar o **Médico Codificador**, o **Médico Auditor**, o **Ponto de Situação** e os **Comentários** relativos ao episódio selecionado.
 
-Para concluir o processo deverá selecionar o botão **CRIAR** apresentado na página da figura [](#figCriarGestaoProcessosCod).
+Para concluir o processo deverá selecionar o botão **GRAVAR** apresentado na página da figura [](#figCriarGestaoProcessosCod).
 
 <div id="editarGestaoProcessosCod"></div>
-
-## 10.2 Associar Médicos a um Processo de Codificação
-
- No processo de edição apenas fica disponível a edição do **Ponto de Situação** e dos **Comentários** relativos ao processo. Para aceder a esta funcionalidade no ecrã da figura [](#figGestaoProcessosCod) deverá selecionar o botão **EDITAR**, sendo enviado para o seguinte ecrã:
-
-![figEditarGestaoProcessosCod](img/pages/11_5.jpg)  
-
-<p class="caption" id="figEditarGestaoProcessosCod">Editar um Processo de Codificação</p>
- 
- Uma vez concluídas as alterações pretendidas, o utilizador deverá selecionar o botão **EDITAR** presente na página.
-
-<div id="consultarGestaoProcessosCod"></div>
 
 ## 10.3 Associação em Bloco
 
@@ -84,18 +72,16 @@ Para iniciar a associação em bloco o utilizador deverá selecionar o botão **
 
 ![figAssociacaoBloco](img/pages/11_10.jpg) 
 
-<p class="caption" id="figConsultarGestaoProcessosCod">Página de Associação em Bloco</p>
+<p class="caption" id="figAssociacaoBloco">Página de Associação em Bloco</p>
 
-
-Este ecrã fornecerá informação sobre os filtros utilizados na pesquisa, o Número total de episódios que vão ser alterados, e as propriedades possíveis de alterar.
-
-
+Este ecrã fornecerá informação sobre os filtros utilizados na pesquisa, o número total de episódios que vão ser alterados, e as propriedades possíveis de alterar.
 
 ## 10.4 Consultar Processos de Codificação
 
 Este módulo permite ao utilizador consultar o histórico de alterações do processo pretendido.
 
 Para aceder à Consulta, o utilizador deverá selecionar um episódio da lista de resultados e de seguida o botão **Consultar**, visualizando o seguinte ecrã:
+
 ![figConsultarGestaoProcessosCod](img/pages/11_6.jpg) 
 
 <p class="caption" id="figConsultarGestaoProcessosCod">Consultar Processos de Codificação</p>
