@@ -28,7 +28,7 @@ O utilizador será obrigado a preencher sempre o filtro do **Estado**, poderá o
 
 |  Alterações de Estados					                |    
 |------------------------------|----------------------------|
-| Estado Atual do Episódio| Alterações Possíveis do Episódio|
+| **Estado Atual do Episódio**| **Alterações Possíveis do Episódio**|
 |------------------------------|----------------------------|
 | Rascuhno	    	     	   | Finalizar <br> Auditar     |
 | Por Codificar   			   | Não Codificável    	    |
