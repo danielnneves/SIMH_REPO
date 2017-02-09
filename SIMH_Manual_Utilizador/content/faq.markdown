@@ -44,6 +44,8 @@ Existem, na aplicação, duas maneiras de criar um médico codificador:
 * Na Gestão de Utilizadores. 
 
 No caso de o médico não estar inscrito no RNP, deverão criá-lo na Gestão de Utilizadores. Para tal, escolham como tipo de utilizador "Utilizador Médico Codificador" e preencham os restantes campos devidos.
+
+**NOTA:Os médicos codificadores só deverão ser criados através de UM dos dois módulos descritos anteriormente.**
 <br>
 <br>
 <p class="faq"> 5. Como imprimir o Manual de Utilizador? </p>
