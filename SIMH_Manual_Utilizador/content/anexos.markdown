@@ -18,7 +18,7 @@ title: "Gestão de Utilizadores"
 
 1.<a href="./file/releaseNotes/Release Notes 29.12.2016.pdf">Release Notes 29.12.2016</a>
 
-2.<a href="./file/releaseNotes/Release Notes 12.01.2017 - H.pdf">Release Notes 12.01.2017</a>
+2.<a href="./file/releaseNotes/Release Notes 12.01.2017.pdf">Release Notes 12.01.2017</a>
 
 3.<a href="./file/releaseNotes/Release Notes 19.01.2017 - H.pdf">Release Notes 19.01.2017</a>
 
