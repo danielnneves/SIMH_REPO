@@ -86,7 +86,7 @@ Para tal, deve-se clicar no botão **Consultar**, tal como a [](#figConsultaCodi
 
 ![figConsultaCodificacaoEpisodios](img/pages/6_2_1.jpg)
 
-<p class="caption" id="figConsultaCodificacaoEpisodios">Consulta de um episódio</p>
+<p class="caption" id="figConsultaCodificacaoEpisodios">Consulta dos detalhes de um episódio</p>
 
 Ao clicar neste botão, o utilizador transita para a página de detalhe do episódio tal como a [](#figDetalheCodificacaoEpisodios) ilustra.
 
