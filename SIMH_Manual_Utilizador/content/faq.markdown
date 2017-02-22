@@ -25,7 +25,12 @@ No seguinte ficheiro <a href="./file/SIMH_IntegraçãoSONHO.pdf">Integração SI
 <br>
 <p class="faq"> 2. Porque as imagens aparecem desformatadas? Porque não consigo pesquisar? </p>
 
-Valide se a versão do browser que está a ser usada é a correta para o uso da aplicação.
+Valide se a versão do browser que está a ser usada é a correta para o uso da aplicação. Essa informação consta na página de login no fim da mesma:
+
+![figGestaoEspecialidades](img/pages/browsersCompativeis.jpg)
+
+<p class="caption" id="figBrowsersCompativeis">Descrição dos Browsers Compativeis com a Aplicação</p>
+
 <br>
 <br>
 
@@ -49,19 +54,19 @@ Existem, na aplicação, duas maneiras de criar um médico codificador:
 
 ![figGestaoEspecialidades](img/pages/imprimirManual1.png)
 
-<p class="caption" id="figImprimirManual1">Página de entrada do módulo Gestão de Especialidades</p>
+<p class="caption" id="figImprimirManual1">Passo 1 para Imprimir o Manual</p>
 
 *	Irá abrir uma janela, que deverá ter a opção Print to PDF (ou semelhante):
 
 ![figGestaoEspecialidades](img/pages/imprimirManual2.png)
 
-<p class="caption" id="figImprimirManual2">Página de entrada do módulo Gestão de Especialidades</p>
+<p class="caption" id="figImprimirManual2">Passo 2 para Imprimir o Manual</p>
 
 *	Depois é só salvar o documento como PDF, e a partir daqui já poderá ser impresso
 
 ![figGestaoEspecialidades](img/pages/imprimirManual3.png)
 
-<p class="caption" id="figImprimirManual2">Página de entrada do módulo Gestão de Especialidades</p>
+<p class="caption" id="figImprimirManual2">Passo 3 para Imprimir o Manual</p>
 
 **NOTA: O manual encontra-se ainda em constantes modificações, pelo que se guardar uma versão do mesmo deverá ter em conta que poderá estar desatualizada**
 <br>
