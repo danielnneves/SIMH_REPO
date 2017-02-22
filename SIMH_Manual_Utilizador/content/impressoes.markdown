@@ -32,7 +32,13 @@ Existem dois tipos de impressões:
 
 * **Folha de Codificação Pré-Preenchida** - Contém apenas a informação administrativa do episódio, dando margem ao utilizador para preencher os restantes dados do episódio.
 * **Lista Exaustiva** - Contém a lista de episódios com o preenchimento já proveniente do SIMH, ou seja, a lista de diagnósticos, de procedimentos, dispositivos médicos e alertas vêm de acordo com os dados inseridos no SIMH.
-* **Resumo** - Contém a lista dos episódios obtidos da pesquisa com as informações básicas do episódio (Nº processo, Nº Episódio, Data Alta, Módulo, Médico Codificador, Especialidade, Estado, GDH e o Lote em que este consta no PDF).
+* **Ficheiro CSV** - Ficheiro no formato csv que contém informação detalhada sobre os episódios obtidos do filtro.
+* **Resumo** - Contém a lista dos episódios obtidos da pesquisa com as informações básicas do episódio (Nº processo, Nº Episódio, Data Alta, Módulo, Médico Codificador, Especialidade, Estado e GDH). Este resumo pode ser retirado em formato EXCEL ou PDF. 
+O formato em EXCEL esta presente na página de pesquisa como se pode ver na imagem seguinte:
+
+![figImprimir](img/pages/15_3.jpg) 
+
+<p class="caption" id="figImprimir">Página de Pesquisa com Simbolo da impressão de Resumo</p>
 
 Se o utilizador avançar para a última página da lista de impressão de episódios aparecerá a consulta do **RESUMO** dos episódios, como pode consultar na figura [](#figImprimir). 
 
