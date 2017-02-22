@@ -37,13 +37,13 @@ Este fluxo de estados pode ser consultado a partir da [](#figEstadosCodificacaoE
 
 <p class="caption" id="figEstadosCodificacaoEpisodio">Fluxo de estados e operações sobre um episódio Por Codificar</p>
 
-![figEstadosCodificacaoEpisodio](img/episodio_estados_accoes1.png)
+![figEstadosCodificacaoEpisodio1](img/episodio_estados_accoes1.png)
 
-<p class="caption" id="figEstadosCodificacaoEpisodio">Fluxo de estados e operações sobre um episódio Em Auditoria</p>
+<p class="caption" id="figEstadosCodificacaoEpisodio1">Fluxo de estados e operações sobre um episódio Em Auditoria</p>
 
-![figEstadosCodificacaoEpisodio](img/episodio_estados_accoes2.png)
+![figEstadosCodificacaoEpisodio2](img/episodio_estados_accoes2.png)
 
-<p class="caption" id="figEstadosCodificacaoEpisodio">Fluxo de estados e operações sobre um episódio Finalizado</p>
+<p class="caption" id="figEstadosCodificacaoEpisodio2">Fluxo de estados e operações sobre um episódio Finalizado</p>
 
 Um episódio começa sempre no estado **Por Codificar**. A única forma de o colocar disponível para faturação, é ao transitá-lo para o estado **Finalizado**.
 Para que transite para este estado, o episódio deve primeiro sofrer agrupamento GDH. Um episódio pode, adicionalmente, ser guardado em rascunho ou ser auditado. Caso o utilizador esteja à procura de uma visão mais completa e abrangente do fluxo de estados e ações associado a um episódio, pode sempre consultar o seguinte [diagrama](img/episodio_estados_accoes_detalhe.png).
