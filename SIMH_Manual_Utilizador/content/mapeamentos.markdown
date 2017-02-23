@@ -9,7 +9,7 @@ title: "Mapeamentos"
 
 # 11. Mapeamentos
 
-Este módulo permite fazer a correspondência de mapeamentos, de acordo com os valores identificativos de cada entidade.
+Este módulo permite fazer a correspondência de mapeamentos, de acordo com os valores identificativos do sistema de informação fonte de cada entidade. Há que ter em conta que a integração de episódios no SIMH depende dos mapeamentos feitos pela entidade. Caso estes estejam incompletos, poderão não aparecer episódios no SIMH.
 
 Para isso, o utilizador deve, a partir da página inicial, aceder ao módulo de “Mapeamentos”, tal como ilustra a figura [](#figAcessoMapeamentos). 
 
@@ -32,6 +32,8 @@ Como é possível ver nesta figura, existe um separador para cada secção de Ma
 * **Entidade Financeira Responsável**
 
 * **Motivo Transferência**
+
+* **Tipo de Programação**
 
 Aqui, poderão ser realizadas três ações distintas: **Criar**, **Editar** ou **Remover** mapeamentos de acordo com o separador que o utilizador selecionar. 
 <br>
