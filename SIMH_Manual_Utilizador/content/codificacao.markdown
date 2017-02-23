@@ -212,9 +212,9 @@ Para adicionar um novo diagnóstico a esta tabela, terá de se indicar o PNA cor
 Quando pressionado o botão de **Copiar Codificação** este usa a última sessão válida codificada e copia a codificação dessa para o episódio em que o utilizador se encontra atualmente. No caso de haver mais que uma sessão codificada, o sistema vai buscar a última sessão codificada válida.
 
 
-Nesta última secção, podem ser realizadas três ações distintas: 
+Quando finalizada a edição de um episódio, podem ser realizadas três ações distintas: 
 
-* **Rascunho** - Permite gravar a folha de codificação com o estado de rascunho;
+* **Rascunho** - Permite gravar a folha de codificação com o estado de rascunho, se o episódio passar nas validações da codificação então este rascunho será considerado válido, caso contrário não será tido em conta na pesquisa do módulo [Ações em Bloco] (#acoesBloco);
 
 * **Auditar** - Permite gravar a folha de codificação com o estado de auditoria;
 
