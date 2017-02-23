@@ -151,7 +151,9 @@ Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
 * **Natureza da Admissão**
 
 	* Campo Proveniência – não é de preenchimento obrigatório. Se a opção "Da própria instituição" for selecionada e se tratar de um episódio de internamento, então terá de selecionar o tipo de proveniência da própria instituição. Caso selecione "De outra instituição", deverá preencher a unidade de origem.<br>
-	* Tipo de Admissão – campo de preenchimento obrigatório. Se vier do SI fonte então não é possível o seu preenchimento no SIMH, caso contrário é obrigatório o seu preenchimento no SIMH.
+	* Tipo de Admissão – este campo vem preenchido do SI fonte. Podendo ter as seguintes opções (vindo do SONHO):
+		* Episódios de internamento: URGENTE ou PROGRAMADA
+		* Episódios de ambulatório: PROGRAMADA
 
 * **Destino após Alta**
 
@@ -184,7 +186,7 @@ Os seguintes campos contêm algumas regras que o utilizador deve conhecer:
 * **Intervenção Cirúrgica**
 
 	* No caso de ser um episódio de internamento e ter como Tipo de Proveniência a opção cirurgia de ambulatório, as datas de cirurgia podem ser antes da data de admissão do episódio. <br>
-	* Se for um episódio de cirurgia de ambulatório é obrigatório o preenchimento das datas de cirurgia exceto de estiver presente 1 dos 3 diagnósticos seguintes que inibem o preenchimento da data:
+	* Se for um episódio de cirurgia de ambulatório este deverá conter o Tipo de Programação de acordo com o sistema de informação fonte. Para que os episódios sejam integrados no SIMH este campo deve ser mapeado no respectivo separador do módulo [Mapeamentos](#mapeamentos).
 
 	
 |    | Diagnósticos que inibem as datas de cirurgia |
@@ -204,6 +206,19 @@ Quer na tabela de diagnósticos, quer na tabela de procedimentos, os códigos ad
 No caso de o episódio pertencer ao módulo de internamento (tal como ocorre com o episódio de exemplo), a área de diagnósticos terá informação relativa ao indicador PNA (Presente na admissão):
 ![figRegistoCodificacaoEpisodios1](img/pages/6_3_7.jpg)
 Para adicionar um novo diagnóstico a esta tabela, terá de se indicar o PNA correspondente.
+
+
+É possível **Copiar Codificação** entre sessões de episódios de ambulatório. Para que a opção fique visivel, é necessário ter codificado pelo menos uma sessão pertencente ao mesmo episódio de ambulatório.
+
+<p>Copiar Codificação de Outras Sessões</p>
+É possível **Copiar Codificação** entre sessões de episódios de ambulatório. Para que a opção fique visível, é necessário ter codificado pelo menos uma sessão pertencente ao mesmo episódio de ambulatório. 
+
+![figRegistoCodificacaoEpisodios](img/pages/6_3_9.jpg)
+
+<p class="caption" id="figRegistoCodificacaoEpisodios">Exemplo do botão de Copiar Codificação</p>
+
+Quando pressionado o botão de **Copiar Codificação** este usa a última sessão válida codificada e copia a codificação dessa para o episódio em que o utilizador se encontra atualmente. No caso de haver mais que uma sessão codificada, o sistema vai buscar a última sessão codificada válida.
+
 
 Nesta última secção, podem ser realizadas três ações distintas: 
 
