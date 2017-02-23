@@ -210,6 +210,14 @@ Para adicionar um novo diagnóstico a esta tabela, terá de se indicar o PNA cor
 
 É possível **Copiar Codificação** entre sessões de episódios de ambulatório. Para que a opção fique visivel, é necessário ter codificado pelo menos uma sessão pertencente ao mesmo episódio de ambulatório.
 
+<p>Copiar Codificação de Outras Sessões</p>
+É possível **Copiar Codificação** entre sessões de episódios de ambulatório. Para que a opção fique visível, é necessário ter codificado pelo menos uma sessão pertencente ao mesmo episódio de ambulatório. 
+
+![figRegistoCodificacaoEpisodios](img/pages/6_3_9.jpg)
+
+<p class="caption" id="figRegistoCodificacaoEpisodios">Exemplo do botão de Copiar Codificação</p>
+
+Quando pressionado o botão de **Copiar Codificação** este usa a última sessão válida codificada e copia a codificação dessa para o episódio em que o utilizador se encontra atualmente. No caso de haver mais que uma sessão codificada, o sistema vai buscar a última sessão codificada válida.
 
 
 Nesta última secção, podem ser realizadas três ações distintas: 
