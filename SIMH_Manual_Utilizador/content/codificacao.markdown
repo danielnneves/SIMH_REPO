@@ -214,7 +214,7 @@ Quando pressionado o botão de **Copiar Codificação** este usa a última sess�
 
 Quando finalizada a edição de um episódio, podem ser realizadas três ações distintas: 
 
-* **Rascunho** - Permite gravar a folha de codificação com o estado de rascunho, se o episódio passar nas validações da codificação então este rascunho será considerado válido, caso contrário não será tido em conta na pesquisa do módulo ![Ações em Bloco] (#acoesBloco);
+* **Rascunho** - Permite gravar a folha de codificação com o estado de rascunho, se o episódio passar nas validações da codificação então este rascunho será considerado válido, caso contrário não será tido em conta na pesquisa do módulo [Ações em Bloco](#acoesBlocos)
 
 * **Auditar** - Permite gravar a folha de codificação com o estado de auditoria;
 
