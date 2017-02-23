@@ -199,7 +199,9 @@ No caso de o episódio pertencer ao módulo de internamento (tal como ocorre com
 ![figRegistoCodificacaoEpisodios1](img/pages/6_3_7.jpg)
 Para adicionar um novo diagnóstico a esta tabela, terá de se indicar o PNA correspondente.
 <br>
+<br>
 **Copiar Codificação de Outras Sessões**
+<br>
 <br>
 É possível **Copiar Codificação** entre sessões de episódios de ambulatório. Para que a opção fique visível, é necessário ter codificado pelo menos uma sessão pertencente ao mesmo episódio de ambulatório. 
 
