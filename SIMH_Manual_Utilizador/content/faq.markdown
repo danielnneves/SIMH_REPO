@@ -38,8 +38,8 @@ Valide se a versão do browser que está a ser usada é a correta para o uso da 
 
 Existem, na aplicação, duas maneiras de criar um médico codificador: 
 
-* Através da associação do mesmo pelo RNP (módulo Médicos Codificadores) **OU**
-* Na Gestão de Utilizadores. 
+* Através da associação do mesmo pelo RNP (módulo [Médicos Codificadores](#gestaoMedicos)) **OU**
+* Na [Gestão Utilizadores](#gestaoUtilizadores). 
 
 **A TER EM CONTA:** 
 
