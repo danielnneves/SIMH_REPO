@@ -37,3 +37,15 @@ title: "Gestão de Utilizadores"
 10. <a href="./file/releaseNotes/Release Notes 09-03-2017.pdf">Release Notes 09.03.2017</a>
 
 11. <a href="./file/releaseNotes/Release Notes 15-03-2017.pdf">Release Notes 15.03.2017</a>
+
+<div id="videos"></div>
+
+# Demonstrações em Vídeo
+
+1. 1. <a href="./file/Mapeamentos.mp4">Mapeamentos</a>
+
+2. <a href="./file/FinalizarUrgente.mp4">Finalizar Urgente</a>
+
+3. <a href="./file/Impressoes.mp4">Impressões</a>
+
+<div id="releaseNotes"></div>
