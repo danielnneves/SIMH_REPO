@@ -42,7 +42,7 @@ title: "Gestão de Utilizadores"
 
 # Demonstrações em Vídeo
 
-1. 1. <a href="./file/Mapeamentos.mp4">Mapeamentos</a>
+1. <a href="./file/Mapeamentos.mp4">Mapeamentos</a>
 
 2. <a href="./file/FinalizarUrgente.mp4">Finalizar Urgente</a>
 
