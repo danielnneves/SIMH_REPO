@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Gestão de Utilizadores"
+title: "Anexos"
 ---
 
 
@@ -13,6 +13,13 @@ title: "Gestão de Utilizadores"
 1. <a href="./file/30.12.2016_CAMPOS SIMH_FOLHA DE CODIFICAÇÃO_ICD10CMPCS.xlsx">Campos Folha Codificação SIMH para Ambulatório e Internamento</a>
 
 <div id="releaseNotes"></div>
+---
+layout: default
+title: "Release Notes"
+---
+
+
+---
 
 # Release Notes
 
@@ -39,6 +46,13 @@ title: "Gestão de Utilizadores"
 11. <a href="./file/releaseNotes/Release Notes 15-03-2017.pdf">Release Notes 15.03.2017</a>
 
 <div id="videos"></div>
+---
+layout: default
+title: "Videos"
+---
+
+
+---
 
 # Demonstrações em Vídeo
 
