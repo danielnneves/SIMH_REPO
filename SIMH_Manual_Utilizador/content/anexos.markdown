@@ -14,13 +14,6 @@ title: "Anexos"
 
 <div id="releaseNotes"></div>
 ---
-layout: default
-title: "Release Notes"
----
-
-
----
-
 # Release Notes
 
 1. <a href="./file/releaseNotes/Release Notes 29-12-2016.pdf">Release Notes 29.12.2016</a>
@@ -46,12 +39,6 @@ title: "Release Notes"
 11. <a href="./file/releaseNotes/Release Notes 15-03-2017.pdf">Release Notes 15.03.2017</a>
 
 <div id="videos"></div>
----
-layout: default
-title: "Videos"
----
-
-
 ---
 
 # Demonstrações em Vídeo
