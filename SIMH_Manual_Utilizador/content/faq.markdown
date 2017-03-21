@@ -77,11 +77,3 @@ Existirão episódios codificados no WEBGDH que irão aparecer no SIMH para codi
 
 Caso alguns destes episódios surjam na pesquisa no SIMH, mas já estejam codificados no WEBGDH, deverão marcar estes episódios para **Não Codificável** no SIMH com a causa **Codificado em ICD9CM**.
 
-<br>
-<br>
-<p class="faq"> 6. Copiar Codificação  </p>
-
-Existirão episódios codificados no WEBGDH que irão aparecer no SIMH para codificar devido a uma questão de sincronização com os dados do SONHO.
-
-Caso alguns destes episódios surjam na pesquisa no SIMH, mas já estejam codificados no WEBGDH, deverão marcar estes episódios para **Não Codificável** no SIMH com a causa **Codificado em ICD9CM**.
-
