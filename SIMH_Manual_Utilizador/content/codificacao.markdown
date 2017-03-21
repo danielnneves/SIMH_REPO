@@ -200,7 +200,7 @@ No caso de o episódio pertencer ao módulo de internamento (tal como ocorre com
 Para adicionar um novo diagnóstico a esta tabela, terá de se indicar o PNA correspondente.
 <br>
 <br>
-<p class="faq">**Copiar Codificação de Outras Sessões**</p>
+<p class="faq">Copiar Codificação de Outras Sessões</p>
 <br>
 <br>
 É possível **Copiar Codificação** entre sessões de episódios de ambulatório. Para que a opção fique visível, é necessário ter codificado pelo menos uma sessão pertencente ao mesmo episódio de ambulatório, ou seja, que exista outra sessão do mesmo episódio de ambulatório no estado **FINALIZADO**. Se existir mais que uma sessão codificada, o sistema opterá por ir buscar a foi **codificada mais recentemente**.
