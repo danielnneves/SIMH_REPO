@@ -13,7 +13,9 @@ A plataforma SIMH permite ao utilizador fazer a impressão de folhas de codifica
 A impressão encontra-se atualmente disponível nos seguintes módulos:
 
 * **Episódios**
-* **Gestão de Processos** - É necessário selecionar nos filtros o estado **Por codificar**, **Rascunho** ou **Rascunho SI**.
+* **Gestão de Processos** - É necessário selecionar nos filtros o estado **Por codificar**, **Rascunho** ou **Alterado SI**.
+* **Relatórios**
+* **Auditoria**
 
 Para ativar o botão de impressão, **o utilizador deverá escolher um intervalo de datas inferior ou igual a 31 dias nos filtros de pesquisa**, demonstrado na figura seguinte:
 
@@ -39,6 +41,12 @@ O formato em EXCEL esta presente na página de pesquisa como se pode ver na imag
 ![figImprimir](img/pages/15_3.jpg) 
 
 <p class="caption" id="figImprimir">Página de Pesquisa com Simbolo da impressão de Resumo</p>
+
+Estes tipos estão disponíveis de acordo com o módulo selecionado como transcreve a figura seguinte:
+
+![figImpressao](img/impressao.png) 
+
+<p class="caption" id="figImprimir">Tipos de Lista disponíveis para cada módulo</p>
 
 Se o utilizador avançar para a última página da lista de impressão de episódios aparecerá a consulta do **RESUMO** dos episódios, como pode consultar na figura [](#figImprimir). 
 
