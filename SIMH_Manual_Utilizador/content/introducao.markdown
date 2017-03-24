@@ -6,6 +6,8 @@ title: "Introdução"
 
 ---
 
+<div id="sobre-este-manual"></div>
+
 # 1. Sobre este Manual
 
 Este manual tem como objetivo ajudar o utilizador a interagir com o sistema de uma forma eficaz, dotando-o de todo o conhecimento necessário para a sua compreensão e uso. 
@@ -25,7 +27,9 @@ Este encontra-se organizado da seguinte forma:
 - "FAQ's", que responde a algumas perguntas mais comuns dos utilizadores.
  
 ---
- 
+
+<div id="tabela-de-acrnimos"></div>
+
 # 2. Tabela de Acrónimos
 
 A tabela seguinte contém a descrição de várias siglas usadas ao longo do documento.
@@ -48,6 +52,8 @@ A tabela seguinte contém a descrição de várias siglas usadas ao longo do doc
 
 ---
 
+<div id="introduo"></div>
+
 # 3. Introdução
 
 O Sistema de Informação para a Morbilidade Hospitalar (*SIMH*) é um projeto estruturante, para o sistema de informação de saúde, de consolidação das versões do sistema WebGDH, com vista a centralizar e melhorar os processos de codificação de episódios de internamento, de cirurgia de ambulatório e de ambulatório médico em GDH.
@@ -62,6 +68,8 @@ Objetivos do Sistema:
 * Otimizar a gestão dos recursos disponíveis.
 
 ---
+
+<div id="conceitos-bsicos"></div>
 
 # 4. Conceitos Básicos
 
@@ -97,6 +105,8 @@ No cabeçalho das páginas do *SIMH* existe um conjunto de dados que serve para 
 * Contexto de navegação atual do utilizador, presente na barra *breadcrumbs* ![logo](img/breadcrumbs.jpg), que são clicáveis se o utilizador pretender voltar a uma página já navegada.
 
 De seguida, apresenta-se como decorre a primeira interação do utilizador com a aplicação.
+
+<div id="aceder-ao-simh"></div>
 
 ## 4.1. Aceder ao SIMH
 
