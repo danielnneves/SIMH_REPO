@@ -37,7 +37,7 @@ Como é possível ver nesta figura, existe um separador para cada secção de Ma
 
 Para além dos separadores, também existêm dois campos de pesquisa:
 
-* **Código no SONHO*
+* **Código no SONHO**
 
 * **Mapeamento no SIMH**
 
