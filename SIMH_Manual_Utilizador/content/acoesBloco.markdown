@@ -41,7 +41,7 @@ Existe ainda o campo **"Alterar estado para"** de preenchimento obrigatório, on
   </tbody>
   <tbody>
     <tr>
-      <td style="border-bottom: none; border-right: none; border-left: 1pt solid rgb(0, 80, 130);">Rascuhno</td>
+      <td style="border-bottom: none; border-right: none; border-left: 1pt solid rgb(0, 80, 130);">Rascunho</td>
       <td style="border-bottom: none; border-right: none; border-left: 1pt solid rgb(0, 80, 130);">Finalizar <br> Auditar</td>
     </tr>
     <tr>
@@ -68,7 +68,7 @@ Após realizar a pesquisa, os resultados ficarão visíveis de acordo com a segu
 <p class="caption" id="figResultadosAcoesBloco">Lista de Resultados das Ações em Bloco</p>
 
 O passo seguinte é selecionar o estado a alterar, e assim todos os episodios ficarão com a respetiva alteração. 
-De seguida, ao selecionar o botão **Alterar** aparecerá uma página de confirmação, que como mostra a figura a seguir, contem a informações de quantos episódios serão alterados e para que estado passarão.
+De seguida, ao selecionar o botão **"Alterar em Bloco"** aparecerá uma página de confirmação, que como mostra a figura a seguir, contem a informações de quantos episódios serão alterados e para que estado passarão.
 
 ![figResultadosAcoesBloco](img/pages/14_5.jpg) 
 
