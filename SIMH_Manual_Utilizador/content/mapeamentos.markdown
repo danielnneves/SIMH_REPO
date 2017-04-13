@@ -35,6 +35,14 @@ Como é possível ver nesta figura, existe um separador para cada secção de Ma
 
 * **Tipo de Programação**
 
+Para além dos separadores, também existêm dois campos de pesquisa:
+
+* **Código no SONHO**
+
+* **Mapeamento no SIMH**
+
+Estes poderão ser utilizados para filtrar os dados da tabela de Mapeamentos, que tal como indicam os nomes dos campos, poderão ser filtrados por Código no SONHO ou por Mapeamento no SIMH
+
 Aqui, poderão ser realizadas três ações distintas: **Criar**, **Editar** ou **Remover** mapeamentos de acordo com o separador que o utilizador selecionar. 
 <br>
 <br>
