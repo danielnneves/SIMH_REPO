@@ -61,7 +61,7 @@ Existe ainda o campo **"Alterar estado para"** de preenchimento obrigatório, on
 
 * No caso de o utilizador pretender alterar o estado de **"Por Codificar"** para **"Não Codificável"**, terá de preencher a **Causa de Não Codificar**. A causa escolhida será aplicada a todos os episódios selecionados.
  
-Após realizar a pesquisa, os resultados ficaram visíveis de acordo com a seguinte figura:
+Após realizar a pesquisa, os resultados ficarão visíveis de acordo com a seguinte figura:
 
 ![figResultadosAcoesBloco](img/pages/14_3.jpg) 
 
