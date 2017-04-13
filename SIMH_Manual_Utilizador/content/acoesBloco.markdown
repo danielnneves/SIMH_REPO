@@ -67,9 +67,12 @@ Após realizar a pesquisa, os resultados ficaram visíveis de acordo com a segui
 
 <p class="caption" id="figResultadosAcoesBloco">Lista de Resultados das Ações em Bloco</p>
 
-Após escolher o estado a alterar, deverá selecionar os episódios que pretende modificar. Se pretender modificar todos, então no local das descrições da coluna (Selecionar) poderá selecionar todos de uma vez.
+O passo seguinte é selecionar o estado a alterar, e assim todos os episodios ficaram com a alteração respetiva. 
+De seguida, ao selecionar o botão **Alterar** aparecerá uma página de confirmação, que como mostra a figura a seguir, contem a informações de quantos episódios serão alterados e para que estado passarão.
 
-De seguida, ao selecionar o botão **Alterar**, os episódios selecionados ficaram com a alteração respetiva.
+![figResultadosAcoesBloco](img/pages/14_5.jpg) 
+
+Caso seja o pretendido poderá clicar no botão **"Alterar"** para finalizar as mudanças de estado. 
 
 O utilizador poderá também consultar os detalhes de um determinado episódio. O botão **Consultar** ficará disponível ao selecionar um episódio da lista de resultados, como demonstra a seguinte figura.
 
